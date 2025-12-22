@@ -20,7 +20,7 @@ This list was curated for personal use, during many years of doctoral study, and
 To increase its reach and usefulness, the list was converted to an awesome list.
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics, written by a single author.
-The purpose here is to offer advice from many experts.
+The purpose here is to gather advice from many experts.
 Although the list is substantial, it can always be improved via [contributions](./contributing.md).
 
 
@@ -31,8 +31,8 @@ Although the list is substantial, it can always be improved via [contributions](
 * [Artifact & Technical Guides](#artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
 * [Grants & Funding](#grants--funding)
-* [Meta Reflections](#meta-reflections)
 * [Academic Job Search](#academic-job-search)
+* [Meta Reflections](#meta-reflections)
 
 ---
 
@@ -92,13 +92,6 @@ Although the list is substantial, it can always be improved via [contributions](
 * [How to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) - Simon Peyton Jones.
 * [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - Mathilda Harris.
 
-## Meta Reflections
-
-* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice for easing others to discover your research.
-* [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - The Economist, 19 Oct 2013.
-* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Marie desJardins.
-* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - EW Dijkstra.
-
 ## Academic Job Search
 
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - Navigating computer science PhD admissions in the United States, by ThanhVu Nguyen.
@@ -106,4 +99,10 @@ Although the list is substantial, it can always be improved via [contributions](
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
 * [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
 
+## Meta Reflections
+
+* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice for easing others to discover your research.
+* [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - The Economist, 19 Oct 2013.
+* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Marie desJardins.
+* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - EW Dijkstra.
 
