@@ -9,8 +9,8 @@ Guidance about conducting scientific research.
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
 Underlying the deliverables are implicit principles and research skills that govern the process of conducting research.
 For example, a research paper is a specialized format of writing.
-Young researchers, who want to participate in scientific discourse, must first master the "specification" of research papers.
-Ideally, young researchers learn these principles during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
+Young researchers, who want to participate in scientific discourse, must first uncover the "specification" of a research paper.
+Ideally, young researchers learn these skills during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
 Therefore, this collection provides a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 The list is scoped to topics in computer science.
 
@@ -18,7 +18,7 @@ This list was curated for personal use, during many years of doctoral studies, b
 To increase its reach and usefulness, the list was converted to an awesome list.
 It is related to a few other awesome lists (namely [scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technologies.
 There is also a complementary [web collection](https://homes.cs.washington.edu/~mernst/advice/) that covers supplementary topics.
-As an added quality factor, the links in this list are checked regularly for live status.
+As an added quality factor, the list items are checked regularly for liveness status.
 
 ## Contents
 
