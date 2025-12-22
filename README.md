@@ -4,7 +4,7 @@
 
 # Awesome Scientific Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Guidance about how to conduct scientific research.
+Guidance about conducting scientific research.
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
 Underlying the deliverables are implicit principles and research skills that govern the process of conducting research.
@@ -14,8 +14,8 @@ Ideally, young researchers learn these principles during doctoral studies, but i
 Therefore, this collection provides a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 The list is scoped to topics in computer science.
 
-This list was initially curated for personal use, during many years of doctoral studies, but it continues to grow with its creator.
-To increase its reach and usefulness, the list has been converted to awesome style.
+This list was curated for personal use, during many years of doctoral studies, but it continues to grow with its creator.
+To increase its reach and usefulness, the list was converted to an awesome list.
 It is related to a few other awesome lists (namely [scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technologies.
 There is also a complementary [web collection](https://homes.cs.washington.edu/~mernst/advice/) that covers supplementary topics.
 As an added quality factor, the links in this list are checked regularly for live status.
@@ -81,7 +81,7 @@ As an added quality factor, the links in this list are checked regularly for liv
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Niklas Elmqvist.
 * [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewer with editors who paywall publications.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - David Stutz.
-* [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470) - A.J. Smith.
+* [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A.J. Smith.
 
 ## Grants & Funding
 
@@ -100,6 +100,6 @@ As an added quality factor, the links in this list are checked regularly for liv
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - ThanhVu Nguyen.
 * [Faculty Job Interview Questions](https://neea.pl//guides/interview-questions.pdf) - A handout from Gursimran Walia.
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Michael Ernst.
-* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdff) - A professional seminar by Gaeun Seo.
+* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - A professional seminar by Gaeun Seo.
 
 

@@ -11,4 +11,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v6
-      - run: .github/checker "README.md" ${{ secrets.GITHUB_TOKEN }}
+      - run: bash .github/checker
