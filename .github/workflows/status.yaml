@@ -1,0 +1,14 @@
+name: Status
+
+on:
+  schedule:
+    - cron:  '0 6 * * 1'  # Mondays 06:00
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  check-urls:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: .github/checker "README.md" ${{ secrets.GITHUB_TOKEN }}
