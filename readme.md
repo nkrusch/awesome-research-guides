@@ -8,7 +8,7 @@
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
 Underlying the deliverables are many assumed skills and implicit principles that govern the research process.
-The purpose of this list is to make the underlying skills and principles explicit.
+The purpose of this list is to make those skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
 Young researchers, who want to participate in scientific discourse, must first internalize the "specification" of a research paper, to be able to write one.
@@ -18,7 +18,7 @@ Most entries are drawn from computer science.
 
 This list was curated for personal use, during many years of doctoral study, and it continues to grow with its creator.
 To increase its reach and usefulness, the list was converted to an awesome list.
-It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
+It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics, written by a single author.
 The purpose here is to gather advice from many experts.
 Although the list is substantial, it can always be improved via [contributions](.github/contributing.md).
@@ -101,8 +101,8 @@ Although the list is substantial, it can always be improved via [contributions](
 
 ## Meta Reflections
 
-* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice for easing others to discover your research.
-* [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - The Economist, 19 Oct 2013.
-* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Marie desJardins.
-* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - EW Dijkstra.
+* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on how to make others discover your research.
+* [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
+* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the advisor-student relationship, by Marie desJardins.
+* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless advice for those seek respectable success in scientific research, by EW Dijkstra.
 
