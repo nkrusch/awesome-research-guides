@@ -7,7 +7,7 @@
 > Guidance about academia and conducting scientific research.
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
-Underlying the deliverables are many skills and implicit principles that govern the research process.
+Underlying the deliverables are many assumed skills and implicit principles that govern the research process.
 The purpose of this list is to make the underlying skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
@@ -16,12 +16,12 @@ Ideally, young researchers learn these skills during doctoral studies, but in re
 Therefore, this collection provides a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-This list was curated for personal use, during many years of doctoral studies, and it continues to grow with its creator.
+This list was curated for personal use, during many years of doctoral study, and it continues to grow with its creator.
 To increase its reach and usefulness, the list was converted to an awesome list.
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) that covers supplementary topics by a single author.
-Although the list is already substantial, it can always be improved.
-If you have good ideas, consider [contributing](./contributing.md).
+There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics, written by a single author.
+The purpose here is to offer advice from many experts.
+Although the list is substantial, it can always be improved via [contributions](./contributing.md).
 
 
 ## Contents
