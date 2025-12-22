@@ -4,7 +4,7 @@
 
 # Awesome Scientific Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Guidance about conducting scientific research.
+> Guidance about academic life and conducting scientific research.
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
 Underlying the deliverables are implicit principles and research skills that govern the process of conducting research.
@@ -35,11 +35,11 @@ As an added quality factor, the list items are checked regularly for liveness st
 ## Scientific Writing
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
-* [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) [(source)](https://doi.org/10.1145/1273445.1273458) - S. Keshav.
+* [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - S. Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
 * [How to Write a Great Research Paper](https://simon.peytonjones.org/great-research-paper/) - Simon Peyton Jones.
-* [Imagine the Reader (slides)](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) - [(video)](https://youtu.be/Q3Ye58zirjU) - Benjamin Pierce.
+* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) - [(video)](https://youtu.be/Q3Ye58zirjU) - Benjamin Pierce.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Knuth, Larrabee, and Roberts.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - Anne Lamott.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
@@ -97,9 +97,9 @@ As an added quality factor, the list items are checked regularly for liveness st
 
 ## Academic Job Search
 
-* [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - ThanhVu Nguyen.
-* [Faculty Job Interview Questions](https://neea.pl//guides/interview-questions.pdf) - A handout from Gursimran Walia.
-* [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Michael Ernst.
-* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - A professional seminar by Gaeun Seo.
+* [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - Navigating computer science PhD admissions in the United States, by ThanhVu Nguyen.
+* [Faculty Job Interview Questions (2023)](https://neea.pl//guides/interview-questions.pdf) - A handout of potential interview questions, by Gursimran Walia.
+* [Getting an academic job (2024)](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
+* [Negotiating Your Job Offer(s) Inside & Outside Academia (2024)](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
 
 
