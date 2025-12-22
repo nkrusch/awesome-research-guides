@@ -21,7 +21,7 @@ To increase its reach and usefulness, the list was converted to an awesome list.
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics, written by a single author.
 The purpose here is to gather advice from many experts.
-Although the list is substantial, it can always be improved via [contributions](./contributing.md).
+Although the list is substantial, it can always be improved via [contributions](.github/contributing.md).
 
 
 ## Contents
