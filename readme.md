@@ -4,25 +4,29 @@
 
 # Awesome Scientific Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Guidance about academic life and conducting scientific research.
+> Guidance about academia and conducting scientific research.
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
-Underlying the deliverables are implicit principles and research skills that govern the process of conducting research.
+Underlying the deliverables are many skills and implicit principles that govern the research process.
+The purpose of this list is to make the underlying skills and principles explicit.
+
 For example, a research paper is a specialized format of writing.
-Young researchers, who want to participate in scientific discourse, must first uncover the "specification" of a research paper.
+Young researchers, who want to participate in scientific discourse, must first internalize the "specification" of a research paper, to be able to write one.
 Ideally, young researchers learn these skills during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
 Therefore, this collection provides a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
-The list is scoped to topics in computer science.
+Most entries are drawn from computer science.
 
-This list was curated for personal use, during many years of doctoral studies, but it continues to grow with its creator.
+This list was curated for personal use, during many years of doctoral studies, and it continues to grow with its creator.
 To increase its reach and usefulness, the list was converted to an awesome list.
-It is related to a few other awesome lists (namely [scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technologies.
-There is also a complementary [web collection](https://homes.cs.washington.edu/~mernst/advice/) that covers supplementary topics.
-As an added quality factor, the list items are checked regularly for liveness status.
+It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
+There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) that covers supplementary topics by a single author.
+Although the list is already substantial, it can always be improved.
+If you have good ideas, consider [contributing](./contributing.md).
+
 
 ## Contents
 
-* [Scientific Writing](#scientific-writing)
+* [Scientific Written Communication](#scientific-written-communication)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Artifact & Technical Guides](#artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
@@ -32,20 +36,20 @@ As an added quality factor, the list items are checked regularly for liveness st
 
 ---
 
-## Scientific Writing
+## Scientific Written Communication
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
-* [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - S. Keshav.
+* [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The three-pass method for reading research papers, by Srinivasan Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
 * [How to Write a Great Research Paper](https://simon.peytonjones.org/great-research-paper/) - Simon Peyton Jones.
-* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) - [(video)](https://youtu.be/Q3Ye58zirjU) - Benjamin Pierce.
+* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) / [video 🎥](https://youtu.be/Q3Ye58zirjU) - A mentoring workshop talk by Benjamin Pierce.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Knuth, Larrabee, and Roberts.
-* [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - Anne Lamott.
+* [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - Describing the process of Anne Lamott.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
-* [Writing Papers (video)](https://youtu.be/ey3BEtt9QLI?t=263) - Leslie Lamport.
-* [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - Benjamin C. Pierce and Rajeev Alur.
+* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary opinionated 1988 Stanford lecture, by Leslie Lamport.
+* [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
 ## Giving Talks & Presentations
 
@@ -56,7 +60,7 @@ As an added quality factor, the list items are checked regularly for liveness st
 * [How to give a good research talk](https://www.dmi.unict.it/barba/ProposteTesi/GOOD-TALK/giving-a-talk-slides.pdf) - Simon Peyton Jones.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Michael Ernst.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Michael Ernst.
-* [Ten simple rules for effective presentation slides](https://pmc.ncbi.nlm.nih.gov/articles/PMC8638955/) - Kristen M Naegle.
+* [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Kristen M Naegle.
 
 ## Artifact & Technical Guides
 
@@ -90,7 +94,7 @@ As an added quality factor, the list items are checked regularly for liveness st
 
 ## Meta Reflections
 
-* [Getting Your Research Adopted (video)](https://youtu.be/59BZTVOM-dI) - Emery Berger.
+* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice for easing others to discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - The Economist, 19 Oct 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - EW Dijkstra.
@@ -98,8 +102,8 @@ As an added quality factor, the list items are checked regularly for liveness st
 ## Academic Job Search
 
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - Navigating computer science PhD admissions in the United States, by ThanhVu Nguyen.
-* [Faculty Job Interview Questions (2023)](https://neea.pl//guides/interview-questions.pdf) - A handout of potential interview questions, by Gursimran Walia.
-* [Getting an academic job (2024)](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
-* [Negotiating Your Job Offer(s) Inside & Outside Academia (2024)](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
+* [Faculty Job Interview Questions](https://neea.pl//guides/interview-questions.pdf) - A handout of potential interview questions, by Gursimran Walia.
+* [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
+* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
 
 
