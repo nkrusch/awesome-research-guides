@@ -1,5 +1,5 @@
 <picture>
-  <img alt="logo" src=".github/icon.png" align="right" width="64">
+  <img alt="logo" src=".github/icon.png" align="right" width="72"> &nbsp; &nbsp; 
 </picture>
 
 # Awesome Scientific Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
