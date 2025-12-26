@@ -1,10 +1,15 @@
+<div align="center">
 <picture>
-  <img alt="logo" src=".github/icon.png" align="right" width="72"> &nbsp; &nbsp; 
+  <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
+  <img alt="awesome scientific guides" src="media/logo.svg">
 </picture>
+<br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome"/></a>
+</div>
+<hr>
 
-# Awesome Scientific Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Scientific Guides
 
-> Guidance about academia and conducting scientific research.
+> Guidance about conducting scientific research.
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
 Underlying the deliverables are many assumed skills and implicit principles that govern the research process.
@@ -99,7 +104,7 @@ Although the list is substantial, it can always be improved via [contributions](
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
 * [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
 
-## Meta Reflections
+## Meta Discussions
 
 * [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on how to make others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.

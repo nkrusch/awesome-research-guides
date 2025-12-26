@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-npx markdown-link-check --quiet --config check.config ../readme.md
