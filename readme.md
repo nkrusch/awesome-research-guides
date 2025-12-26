@@ -1,15 +1,11 @@
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
-  <img alt="awesome scientific guides" src="media/logo.svg">
+  <img alt="awesome scientific guides" src="media/logo.svg" width="600">
 </picture>
-<br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome"/></a>
+<br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome" width="130"></a>
+<h3>Guidance about conducting scientific research.</h3>
 </div>
-<hr>
-
-# Awesome Scientific Guides
-
-> Guidance about conducting scientific research.
 
 Scientific discovery is materialized in research deliverables, like publications and software artifacts.
 Underlying the deliverables are many assumed skills and implicit principles that govern the research process.
@@ -37,7 +33,7 @@ Although the list is substantial, it can always be improved via [contributions](
 * [Review & Publishing](#review--publishing)
 * [Grants & Funding](#grants--funding)
 * [Academic Job Search](#academic-job-search)
-* [Meta Reflections](#meta-reflections)
+* [Meta Discussions](#meta-discussions)
 
 ---
 
