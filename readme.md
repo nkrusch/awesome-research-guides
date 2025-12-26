@@ -7,7 +7,7 @@
 <h2>Guidance about conducting scientific research.</h2>
 </div>
 
-Scientific discovery produces research deliverables, like publications and software artifacts.
+Scientific discovery materializes in deliverables like publications and software artifacts.
 Underlying the deliverables are many assumed research skills and implicit principles.
 The purpose of this list is to make those assumed skills and principles explicit.
 
