@@ -9,12 +9,12 @@
 
 Scientific discovery produces research deliverables, like publications and software artifacts.
 Underlying the deliverables are many assumed research skills and implicit principles.
-The purpose of this list is to make explicit the assumed skills and principles of scientific research.
+The purpose of this list is to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
 Young researchers, who want to write scientific papers, must first internalize the "specification" of a research paper.
 Ideally, young researchers learn these skills during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
-Therefore, this collection is intended a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
+Therefore, this collection offers a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
 Originally, the list was carefully curated, based on need, during the many years of doctoral study.
