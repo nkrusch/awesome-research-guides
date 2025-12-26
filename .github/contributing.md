@@ -5,18 +5,18 @@ By participating in this project you agree to abide by its terms.
 
 List entries must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
 The criteria is detailed below.
-For enhancement ideas, have a look at repository issues (particularly the ones marked with "wanted" label).
+For enhancement ideas, have a look at repository issues, particularly the issues marked with "wanted" label.
 
-After ensuring the standards are met, propose an edit through a [pull request](https://help.github.com/articles/using-pull-requests/).
+After ensuring the inclusion criteria are met, propose an edit with a [pull request](https://help.github.com/articles/using-pull-requests/).
 
-## Scope and inclusion criteria
+## Scientific guides scope and inclusion criteria
 
 *Awesome Scientific Guides* is a list about research skills and principles of scientific research.
-New list items should conform to the following expectations.
+New list items must meet the following expectations.
 
-* The topic must be about **research**. For example, discussions of publishing, conducting experiments, research software preparation, social skills, job search, obtaining funding, etc., are in scope.
+* The topic must be about **research**. For example, discussions of publishing, conducting experiments, research software, presentations, social skills, job search, and obtaining funding are in scope.
 * The goal is to **communicate guidance**. There are other awesome lists for technical solutions.
-* The list item should offer **long-term value**. Temporal advice, that is unlikely to remain relevant over multiple years, is too fleeting to be included.
+* The list item should have **long-term relevance**. Advice that is overly specific or temporal is not a good fit for this list.
 
 ## Guidelines for awesome list items
 

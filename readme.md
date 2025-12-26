@@ -7,7 +7,7 @@
 <h2>Guidance about conducting scientific research.</h2>
 </div>
 
-Scientific discovery materializes in deliverables like publications and software artifacts.
+Scientific discovery produces deliverables like publications and software artifacts.
 Underlying the deliverables are many assumed research skills and implicit principles.
 The purpose of this list is to make those assumed skills and principles explicit.
 
@@ -17,17 +17,17 @@ Ideally, young researchers learn these skills during doctoral studies, but in re
 Therefore, this collection offers a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-The list was initially curated by need during the many years of doctoral study.
+The list was initially curated by need, during the many years of doctoral study.
 Now it continues to grow with its creator.
-To increase its reach and usefulness, the list was converted to an [awesome list](https://awesome.re).
+To increase its reach, usefulness, and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-The purpose of this list is to gather advice from multiple experts.
+This list gathers advice from multiple experts.
 Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
 
 ## Contents
 
-* [Scientific Written Communication](#scientific-written-communication)
+* [Written Communication](#written-communication)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Artifact & Technical Guides](#artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
@@ -37,10 +37,10 @@ Although the list is already substantial, it can always be improved by [contribu
 
 ---
 
-## Scientific Written Communication
+## Written Communication
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
-* [Houston, We Have a Narrative: Why Science Needs Story](https://books.google.se/books?id=iNkpCwAAQBAJ&source=gbs_navlinks_s) (Book) - A scientist-turned-filmmaker highlights the importance of narrative style in scientific communication.
+* [Houston, We Have a Narrative: Why Science Needs Story](https://books.google.se/books?id=iNkpCwAAQBAJ&source=gbs_navlinks_s) (book) - A scientist-turned-filmmaker highlights the importance of narrative style in scientific communication.
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The three-pass method for reading research papers, by Srinivasan Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
@@ -51,7 +51,7 @@ Although the list is already substantial, it can always be improved by [contribu
 * [The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) (book) - A modern guide that challenges to rethink writing in many contexts, including science.  
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
-* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport in 1988 at Stanford.
+* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1988.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
 ## Giving Talks & Presentations
