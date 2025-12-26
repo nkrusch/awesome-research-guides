@@ -12,19 +12,18 @@ Underlying the deliverables are many assumed research skills and implicit princi
 The purpose of this list is to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
-Young researchers, who want to write scientific papers, must first internalize the "specification" of a research paper.
+Young researchers, who want to write research papers, must first internalize the specification of a research paper.
 Ideally, young researchers learn these skills during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
 Therefore, this collection offers a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-Originally, the list was curated by need, during the many years of doctoral study.
-Now the list continues to grow with its creator.
+Originally, the list was curated by need during the many years of doctoral study.
+Now it continues to grow with its creator.
 To increase its reach and usefulness, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics and written by a single author.
-The purpose of this list is to gather advice from many experts.
+There is also a [complementary   collection](https://homes.cs.washington.edu/~mernst/advice/) with supplementary topics and written by a single author.
+The purpose of this list is to gather advice from multiple experts.
 Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
-
 
 ## Contents
 
@@ -66,11 +65,11 @@ Although the list is already substantial, it can always be improved by [contribu
 
 ## Artifact & Technical Guides
 
-* [ACM Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-and-badging-current) - Current ACM badging guidelines.
-* [Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - Gernot Heiser.
+* [ACM Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-and-badging-current) - The current badging guidelines for judging scientific software artifacts by the Association of Computing Machinery (ACM).
+* [Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - A synopsis of the many ways an experiment design or analysis can go wrong, by Gernot Heiser.
 * [Can you trust your experimental results?](https://evaluate.inf.usi.ch/sites/default/files/EvaluateCollaboratoryTR1.pdf) - Evaluate Collaboratory Technical Report.
-* [EAPLS Artifact Badges](https://eapls.org/pages/artifact_badges/) - European badging scheme.
-* [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - ACM SIGPLAN checklist.
+* [EAPLS Artifact Badges](https://eapls.org/pages/artifact_badges/) - The European scheme for software artifact evaluation.
+* [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - A checklist to evaluate soundness of scientific experiment setup, developed by ACM Special Interest Group on Programming Languages (SIGPLAN).
 * [Empirical Standards for Software Engineering research](https://www2.sigsoft.org/EmpiricalStandards/) - ACM SIGSOFT.
 * [Guidelines for Proof Artifacts](https://proofartifacts.github.io/guidelines/) - Marianna Rapoport.
 * [Reliable benchmarking: requirements and solutions](https://doi.org/10.1007/s10009-017-0469-y) - Beyer, Löwe & Wendler.
@@ -83,7 +82,7 @@ Although the list is already substantial, it can always be improved by [contribu
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers.
 * [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - Recommendations for resolving uncertainties around authorship, by International Committee of Medical Journal Editors.
 * [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - Graham Cormode.
-* [Low-CO₂ research paper initiative](https://tcs4f.org/low-co2-v1) - TCS4F.
+* [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Niklas Elmqvist.
 * [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewer with editors who paywall publications.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - David Stutz.
@@ -107,4 +106,3 @@ Although the list is already substantial, it can always be improved by [contribu
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the advisor-student relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless advice for those seek respectable success in scientific research, by EW Dijkstra.
-
