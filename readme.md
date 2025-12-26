@@ -51,7 +51,7 @@ Although the list is already substantial, it can always be improved by [contribu
 * [The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) (book) - A modern guide that challenges to rethink writing in many contexts, including science.  
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
-* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary opinionated 1988 Stanford lecture, by Leslie Lamport.
+* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport in 1988 at Stanford.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
 ## Giving Talks & Presentations
