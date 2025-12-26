@@ -17,13 +17,13 @@ Ideally, young researchers learn these skills during doctoral studies, but in re
 Therefore, this collection offers a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-Originally, the list was carefully curated, based on need, during the many years of doctoral study.
+Originally, the list was curated by need, during the many years of doctoral study.
 Now the list continues to grow with its creator.
-To increase its reach and usefulness, the list was converted to an awesome list.
+To increase its reach and usefulness, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics, written by a single author.
-The purpose here is to gather advice from many experts.
-Although the list is already substantial, consider improving it by [contributing](.github/contributing.md).
+There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics and written by a single author.
+The purpose of this list is to gather advice from many experts.
+Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
 
 
 ## Contents
