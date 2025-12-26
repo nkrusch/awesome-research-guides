@@ -4,7 +4,7 @@
   <img alt="awesome scientific guides" src="media/logo.svg" width="600">
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome" width="130"></a>
-<h3>Guidance about conducting scientific research.</h3>
+<h2>Guidance about conducting scientific research.</h2>
 </div>
 
 Scientific discovery produces research deliverables, like publications and software artifacts.
@@ -13,15 +13,15 @@ The purpose of this list is to make those assumed skills and principles explicit
 
 For example, a research paper is a specialized format of writing.
 Young researchers, who want to write research papers, must first internalize the specification of a research paper.
-Ideally, young researchers learn these skills during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
+Ideally, young researchers learn these skills during doctoral studies, but in reality, [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
 Therefore, this collection offers a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-Originally, the list was curated by need during the many years of doctoral study.
+The list was initially curated by need during the many years of doctoral study.
 Now it continues to grow with its creator.
 To increase its reach and usefulness, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a [complementary   collection](https://homes.cs.washington.edu/~mernst/advice/) with supplementary topics and written by a single author.
+There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
 The purpose of this list is to gather advice from multiple experts.
 Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
 
