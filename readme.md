@@ -7,22 +7,23 @@
 <h3>Guidance about conducting scientific research.</h3>
 </div>
 
-Scientific discovery is materialized in research deliverables, like publications and software artifacts.
-Underlying the deliverables are many assumed skills and implicit principles that govern the research process.
-The purpose of this list is to make those skills and principles explicit.
+Scientific discovery produces research deliverables, like publications and software artifacts.
+Underlying the deliverables are many assumed research skills and implicit principles.
+The purpose of this list is to make explicit the assumed skills and principles of scientific research.
 
 For example, a research paper is a specialized format of writing.
-Young researchers, who want to participate in scientific discourse, must first internalize the "specification" of a research paper, to be able to write one.
+Young researchers, who want to write scientific papers, must first internalize the "specification" of a research paper.
 Ideally, young researchers learn these skills during doctoral studies, but in reality [doctoral experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
-Therefore, this collection provides a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
+Therefore, this collection is intended a standardizing resource, for young researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-This list was curated for personal use, during many years of doctoral study, and it continues to grow with its creator.
+Originally, the list was carefully curated, based on need, during the many years of doctoral study.
+Now the list continues to grow with its creator.
 To increase its reach and usefulness, the list was converted to an awesome list.
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/), with supplementary topics, written by a single author.
 The purpose here is to gather advice from many experts.
-Although the list is substantial, it can always be improved via [contributions](.github/contributing.md).
+Although the list is already substantial, consider improving it by [contributing](.github/contributing.md).
 
 
 ## Contents
