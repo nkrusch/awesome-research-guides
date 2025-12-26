@@ -40,13 +40,15 @@ Although the list is already substantial, it can always be improved by [contribu
 ## Scientific Written Communication
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
+* [Houston, We Have a Narrative: Why Science Needs Story](https://books.google.se/books?id=iNkpCwAAQBAJ&source=gbs_navlinks_s) (Book) - A scientist-turned-filmmaker highlights the importance of narrative style in scientific communication.
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The three-pass method for reading research papers, by Srinivasan Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
-* [How to Write a Great Research Paper](https://simon.peytonjones.org/great-research-paper/) - Simon Peyton Jones.
+* [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - A mentoring talk by Michael Hicks, based on Simon Peyton Jones.
 * [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) / [video 🎥](https://youtu.be/Q3Ye58zirjU) - A mentoring workshop talk by Benjamin Pierce.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Knuth, Larrabee, and Roberts.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - Describing the process of Anne Lamott.
+* [The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) (book) - A modern guide that challenges to rethink writing in many contexts, including science.  
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
 * [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary opinionated 1988 Stanford lecture, by Leslie Lamport.
@@ -102,7 +104,7 @@ Although the list is already substantial, it can always be improved by [contribu
 
 ## Meta Discussions
 
-* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on how to make others discover your research.
+* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the advisor-student relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless advice for those seek respectable success in scientific research, by EW Dijkstra.
