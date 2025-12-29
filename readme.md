@@ -7,14 +7,13 @@
 <h2>Guidance about conducting scientific research.</h2>
 </div>
 
-Scientists produces deliverables like publications and software artifacts.
+Scientists produce deliverables like publications and software artifacts.
 Underlying the deliverables are many assumed research skills and implicit principles.
 This list aims to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
 Junior researchers, who want to write research papers, must first understand the specification of a research paper.
-Ideally, junior researchers learn these skills during doctoral studies;
-but in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
+Ideally, junior researchers learn these skills during doctoral studies, but in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
 Therefore, this collection offers a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
