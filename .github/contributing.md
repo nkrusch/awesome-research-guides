@@ -14,7 +14,7 @@ After ensuring the inclusion criteria are met, propose an edit with a [pull requ
 *Awesome Scientific Guides* is a list about research skills and principles of scientific research.
 New list items must meet the following expectations.
 
-* The topic must be about **research**. For example, discussions of publishing, conducting experiments, research software, presentations, social skills, job search, and obtaining funding are in scope.
+* The topic must be **research**. For example, discussions of publishing, conducting experiments, research software, presentations, social skills, job search, and obtaining funding are in scope.
 * The goal is to **communicate guidance**. There are other awesome lists for technical solutions.
 * The list item should have **long-term relevance**. Advice that is overly specific or temporal is not a good fit for this list.
 

@@ -11,4 +11,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v6
-      - run: npx markdown-link-check --quiet --config .github/check.config ../readme.md
+      - run: npx markdown-link-check --quiet --config .github/check.config readme.md
