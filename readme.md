@@ -19,7 +19,7 @@ Most entries are drawn from computer science.
 
 The list was initially curated by need, during the many years of doctoral study.
 Since then, it has continued to grow with its creator.
-To increase its reach, usefulness, and collaboration, the list was converted to an [awesome list](https://awesome.re).
+To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but it is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
 In contrast, this list gathers advice from multiple experts.
