@@ -26,8 +26,8 @@ In contrast, this list gathers advice from multiple experts.
 
 ## Contents
 
-* [Written Communication](#written-communication)\
-* [Books About Scientific Writing](#books-about-scientific-writing)
+* [Written Communication](#written-communication)
+* [Technical Writing Books](#technical-writing-books)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Artifact & Technical Guides](#artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
@@ -44,7 +44,7 @@ In contrast, this list gathers advice from multiple experts.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
 * [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective scientific writing by Michael Hicks, based on earlier version by Simon Peyton Jones.
-* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) / [video 🎥](https://youtu.be/Q3Ye58zirjU) - A mentoring workshop talk by Benjamin Pierce.
+* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) (as [video 🎥](https://youtu.be/Q3Ye58zirjU)) - A mentoring workshop talk by Benjamin Pierce.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
 * [The Craft of Writing Effectively 🎥](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
@@ -53,19 +53,21 @@ In contrast, this list gathers advice from multiple experts.
 * [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
-## Books About Scientific Writing
+## Technical Writing Books
 
-* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure `ISBN 9780226270845`.
-* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams `ISBN 9780134080413`.
-* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues `ISBN 9780226817972`.
-* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science `ISBN 9780670025855`.
+* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - `ISBN 9780226270845` Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
+* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - `ISBN 9780134080413` Exercises for developing writing skills, by Bizup and Williams .
+* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - `ISBN 9780226817972` An excellent guide to punctuation and many other writing issues.
+* [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - `ISBN 9781848316218` An excellent reference for elegant phrasing, by Mark Forsyth.
+* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - `ISBN 9780670025855` A modern guide that challenges to rethink writing in many settings, including science.
 
 ## Giving Talks & Presentations
 
 * [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/) - Scot Drysdale.
-* [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) / [video 🎥](https://youtu.be/27vMdYA6RcA) - Leonidas Lampropoulos.
+* [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) (as [video 🎥](https://youtu.be/27vMdYA6RcA)) - Leonidas Lampropoulos.
 * [How I Give a Talk](https://www.youtube.com/watch?v=WVnmgUakDzs) - Javier Esparza.
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Ian Parberry.
+* [How to Speak 🎥](https://www.youtube.com/watch?v=Unzc731iCUY) - Patrick Winston.
 * [How to give a good research talk](https://www.dmi.unict.it/barba/ProposteTesi/GOOD-TALK/giving-a-talk-slides.pdf) - Simon Peyton Jones.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Michael Ernst.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Michael Ernst.
@@ -117,4 +119,5 @@ In contrast, this list gathers advice from multiple experts.
 
 ---
 
-Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
+Although the list is already substantial, it can always be improved by contributing.
+Start by reviewing the [contribution guidelines](.github/contributing.md), then make a pull request.
