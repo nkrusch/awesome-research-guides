@@ -4,7 +4,7 @@
   <img alt="awesome scientific guides" src="media/logo.svg" width="600">
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome" width="130"></a>
-<h2>Guidance about conducting scientific research.</h2>
+<h2>Instruction about conducting scientific research.</h2>
 </div>
 
 Scientific discovery produces deliverables like publications and software artifacts.
@@ -22,7 +22,7 @@ Since then, it has continued to grow with its creator.
 To increase its reach, usefulness, and collaboration, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but it is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-This list gathers advice from multiple experts.
+In contrast, this list gathers advice from multiple experts.
 Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
 
 ## Contents
@@ -40,7 +40,7 @@ Although the list is already substantial, it can always be improved by [contribu
 ## Written Communication
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
-* [Houston, We Have a Narrative: Why Science Needs Story](https://books.google.se/books?id=iNkpCwAAQBAJ&source=gbs_navlinks_s) (book) - A scientist-turned-filmmaker highlights the importance of narrative style in scientific communication.
+* [Houston, We Have a Narrative: Why Science Needs Story](https://books.google.se/books?id=iNkpCwAAQBAJ&source=gbs_navlinks_s) (book) - A scientist-turned-filmmaker, Randy Olson, discusses the importance of narrative in scientific communication.
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The three-pass method for reading research papers, by Srinivasan Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
@@ -92,8 +92,8 @@ Although the list is already substantial, it can always be improved by [contribu
 
 ## Grants & Funding
 
-* [How to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) - Simon Peyton Jones.
-* [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - Mathilda Harris.
+* [How to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) - Covers e.g., proposal judging criteria and how to effectively present scientific project ideas, by Simon Peyton Jones.
+* [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - A comparison of academic writing and grant writing, by Mathilda Harris.
 
 ## Academic Job Search
 
