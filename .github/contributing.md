@@ -32,3 +32,7 @@ A list item must meet the following criteria.
 * The description is in the same language as the title.
 * The item link and description are separated by a dash, e.g., `- [AVA](…) - JavaScript test runner.`
 * The description starts with an uppercase character and ends with a period.
+
+You can run the awesome list linter to check compliance with the guidelines. 
+
+    npx awesome-lint
