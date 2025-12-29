@@ -21,8 +21,8 @@ The list was initially curated by need, during the many years of doctoral study.
 Since then, it has continued to grow with its creator.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of written guides by a single author.
-In contrast, this list gathers advice from multiple experts in many formats.
+There also exists a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of written guides by a single author.
+In contrast, this list gathers advice from multiple experts and in many formats.
 
 ## Contents
 
@@ -35,6 +35,8 @@ In contrast, this list gathers advice from multiple experts in many formats.
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
 
+Videos are denoted by the 🎦 symbol.
+
 ---
 
 ## Written Communication
@@ -44,15 +46,15 @@ In contrast, this list gathers advice from multiple experts in many formats.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
 * [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective scientific writing by Michael Hicks, based on earlier version by Simon Peyton Jones.
-* [Imagine the Reader](https://popl23.sigplan.org/details?action-call-with-get-request-type=1&1860ff6cd5f24c898a83af1ea68728baaction_17426506610cc6c1a558aa5dd9cfae5847110f9ad32=1&__ajax_runtime_request__=1&context=POPL-2023&track=PLMW-POPL-2023-papers&urlKey=1&decoTitle=-Imagining-the-Reader) (as [video 🎥](https://youtu.be/Q3Ye58zirjU)) - Exploring approaches to understanding writing from the perspective of the reader, by Benjamin Pierce.
+* [Imagine the Reader](https://popl23.sigplan.org/details?action-call-with-get-request-type=1&1860ff6cd5f24c898a83af1ea68728baaction_17426506610cc6c1a558aa5dd9cfae5847110f9ad32=1&__ajax_runtime_request__=1&context=POPL-2023&track=PLMW-POPL-2023-papers&urlKey=1&decoTitle=-Imagining-the-Reader) (as [video 🎦](https://youtu.be/Q3Ye58zirjU)) - Exploring approaches to understanding writing from the perspective of the reader, by Benjamin Pierce.
 * [Learn Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/learn-two.pdf) - A student guide explaining the mechanics of a technical writing group, by Norman Ramsey.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
 * [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group, by Norman Ramsey.
-* [The Craft of Writing Effectively 🎥](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
+* [The Craft of Writing Effectively 🎦](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
-* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1987.
+* [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
 ## Technical Writing Books
@@ -66,10 +68,10 @@ In contrast, this list gathers advice from multiple experts in many formats.
 ## Giving Talks & Presentations
 
 * [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/) - Scot Drysdale.
-* [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) (as [video 🎥](https://youtu.be/27vMdYA6RcA)) - Leonidas Lampropoulos.
+* [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) (as [video 🎦](https://youtu.be/27vMdYA6RcA)) - Leonidas Lampropoulos.
 * [How I Give a Talk](https://www.youtube.com/watch?v=WVnmgUakDzs) - Javier Esparza.
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Ian Parberry.
-* [How to Speak 🎥](https://www.youtube.com/watch?v=Unzc731iCUY) - Patrick Winston.
+* [How to Speak 🎦](https://www.youtube.com/watch?v=Unzc731iCUY) - Patrick Winston.
 * [How to give a good research talk](https://www.dmi.unict.it/barba/ProposteTesi/GOOD-TALK/giving-a-talk-slides.pdf) - Simon Peyton Jones.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Michael Ernst.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Michael Ernst.
@@ -114,7 +116,7 @@ In contrast, this list gathers advice from multiple experts in many formats.
 
 ## Meta Discussions
 
-* [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
+* [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the student-advisor relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
