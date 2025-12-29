@@ -21,8 +21,8 @@ The list was initially curated by need, during the many years of doctoral study.
 Since then, it has continued to grow with its creator.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) with guides written by a single author.
-In contrast, this list gathers advice from multiple experts.
+There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) with written guides by a single author.
+In contrast, this list gathers advice from multiple experts in many formats.
 
 ## Contents
 
@@ -44,9 +44,11 @@ In contrast, this list gathers advice from multiple experts.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
 * [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective scientific writing by Michael Hicks, based on earlier version by Simon Peyton Jones.
-* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) (as [video 🎥](https://youtu.be/Q3Ye58zirjU)) - A mentoring workshop talk by Benjamin Pierce.
+* [Imagine the Reader](https://popl23.sigplan.org/details?action-call-with-get-request-type=1&1860ff6cd5f24c898a83af1ea68728baaction_17426506610cc6c1a558aa5dd9cfae5847110f9ad32=1&__ajax_runtime_request__=1&context=POPL-2023&track=PLMW-POPL-2023-papers&urlKey=1&decoTitle=-Imagining-the-Reader) (as [video 🎥](https://youtu.be/Q3Ye58zirjU)) - Exploring approaches to understanding writing from the perspective of the reader, by Benjamin Pierce.
+* [Learn Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/learn-two.pdf) - A student guide explaining the mechanics of a technical writing group, by Norman Ramsey.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
+* [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group, by Norman Ramsey.
 * [The Craft of Writing Effectively 🎥](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
@@ -55,11 +57,11 @@ In contrast, this list gathers advice from multiple experts.
 
 ## Technical Writing Books
 
-* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - `ISBN 9780226270845` Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
-* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - `ISBN 9780134080413` Exercises for developing writing skills, by Bizup and Williams .
-* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - `ISBN 9780226817972` An excellent guide to punctuation and many other writing issues.
-* [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - `ISBN 9781848316218` An excellent reference for elegant phrasing, by Mark Forsyth.
-* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - `ISBN 9780670025855` A modern guide that challenges to rethink writing in many settings, including science.
+* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
+* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams .
+* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues.
+* [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
+* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science.
 
 ## Giving Talks & Presentations
 
