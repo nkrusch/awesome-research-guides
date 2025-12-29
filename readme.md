@@ -4,7 +4,7 @@
   <img alt="awesome scientific guides" src="media/logo.svg" width="600">
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome" width="130"></a>
-<h2>Instructions about conducting scientific research.</h2>
+<h2>Guidance about conducting scientific research.</h2>
 </div>
 
 Scientific discovery produces deliverables like publications and software artifacts.
@@ -13,21 +13,21 @@ This list aims to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
 Junior researchers, who want to write research papers, must first understand the specification of a research paper.
-Ideally, junior researchers learn these skills during doctoral studies, but in reality, [doctoral study experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
+Ideally, junior researchers learn these skills during doctoral studies, but in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
 Therefore, this collection offers a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
 The list was initially curated by need, during the many years of doctoral study.
 Since then, it has continued to grow with its creator.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
-It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but it is unique in its emphasis of guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
+It is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
+There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) with guides written by a single author.
 In contrast, this list gathers advice from multiple experts.
-Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).
 
 ## Contents
 
-* [Written Communication](#written-communication)
+* [Written Communication](#written-communication)\
+* [Books About Scientific Writing](#books-about-scientific-writing)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Artifact & Technical Guides](#artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
@@ -40,24 +40,30 @@ Although the list is already substantial, it can always be improved by [contribu
 ## Written Communication
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
-* [Houston, We Have a Narrative: Why Science Needs Story](https://books.google.se/books?id=iNkpCwAAQBAJ&source=gbs_navlinks_s) (book) - A scientist-turned-filmmaker, Randy Olson, discusses the importance of narrative in scientific communication.
-* [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The three-pass method for reading research papers, by Srinivasan Keshav.
-* [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Jason Eisner.
+* [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers, by S. Keshav.
+* [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
-* [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - A mentoring talk by Michael Hicks, based on Simon Peyton Jones.
+* [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective scientific writing by Michael Hicks, based on earlier version by Simon Peyton Jones.
 * [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) / [video 🎥](https://youtu.be/Q3Ye58zirjU) - A mentoring workshop talk by Benjamin Pierce.
-* [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Knuth, Larrabee, and Roberts.
-* [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - Describing the process of Anne Lamott.
-* [The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) (book) - A modern guide that challenges to rethink writing in many contexts, including science.  
+* [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
+* [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
+* [The Craft of Writing Effectively 🎥](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
-* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1988.
+* [Writing Papers  🎥](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
+
+## Books About Scientific Writing
+
+* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure `ISBN 9780226270845`.
+* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams `ISBN 9780134080413`.
+* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues `ISBN 9780226817972`.
+* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science `ISBN 9780670025855`.
 
 ## Giving Talks & Presentations
 
 * [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/) - Scot Drysdale.
-* [How (not) to give a great research talk (slides)](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) - [(video)](https://youtu.be/27vMdYA6RcA) - Leonidas Lampropoulos.
+* [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) / [video 🎥](https://youtu.be/27vMdYA6RcA) - Leonidas Lampropoulos.
 * [How I Give a Talk](https://www.youtube.com/watch?v=WVnmgUakDzs) - Javier Esparza.
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Ian Parberry.
 * [How to give a good research talk](https://www.dmi.unict.it/barba/ProposteTesi/GOOD-TALK/giving-a-talk-slides.pdf) - Simon Peyton Jones.
@@ -106,5 +112,9 @@ Although the list is already substantial, it can always be improved by [contribu
 
 * [Getting Your Research Adopted 🎥](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
-* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the advisor-student relationship, by Marie desJardins.
-* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless advice for those seek respectable success in scientific research, by EW Dijkstra.
+* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the student-advisor relationship, by Marie desJardins.
+* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
+
+---
+
+Although the list is already substantial, it can always be improved by [contributing](.github/contributing.md).

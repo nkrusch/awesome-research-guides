@@ -18,6 +18,8 @@ New list items must meet the following expectations.
 * The goal is to **communicate guidance**. There are other awesome lists for technical solutions.
 * The list item should have **long-term relevance**. Advice that is overly specific or temporal is not a good fit for this list.
 
+List items can be in various formats: writings, slides, videos, etc.
+
 ## Guidelines for awesome list items
 
 All awesome lists must also follow certain ground rules. 
