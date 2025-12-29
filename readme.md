@@ -4,7 +4,7 @@
   <img alt="awesome scientific guides" src="media/logo.svg" width="600">
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome" width="130"></a>
-<h2>Instruction about conducting scientific research.</h2>
+<h2>Instructions about conducting scientific research.</h2>
 </div>
 
 Scientific discovery produces deliverables like publications and software artifacts.
