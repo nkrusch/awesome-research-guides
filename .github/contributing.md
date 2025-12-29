@@ -4,19 +4,16 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 By participating in this project you agree to abide by its terms.
 
 List entries must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
-The criteria is detailed below.
-For enhancement ideas, have a look at repository issues, particularly the issues marked with "wanted" label.
-
-After ensuring the inclusion criteria are met, propose an edit with a [pull request](https://help.github.com/articles/using-pull-requests/).
+For enhancement ideas, have a look at repository issues, particularly the ones marked with ![wanted](https://img.shields.io/badge/wanted-ffeb3b?style=flat-square) label.
 
 ## Scientific guides scope and inclusion criteria
 
 *Awesome Scientific Guides* is a list about research skills and principles of scientific research.
 New list items must meet the following expectations.
 
-* The topic must be **research**. For example, discussions of publishing, conducting experiments, research software, presentations, social skills, job search, and obtaining funding are in scope.
-* The goal is to **communicate guidance**. There are other awesome lists for technical solutions.
-* The list item should have **long-term relevance**. Advice that is overly specific or temporal is not a good fit for this list.
+* The topic must be broadly about **research**.
+* The goal is to **communicate guidance**. 
+* The list item should have **long-term relevance** (several years).
 
 List items can be in various formats: writings, slides, videos, etc.
 
@@ -30,9 +27,9 @@ A list item must meet the following criteria.
 * The item has a title (with a hyperlink) and a description.
 * The description is concise and informative.
 * The description is in the same language as the title.
-* The item link and description are separated by a dash, e.g., `- [AVA](…) - JavaScript test runner.`
+* The item link and description are separated by a dash.
 * The description starts with an uppercase character and ends with a period.
 
-You can run the awesome list linter to check compliance with the guidelines. 
+You can run the awesome list linter to check compliance with these guidelines. 
 
     npx awesome-lint
