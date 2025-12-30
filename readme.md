@@ -13,8 +13,8 @@ This list aims to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
 Junior researchers, who want to write research papers, must first understand the specification of a research paper.
-Ideally, junior researchers learn these skills during doctoral studies, but in reality, doctoral study [experiences can vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
-Therefore, this collection offers a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
+Ideally, junior researchers learn these skills during doctoral studies, but in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
+Therefore, this collection is a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
 The list was initially curated on demand during the many years of doctoral study.
@@ -23,48 +23,42 @@ To increase reach and collaboration potential, the list was converted to an [awe
 
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-In contrast, this list gathers advice from multiple experts and in many formats.
+In contrast, this list presents advice from multiple experts.
 
 ## Contents
 
 * [Written Communication](#written-communication)
-* [Technical Writing Books](#technical-writing-books)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Artifact & Technical Guides](#artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
 * [Grants & Funding](#grants--funding)
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
+* [Books about Scientific Skills](#books-about-scientific-skills)
 
-Videos are denoted by symbol 🎦.
+Useful advice can surface in many formats: essays, presentations, videos (🎦), etc.
+The preference is to list open access guides that can be accessed and viewed immediately.
+Books are clearly an exception to this rule and thus organized into a separate category.
 
 ---
 
 ## Written Communication
 
-* [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - William Pugh.
+* [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - What is an extended abstract and what information should it contain; advice by William Pugh[^b].
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers, by S. Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
-* [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - P. R. Halmos.
-* [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective scientific writing by Michael Hicks, based on earlier version by Simon Peyton Jones.
-* [Imagine the Reader](https://popl23.sigplan.org/details?action-call-with-get-request-type=1&1860ff6cd5f24c898a83af1ea68728baaction_17426506610cc6c1a558aa5dd9cfae5847110f9ad32=1&__ajax_runtime_request__=1&context=POPL-2023&track=PLMW-POPL-2023-papers&urlKey=1&decoTitle=-Imagining-the-Reader) (as [video 🎦](https://youtu.be/Q3Ye58zirjU)) - Exploring approaches to understanding writing from the perspective of the reader, by Benjamin Pierce.
+* [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - A short checklist, and a longer exposition, of how to write mathematics; by P. R. Halmos.
+* [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective writing of research papers by Michael Hicks[^a].
+* [Imagine the Reader](https://popl23.sigplan.org/details?action-call-with-get-request-type=1&1860ff6cd5f24c898a83af1ea68728baaction_17426506610cc6c1a558aa5dd9cfae5847110f9ad32=1&__ajax_runtime_request__=1&context=POPL-2023&track=PLMW-POPL-2023-papers&urlKey=1&decoTitle=-Imagining-the-Reader) (as [video 🎦](https://youtu.be/Q3Ye58zirjU)) - Approaching writing from the perspective of the reader, by Benjamin Pierce.
 * [Learn Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/learn-two.pdf) - A student guide explaining the mechanics of a technical writing group, by Norman Ramsey.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
 * [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group, by Norman Ramsey.
 * [The Craft of Writing Effectively 🎦](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
-* [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Mark Wegman.
-* [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - Mary Shaw.
-* [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture by Leslie Lamport at Stanford in 1987.
+* [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Writing advice through the eyes of a referee, by Mark Wegman[^b].
+* [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers; by Mary Shaw.
+* [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
-
-## Technical Writing Books
-
-* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
-* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams.
-* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues.
-* [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
-* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science.
 
 ## Giving Talks & Presentations
 
@@ -77,6 +71,7 @@ Videos are denoted by symbol 🎦.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Michael Ernst.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Michael Ernst.
 * [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Kristen M Naegle.
+
 
 ## Artifact & Technical Guides
 
@@ -91,6 +86,7 @@ Videos are denoted by symbol 🎦.
 * [STABILIZER: Statistically Sound Performance Evaluation](https://people.cs.umass.edu/~emery/pubs/stabilizer-asplos13.pdf) - Curtsinger and Berger.
 * [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - Best practices guide.
 
+
 ## Review & Publishing
 
 * [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Ian Parberry.
@@ -103,10 +99,12 @@ Videos are denoted by symbol 🎦.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - David Stutz.
 * [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A.J. Smith.
 
+
 ## Grants & Funding
 
 * [How to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) - Covers e.g., proposal judging criteria and how to effectively present scientific project ideas, by Simon Peyton Jones.
 * [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - A comparison of academic writing and grant writing, by Mathilda Harris.
+
 
 ## Academic Job Search
 
@@ -115,6 +113,7 @@ Videos are denoted by symbol 🎦.
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
 * [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
 
+
 ## Meta Discussions
 
 * [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
@@ -122,7 +121,24 @@ Videos are denoted by symbol 🎦.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the student-advisor relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
 
+
+## Books about Scientific Skills
+
+* [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
+* [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams.
+* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues.
+* [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
+* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science.
+
 ---
 
 Although the list is already substantial, it can always be improved by contributing.
 Start by reviewing the [contribution guidelines](.github/contributing.md), then make a pull request.
+
+
+
+<!-- footnotes -->
+
+[^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
+[^b]: Although the refereeing process has changed, understanding the impact refereeing has on writing is still relevant.  
+
