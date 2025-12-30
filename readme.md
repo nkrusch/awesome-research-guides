@@ -20,10 +20,12 @@ Most entries are drawn from computer science.
 The list was initially curated on demand during the many years of doctoral study.
 Since then, it has continued to grow with its creator.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
+The preference is to list open access guides that can be accessed and viewed immediately.
+Books are an exception to this rule, and thus organized into a separate category.
 
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-In contrast, this list presents advice from multiple experts.
+In contrast, this list presents advice from multiple experts and in many formats (essays, presentations, videos 🎦,…).
 
 ## Contents
 
@@ -35,10 +37,6 @@ In contrast, this list presents advice from multiple experts.
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
 * [Books about Scientific Skills](#books-about-scientific-skills)
-
-Useful advice can surface in many formats: essays, presentations, videos (🎦), etc.
-The preference is to list open access guides that can be accessed and viewed immediately.
-Books are clearly an exception to this rule and thus organized into a separate category.
 
 ---
 
@@ -132,9 +130,9 @@ Books are clearly an exception to this rule and thus organized into a separate c
 
 ---
 
+**Is the list missing something?**
 Although the list is already substantial, it can always be improved by contributing.
 Start by reviewing the [contribution guidelines](.github/contributing.md), then make a pull request.
-
 
 
 <!-- footnotes -->
