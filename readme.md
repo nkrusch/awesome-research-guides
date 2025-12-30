@@ -17,15 +17,13 @@ Ideally, junior researchers learn these skills during doctoral studies, but in r
 Therefore, this collection is a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-The list was initially curated on demand during the many years of doctoral study.
-Since then, it has continued to grow with its creator.
+The list was initially curated on-demand during many years of doctoral study.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
-The preference is to list open access guides that can be accessed and viewed immediately.
-Books are an exception to this rule, and thus organized into a separate category.
 
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-In contrast, this list presents advice from multiple experts and in many formats (essays, presentations, videos 🎦,…).
+In contrast, this list presents advice from multiple experts and in many formats.
+The list include mainly open access guides (except for books).
 
 ## Contents
 
@@ -52,7 +50,7 @@ In contrast, this list presents advice from multiple experts and in many formats
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
 * [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group, by Norman Ramsey.
-* [The Craft of Writing Effectively 🎦](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Thought-provoking and transformative advice for improving scholarly writing, by Larry McEnerney.
+* [The Craft of Writing Effectively 🎦](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Compelling advice to improve scholarly writing, by Larry McEnerney.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Writing advice through the eyes of a referee, by Mark Wegman[^b].
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers; by Mary Shaw.
 * [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
@@ -130,13 +128,12 @@ In contrast, this list presents advice from multiple experts and in many formats
 
 ---
 
-**Is the list missing something?**
+**Is something missing?**
 Although the list is already substantial, it can always be improved by contributing.
-Start by reviewing the [contribution guidelines](.github/contributing.md), then make a pull request.
+Start by reviewing the [contribution guidelines](.github/contributing.md), then open a pull request.
 
 
 <!-- footnotes -->
 
 [^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
-[^b]: Although the refereeing process has changed, understanding the impact refereeing has on writing is still relevant.  
-
+[^b]: Although the refereeing process has changed, exposing the impact refereeing has on writing remains relevant.  
