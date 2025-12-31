@@ -8,27 +8,26 @@
 </div>
 
 Scientists produce deliverables like publications and software artifacts.
-Underlying the deliverables are many assumed research skills and implicit principles.
+Underlying the deliverables are many assumed research skills and principles.
 This list aims to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
-Junior researchers, who want to write research papers, must first understand the specification of a research paper.
+Junior researchers, who want to write research papers, must first internalize the specification of a research paper.
 Ideally, junior researchers learn these skills during doctoral studies, but in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
-Therefore, this collection is a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
+Therefore, this collection provides a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-The list was initially curated on-demand during many years of doctoral study.
+The list was initially curated on demand during many years of doctoral study.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
-
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-In contrast, this list presents advice from multiple experts in many formats and with emphasis on open access guides.
+In contrast, this list presents advice from multiple experts in many formats, and with emphasis on open access guides.
 
 ## Contents
 
 * [Written Communication](#written-communication)
 * [Giving Talks & Presentations](#giving-talks--presentations)
-* [Artifact & Technical Guides](#artifact--technical-guides)
+* [Software Artifact & Technical Guides](#software-artifact--technical-guides)
 * [Review & Publishing](#review--publishing)
 * [Grants & Funding](#grants--funding)
 * [Academic Job Search](#academic-job-search)
@@ -68,19 +67,19 @@ In contrast, this list presents advice from multiple experts in many formats and
 * [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Kristen M Naegle.
 
 
-## Artifact & Technical Guides
+## Software Artifact & Technical Guides
 
-* [ACM Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-and-badging-current) - The current badging guidelines for judging scientific software artifacts by the Association of Computing Machinery (ACM).
+* [ACM Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-and-badging-current) - The current badging guidelines for judging scientific software artifacts, by the Association of Computing Machinery (ACM).
+* [BenchExec](https://github.com/sosy-lab/benchexec) - A framework for reliable benchmarking of non-interactive tools, with built-in resource control and a table generator for visualizing results.
 * [Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - A synopsis of the many ways an experiment design or analysis can go wrong, by Gernot Heiser.
-* [Can you trust your experimental results?](https://evaluate.inf.usi.ch/sites/default/files/EvaluateCollaboratoryTR1.pdf) - Evaluate Collaboratory Technical Report.
+* [Can you trust your experimental results?](https://evaluate.inf.usi.ch/sites/default/files/EvaluateCollaboratoryTR1.pdf) - A general framework for validating experimental designs; a technical report developed based on the Evaluate 2011 workshop.
 * [EAPLS Artifact Badges](https://eapls.org/pages/artifact_badges/) - The European scheme for software artifact evaluation.
-* [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - A checklist to evaluate soundness of scientific experiment setup, developed by ACM Special Interest Group on Programming Languages (SIGPLAN).
-* [Empirical Standards for Software Engineering research](https://www2.sigsoft.org/EmpiricalStandards/) - ACM SIGSOFT.
-* [Guidelines for Proof Artifacts](https://proofartifacts.github.io/guidelines/) - Marianna Rapoport.
-* [Reliable benchmarking: requirements and solutions](https://doi.org/10.1007/s10009-017-0469-y) - Beyer, Löwe & Wendler.
+* [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - A checklist to evaluate soundness of scientific experiment setup, developed by the ACM Special Interest Group on Programming Languages (SIGPLAN).
+* [Empirical Standards for Software Engineering research](https://www2.sigsoft.org/EmpiricalStandards/) - The official evidence standards for conducting and reporting studies in software engineering; developed by the ACM Special Interest Group on Software Engineering (SIGSOFT).
+* [Guidelines for Proof Artifacts](https://proofartifacts.github.io/guidelines/) - Proof artifacts are a special category of scientific software and thus have their own presentation standards; the guidelines are maintained by Marianna Rapoport.
+* [Reliable benchmarking: requirements and solutions](https://doi.org/10.1007/s10009-017-0469-y) - Motivations for reliable benchmarking and presentation of BenchExec.
 * [STABILIZER: Statistically Sound Performance Evaluation](https://people.cs.umass.edu/~emery/pubs/stabilizer-asplos13.pdf) - Curtsinger and Berger.
 * [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - Best practices guide.
-
 
 ## Review & Publishing
 
