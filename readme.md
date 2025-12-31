@@ -17,7 +17,7 @@ Ideally, junior researchers learn these skills during doctoral studies, but in r
 Therefore, this collection provides a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-The list was initially curated on demand during many years of doctoral study.
+The list was initially curated on demand for personal use.
 To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
@@ -79,7 +79,8 @@ In contrast, this list presents advice from multiple experts in many formats, an
 * [Guidelines for Proof Artifacts](https://proofartifacts.github.io/guidelines/) - Proof artifacts are a special category of scientific software and thus have their own presentation standards; the guidelines are maintained by Marianna Rapoport.
 * [Reliable benchmarking: requirements and solutions](https://doi.org/10.1007/s10009-017-0469-y) - Motivations for reliable benchmarking and presentation of BenchExec.
 * [STABILIZER: Statistically Sound Performance Evaluation](https://people.cs.umass.edu/~emery/pubs/stabilizer-asplos13.pdf) - Curtsinger and Berger.
-* [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - Best practices guide.
+* [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - 12 rules of best practices for reporting empirical evaluation results, by Torsten Hoefler and Roberto Belli.
+
 
 ## Review & Publishing
 
