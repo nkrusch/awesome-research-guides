@@ -133,8 +133,8 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 
 ## Informal & Lighthearted
 
-* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many graduate school experiences.
-* [xkcd](https://xkcd.com) - A web comic with many lighthearted insights, often about science.
+* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics about many graduate school experiences.
+* [xkcd](https://xkcd.com) - A web comic with many thoughtful reflections often about science.
 
 ---
 
