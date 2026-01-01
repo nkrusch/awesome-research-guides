@@ -1,7 +1,7 @@
 name: Lint
 on:
-  push:
-  pull_request:
+  push: [ "main" ]
+  pull_request: [ "main" ]
 
 jobs:
   Awesome_Lint:
