@@ -134,15 +134,16 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 ## Informal & Lighthearted
 
 * [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics about many graduate school experiences.
-* [xkcd](https://xkcd.com) - A web comic with many thoughtful reflections often about science.
+* [xkcd](https://xkcd.com) - A web comic with many thoughtful reflections, often about science.
 
 ---
 
+## Footnotes
+
 **Is something missing?**
-Although the list is already substantial, it is still limited in topic coverage.
+Although the list is already substantial, it is limited in topic coverage.
 Your contributions can make the list better!
 Start by reviewing the [contribution guidelines](.github/contributing.md) then open a pull request.
-
 
 <!-- footnotes -->
 
