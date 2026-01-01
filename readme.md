@@ -33,6 +33,7 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
 * [Books about Scientific Skills](#books-about-scientific-skills)
+* [Informal & Lighthearted](#informal--lighthearted)
 
 ---
 
@@ -128,6 +129,12 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 * [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html) - A comprehensive classic guide, with insights about, e.g., effective problem framing and use of flow in crafting persuasive arguments, by Booth et al.
 * [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
 * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
+
+
+## Informal & Lighthearted
+
+* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many graduate school experiences.
+* [xkcd](https://xkcd.com) - A web comic with many lighthearted insights, often about science.
 
 ---
 
