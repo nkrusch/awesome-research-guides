@@ -33,7 +33,6 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
 * [Books about Scientific Skills](#books-about-scientific-skills)
-* [Informal & Lighthearted](#informal--lighthearted)
 
 ---
 
@@ -114,7 +113,7 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 ## Meta Discussions
 
 * [Dancing With Professors: The Trouble With Academic Prose](https://web.archive.org/web/20250103165735/https://www.nytimes.com/1993/10/31/books/dancing-with-professors-the-trouble-with-academic-prose.html) - A classic dissection about the challenges of academic writing, from 1993 New York Times Book Review, by Patricia Nelson Limerick.
-* [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
+* [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger shares advice about how to help others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the student-advisor relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
@@ -129,12 +128,6 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 * [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html) - A comprehensive classic guide, with insights about, e.g., effective problem framing and use of flow in crafting persuasive arguments, by Booth et al.
 * [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
 * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
-
-
-## Informal & Lighthearted
-
-* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics about many graduate school experiences.
-* [xkcd](https://xkcd.com) - A web comic with many thoughtful reflections, often about science.
 
 ---
 
