@@ -39,6 +39,7 @@ In contrast, this list presents advice from multiple experts in many formats, an
 ## Written Communication
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - What is an extended abstract and what information should it contain; advice by William Pugh[^b].
+* [Conclusions](https://writingcenter.fas.harvard.edu/conclusions) - Advice on dos and don'ts of effective conclusions, by the Harvard College Writing Center.
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers, by S. Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - A short checklist, and a longer exposition, of how to write mathematics; by P. R. Halmos.
@@ -111,6 +112,7 @@ In contrast, this list presents advice from multiple experts in many formats, an
 
 ## Meta Discussions
 
+* [Dancing With Professors: The Trouble With Academic Prose](https://web.archive.org/web/20250103165735/https://www.nytimes.com/1993/10/31/books/dancing-with-professors-the-trouble-with-academic-prose.html) - A classic dissection about the challenges of academic writing, from 1993 New York Times Book Review, by Patricia Nelson Limerick.
 * [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger's advice on helping others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the student-advisor relationship, by Marie desJardins.
@@ -121,9 +123,11 @@ In contrast, this list presents advice from multiple experts in many formats, an
 
 * [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
 * [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams.
+* [Stylish Academic Writing](https://www.hup.harvard.edu/books/9780674064485) - Advice on crafting clear, active sentences with concrete nouns and precise diction, by Helen Sword.
 * [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues.
+* [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html) - A comprehensive classic guide, with insights about, e.g., effective problem framing and use of flow in crafting persuasive arguments, by Booth et al.
 * [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
-* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science.
+* [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
 
 ---
 
