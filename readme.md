@@ -9,7 +9,7 @@
 
 Scientists produce deliverables like publications and software artifacts.
 Underlying the deliverables are many assumed research skills and principles.
-This list aims to make those assumed skills and principles explicit.
+The goal of this list is to make the assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
 Junior researchers, who want to write research papers, must first internalize the specification of a research paper.
@@ -18,10 +18,10 @@ Therefore, this collection provides a standardizing resource, for junior researc
 Most entries are drawn from computer science.
 
 The list was initially curated on demand for personal use.
-To increase reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
+To increase its reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-In contrast, this list presents advice from multiple experts in many formats, and with emphasis on open access guides.
+In contrast, this list presents advice from multiple experts, in many formats, and with emphasis on open access guides.
 
 ## Contents
 
@@ -59,7 +59,7 @@ In contrast, this list presents advice from multiple experts in many formats, an
 
 * [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/) - Scot Drysdale.
 * [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) (as [video 🎦](https://youtu.be/27vMdYA6RcA)) - Leonidas Lampropoulos.
-* [How I Give a Talk](https://www.youtube.com/watch?v=WVnmgUakDzs) - Javier Esparza.
+* [How I Give a Talk 🎦](https://www.youtube.com/watch?v=WVnmgUakDzs) - Javier Esparza.
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Ian Parberry.
 * [How to Speak 🎦](https://www.youtube.com/watch?v=Unzc731iCUY) - Patrick Winston.
 * [How to give a good research talk](https://www.dmi.unict.it/barba/ProposteTesi/GOOD-TALK/giving-a-talk-slides.pdf) - Simon Peyton Jones.
@@ -85,13 +85,13 @@ In contrast, this list presents advice from multiple experts in many formats, an
 
 ## Review & Publishing
 
-* [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Ian Parberry.
-* [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers.
-* [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - Recommendations for resolving uncertainties around authorship, by International Committee of Medical Journal Editors.
-* [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - Graham Cormode.
+* [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Advice about peer reviewing research publication drafts, for students and other inexperienced referees, by Ian Parberry.
+* [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
+* [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship, by International Committee of Medical Journal Editors.
+* [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
 * [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Niklas Elmqvist.
-* [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewer with editors who paywall publications.
+* [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - David Stutz.
 * [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A.J. Smith.
 
