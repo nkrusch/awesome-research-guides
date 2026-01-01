@@ -28,7 +28,7 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 * [Written Communication](#written-communication)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Software Artifact & Technical Guides](#software-artifact--technical-guides)
-* [Review & Publishing](#review--publishing)
+* [Peer Review & Publishing](#peer-review--publishing)
 * [Grants & Funding](#grants--funding)
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
@@ -83,17 +83,17 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 * [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - 12 rules of best practices for reporting empirical evaluation results, by Torsten Hoefler and Roberto Belli.
 
 
-## Review & Publishing
+## Peer Review & Publishing
 
 * [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Advice about peer reviewing research publication drafts, for students and other inexperienced referees, by Ian Parberry.
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
 * [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship, by International Committee of Medical Journal Editors.
 * [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
 * [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
-* [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Niklas Elmqvist.
+* [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes, by Niklas Elmqvist.
 * [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
-* [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - David Stutz.
-* [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A.J. Smith.
+* [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
+* [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
 
 
 ## Grants & Funding
@@ -132,8 +132,9 @@ In contrast, this list presents advice from multiple experts, in many formats, a
 ---
 
 **Is something missing?**
-Although the list is already substantial, it can always be improved by contributing.
-Start by reviewing the [contribution guidelines](.github/contributing.md), then open a pull request.
+Although the list is already substantial, it is still limited in topic coverage.
+Your contributions can make the list better!
+Start by reviewing the [contribution guidelines](.github/contributing.md) then open a pull request.
 
 
 <!-- footnotes -->
