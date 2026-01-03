@@ -19,7 +19,7 @@ Ideally, junior researchers learn these skills during doctoral studies, but in r
 Therefore, this collection provides a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-This list is related to other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
+This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a complementary [collection of guides](https://homes.cs.washington.edu/~mernst/advice/) written mostly by a single author.
 In contrast, this list presents advice from multiple experts and in rich formats.
 Besides books, the listed items are open access.
@@ -34,6 +34,7 @@ Besides books, the listed items are open access.
 * [Academic Job Search](#academic-job-search)
 * [Meta Discussions](#meta-discussions)
 * [Books about Scientific Skills](#books-about-scientific-skills)
+* [Cool Stuff 🕶️](#cool-stuff-)
 
 ---
 
@@ -131,6 +132,14 @@ Besides books, the listed items are open access.
 * [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html) - A comprehensive classic guide, with insights about, e.g., effective problem framing and use of flow in crafting persuasive arguments, by Booth et al.
 * [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
 * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
+
+## Cool Stuff 🕶️
+
+* [Co-authorship distance computation](https://csauthors.net/distance) - For discovering connections between two authors in computer science; the calculator is especially useful at conferences. 
+* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many graduate school experiences.
+* [The PhD Simulator](https://research.wmz.ninja/projects/phd/index.html) - A random, event driven simulation game of life as a PhD Student, by Mianzhi Wang.
+* [xkcd](https://xkcd.com) - A web comic, with many thoughtful insights, often about science.
+
 
 ---
 
