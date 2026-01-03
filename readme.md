@@ -17,11 +17,10 @@ Ideally, junior researchers learn these skills during doctoral studies, but in r
 Therefore, this collection provides a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-The list was initially curated on demand for personal use.
-To increase its reach and collaboration potential, the list was converted to an [awesome list](https://awesome.re).
 The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
-In contrast, this list presents advice from multiple experts, in many formats, and with emphasis on open access guides.
+In contrast, this list presents advice from multiple experts and in rich formats.
+Besides books, the listed items are open access.
 
 ## Contents
 
