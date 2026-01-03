@@ -5,7 +5,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
   <img alt="awesome scientific guides" src="media/logo.svg" width="600">
 </picture>
-<br/><a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="awesome" width="130"></a>
+<br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome" width="130"></a>
 <h2>Guidance about conducting scientific research.</h2>
 </div>
 
@@ -20,7 +20,7 @@ Therefore, this collection provides a standardizing resource, for junior researc
 Most entries are drawn from computer science.
 
 This list is related to other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a complementary [collection of guides](https://homes.cs.washington.edu/~mernst/advice/) written by a single author.
+There is also a complementary [collection of guides](https://homes.cs.washington.edu/~mernst/advice/) written mostly by a single author.
 In contrast, this list presents advice from multiple experts and in rich formats.
 Besides books, the listed items are open access.
 
