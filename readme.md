@@ -141,8 +141,7 @@ Besides books, the listed items are open access.
 <br/><strong>Figure 1.</strong> <i>"Three Kinds of Research"</i> from <a href="https://xkcd.com/2977/">xkcd #2977</a>.
 </div>
 
-## Footnotes
-
+<br/><br/>
 **Is something missing?**
 Although the list is already substantial, it is limited in topic coverage.
 Your contributions can make the list better!
