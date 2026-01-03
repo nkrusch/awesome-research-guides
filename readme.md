@@ -19,8 +19,8 @@ Ideally, junior researchers learn these skills during doctoral studies, but in r
 Therefore, this collection provides a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-The list is related to a few other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a [complementary collection](https://homes.cs.washington.edu/~mernst/advice/) of guides written by a single author.
+This list is related to other awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
+There is also a complementary [collection of guides](https://homes.cs.washington.edu/~mernst/advice/) written by a single author.
 In contrast, this list presents advice from multiple experts and in rich formats.
 Besides books, the listed items are open access.
 
@@ -91,13 +91,13 @@ Besides books, the listed items are open access.
 * [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Advice about peer reviewing research publication drafts, for students and other inexperienced referees, by Ian Parberry.
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
 * [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship, by International Committee of Medical Journal Editors.
+* [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models, by open-access.network.
 * [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
 * [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes, by Niklas Elmqvist.
 * [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
 * [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
-
 
 ## Grants & Funding
 
