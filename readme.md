@@ -134,6 +134,13 @@ Besides books, the listed items are open access.
 
 ---
 
+<div align="center">
+<picture>
+<img src='https://imgs.xkcd.com/comics/three_kinds_of_research.png'>
+</picture>
+<br/><strong>Figure 1.</strong> <i>"Three Kinds of Research"</i> from <a href="https://xkcd.com/2977/">xkcd #2977</a>.
+</div>
+
 ## Footnotes
 
 **Is something missing?**
