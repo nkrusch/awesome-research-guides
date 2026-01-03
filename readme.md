@@ -145,9 +145,11 @@ Besides books, the listed items are open access.
 **Is something missing?**
 Although the list is already substantial, it is limited in topic coverage.
 Your contributions can make the list better!
-Start by reviewing the [contribution guidelines](.github/contributing.md) then open a pull request.
+Please read the [contribution guidelines](.github/contributing.md) before contributing.
+
 
 <!-- footnotes -->
 
 [^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
+
 [^b]: Although the refereeing process has changed, the impact refereeing has on writing remains relevant.  
