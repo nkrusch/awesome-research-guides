@@ -4,7 +4,7 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 By participating in this project you agree to abide by its terms.
 
 List entries must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
-For enhancement ideas, have a look at repository issues, particularly the ones marked with ["wanted" label](nkrusch/awesome-scientific-guides/issues?q=is%3Aissue%20state%3Aopen%20label%3Awanted).
+For enhancement ideas, have a look at repository issues, particularly the ones marked with `wanted` label.
 
 ## Scientific guides scope and inclusion criteria
 
