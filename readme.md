@@ -1,4 +1,6 @@
 <div align="center">
+<i>"Life is a game that one plays according to the rules."</i>
+<br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
   <img alt="awesome scientific guides" src="media/logo.svg" width="600">
@@ -49,6 +51,7 @@ Besides books, the listed items are open access.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
 * [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group, by Norman Ramsey.
 * [The Craft of Writing Effectively 🎦](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Compelling advice to improve scholarly writing, by Larry McEnerney.
+* [Three Sins of Authors in Computer Science and Math](https://www.cs.cmu.edu/~jrs/sins.html) - Advice on avoiding some common flaws in introductions and conclusions, by Jonathan Shewchuk.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.org/10.1145/14947.14955) - Writing advice through the eyes of a referee, by Mark Wegman[^b].
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers; by Mary Shaw.
 * [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
@@ -70,6 +73,7 @@ Besides books, the listed items are open access.
 ## Software Artifact & Technical Guides
 
 * [ACM Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-and-badging-current) - The current badging guidelines for judging scientific software artifacts, by the Association of Computing Machinery (ACM).
+* [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/) - Ten experience-based tips, with justification and examples, for creating software artifacts; by Rohan Padhye.
 * [BenchExec](https://github.com/sosy-lab/benchexec) - A framework for reliable benchmarking of non-interactive tools, with built-in resource control and a table generator for visualizing results.
 * [Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - A synopsis of the many ways an experiment design or analysis can go wrong, by Gernot Heiser.
 * [Can you trust your experimental results?](https://evaluate.inf.usi.ch/sites/default/files/EvaluateCollaboratoryTR1.pdf) - A general framework for validating experimental designs; a technical report developed based on the Evaluate 2011 workshop.
