@@ -11,7 +11,7 @@
 </div>
 
 Scientists produce deliverables like publications and software artifacts.
-Underlying the deliverables are many assumed specialized skills and principles.
+Underlying the deliverables are many assumed research skills and principles.
 The goal of this list is to make the assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
@@ -157,6 +157,8 @@ Except for books, the listed items are open access.
 </div>
 
 <br/><br/>
+FOOTNOTES
+
 **Is something missing?**
 Although the list is already substantial, it is limited in some topics.
 Your contributions can make the list better!
