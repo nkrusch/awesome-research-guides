@@ -22,7 +22,7 @@ Most entries are drawn from computer science.
 
 This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
 There are also various complementary web collections[^c], mostly written by a single author.
-In contrast, this list presents advice from multiple experts and in rich formats.
+In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative editing.
 Except for books, the listed items are open access.
 
 ## Contents
