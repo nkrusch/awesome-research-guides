@@ -168,7 +168,7 @@ Please read the [contribution guidelines](.github/contributing.md) before contri
 
 [^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
 
-[^b]: Although the refereeing process has changed, the impact refereeing has on writing remains relevant.  
+[^b]: Although the refereeing process has changed, the impact of refereeing remains relevant.  
 
 [^c]: Advice by 
       [Jason Eisner](https://www.cs.jhu.edu/~jason/advice), 
