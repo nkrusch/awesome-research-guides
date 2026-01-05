@@ -1,4 +1,4 @@
-## Checklist
+#### Checklist
 
 <!-- Check that the addition meets the following criteria. -->
 
@@ -8,7 +8,7 @@
 * [ ] Description is concise, informative, starts with an uppercase character, and ends with a period.
 * [ ] Placement preserves alphabetic sort (ascending by title) within the containing sublist.
 
-## Mini Review
+#### Mini Review
 
 <!-- Complete this mini review to justify the inclusion. -->
 
