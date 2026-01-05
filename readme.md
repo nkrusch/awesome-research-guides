@@ -7,6 +7,7 @@
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome" width="130"></a>
 <h2>Guidance about conducting scientific research.</h2>
 <i>"Life is a game that one plays according to the rules."</i>
+<br/><br/>
 </div>
 
 Scientists produce deliverables like publications and software artifacts.
@@ -61,15 +62,15 @@ Except for books, the listed items are open access.
 
 ## Giving Talks & Presentations
 
-* [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/) - Scot Drysdale.
-* [How (not) to give a great research talk](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/3/-How-not-to-give-a-great-research-talk) (as [video 🎦](https://youtu.be/27vMdYA6RcA)) - Leonidas Lampropoulos.
-* [How I Give a Talk 🎦](https://www.youtube.com/watch?v=WVnmgUakDzs) - Javier Esparza.
-* [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Ian Parberry.
-* [How to Speak 🎦](https://www.youtube.com/watch?v=Unzc731iCUY) - Patrick Winston.
-* [How to give a good research talk](https://www.dmi.unict.it/barba/ProposteTesi/GOOD-TALK/giving-a-talk-slides.pdf) - Simon Peyton Jones.
-* [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Michael Ernst.
-* [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Michael Ernst.
-* [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Kristen M Naegle.
+* [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/sld001.htm) - Basics of how to structure a scientific talk and customize it by audience; by Scot Drysdale.
+* [How (not) to give a great research talk 🎦](https://youtu.be/27vMdYA6RcA) - Tips for crafting lively and engaging presentations, by Leonidas Lampropoulos.
+* [How I Give a Talk 🎦](https://www.youtube.com/watch?v=WVnmgUakDzs) - Using storytelling techniques to create engaging oral presentations, by Javier Esparza.
+* [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Thematically organized advice on designing and delivering presentations, by Ian Parberry.
+* [How to Speak 🎦](https://www.youtube.com/watch?v=Unzc731iCUY) - Ideas and techniques to incorporate into your speaking toolkit, by Patrick Winston.
+* [How to give a good research talk 🎦](https://simon.peytonjones.org/great-research-talk/) - Simple actionable advice for giving better talks, by Simon Peyton Jones.
+* [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Advice on preparing and practicing the presentation, talk delivery, and handling the Q&A session; by Michael Ernst.
+* [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Things to consider while preparing and presenting a technical poster, including example posters; by Michael Ernst.
+* [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Validate your slide design by following the basic ground rules, by Kristen M Naegle.
 
 
 ## Software Artifact & Technical Guides
