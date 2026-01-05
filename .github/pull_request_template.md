@@ -1,4 +1,6 @@
-In the `Preview` tab, select the appropriate PR sub-template:
+### ✴️❗Switch to the `Preview` tab and select the appropriate PR template:
 
-* [Edit list item(s)](?expand=1&template=template_edit.md)
-* [Add list item(s))](?expand=1&template=template_new.md)
+* [Template for List/repository edits](?expand=1&template=template_edit.md)
+* [Template for adding new list items](?expand=1&template=template_new.md)
+
+ Make sure to use the correct template to avoid auto-close of the PR.
