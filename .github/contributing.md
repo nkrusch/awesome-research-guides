@@ -24,7 +24,7 @@ However, classroom teaching is out of scope.
   
 ## Requirements for awesome list items
 
-All awesome lists must also follow certain ground rules.
+All awesome lists must also meet certain ground rules.
 
 * Only awesome items. Awesome lists are curations of the best, not everything.
 * The item uses consistent and correct naming; for example, Node.js (not NodeJS or node.js).
