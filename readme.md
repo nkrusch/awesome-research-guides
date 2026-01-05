@@ -1,5 +1,4 @@
 <div align="center">
-<i>"Life is a game that one plays according to the rules."</i>
 <br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
@@ -7,10 +6,11 @@
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome" width="130"></a>
 <h2>Guidance about conducting scientific research.</h2>
+<i>"Life is a game that one plays according to the rules."</i>
 </div>
 
 Scientists produce deliverables like publications and software artifacts.
-Underlying the deliverables are many assumed research skills and principles.
+Underlying the deliverables are many assumed specialized skills and principles.
 The goal of this list is to make the assumed skills and principles explicit.
 
 For example, a research paper is a specialized format of writing.
@@ -20,9 +20,9 @@ Therefore, this collection provides a standardizing resource, for junior researc
 Most entries are drawn from computer science.
 
 This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There is also a complementary [collection of guides](https://homes.cs.washington.edu/~mernst/advice/) written mostly by a single author.
+There are also various complementary web collections[^c], mostly written by a single author.
 In contrast, this list presents advice from multiple experts and in rich formats.
-Besides books, the listed items are open access.
+Except for books, the listed items are open access.
 
 ## Contents
 
@@ -43,7 +43,7 @@ Besides books, the listed items are open access.
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - What is an extended abstract and what information should it contain; advice by William Pugh[^b].
 * [Conclusions](https://writingcenter.fas.harvard.edu/conclusions) - Advice on dos and don'ts of effective conclusions, by the Harvard College Writing Center.
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers, by S. Keshav.
-* [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice about note-taking, scheduling, and choice of reading; by Jason Eisner.
+* [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - About note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - A short checklist, and a longer exposition, of how to write mathematics; by P. R. Halmos.
 * [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective writing of research papers by Michael Hicks[^a].
 * [Imagine the Reader](https://popl23.sigplan.org/details?action-call-with-get-request-type=1&1860ff6cd5f24c898a83af1ea68728baaction_17426506610cc6c1a558aa5dd9cfae5847110f9ad32=1&__ajax_runtime_request__=1&context=POPL-2023&track=PLMW-POPL-2023-papers&urlKey=1&decoTitle=-Imagining-the-Reader) (as [video 🎦](https://youtu.be/Q3Ye58zirjU)) - Insights about writing, when approaching it from the perspective of the reader, by Benjamin Pierce.
@@ -57,6 +57,7 @@ Besides books, the listed items are open access.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers; by Mary Shaw.
 * [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
+
 
 ## Giving Talks & Presentations
 
@@ -100,8 +101,10 @@ Besides books, the listed items are open access.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
 * [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
 
+
 ## Grants & Funding
 
+* [Checklist for effectively writing grants in Stat-ML](https://stat.cmu.edu/~aramdas/checklists2/aadi-grant-checklist.pdf) - A generally applicable list of suggestions for assistant professors; by Aaditya Ramdas.
 * [How to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) - Covers e.g., proposal judging criteria and how to effectively present scientific project ideas, by Simon Peyton Jones.
 * [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - A comparison of academic writing and grant writing, by Mathilda Harris.
 
@@ -111,7 +114,9 @@ Besides books, the listed items are open access.
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - Navigating computer science PhD admissions in the United States, by ThanhVu Nguyen.
 * [Faculty Job Interview Questions](https://neea.pl//guides/interview-questions.pdf) - A handout of potential interview questions, by Gursimran Walia.
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Faculty job application and interview advice, by Michael Ernst.
-* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Seminar presentation slides, by Gaeun Seo.
+* [Guide for the Tenure-Track Job Market in Computer/Information Sciences](https://shomir.net/tt_job_guide.html) - About seeking a faculty position for research-oriented tenure track positions in the United States, by Shomir Wilson.
+* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Covering various aspects that can be negotiated during a job offer, by Gaeun Seo.
+* [Tips for Computer Science Faculty Applications](https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc) - How to prepare a faculty application package for computer science positions, with real examples; by Yisong Yue.
 
 
 ## Meta Discussions
@@ -133,13 +138,13 @@ Besides books, the listed items are open access.
 * [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
 * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
 
+
 ## Cool Stuff 🕶️
 
 * [Co-authorship distance computation](https://csauthors.net/distance) - For discovering connections between two authors in computer science; the calculator is especially useful at conferences. 
 * [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many graduate school experiences.
 * [The PhD Simulator](https://research.wmz.ninja/projects/phd/index.html) - A random, event driven simulation game of life as a PhD Student, by Mianzhi Wang.
 * [xkcd](https://xkcd.com) - A web comic, with many thoughtful insights, often about science.
-
 
 ---
 
@@ -152,13 +157,18 @@ Besides books, the listed items are open access.
 
 <br/><br/>
 **Is something missing?**
-Although the list is already substantial, it is limited in topic coverage.
+Although the list is already substantial, it is limited in some topics.
 Your contributions can make the list better!
 Please read the [contribution guidelines](.github/contributing.md) before contributing.
-
 
 <!-- footnotes -->
 
 [^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
 
 [^b]: Although the refereeing process has changed, the impact refereeing has on writing remains relevant.  
+
+[^c]: Advice by 
+      [Jason Eisner](https://www.cs.jhu.edu/~jason/advice), 
+      [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), 
+      [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), 
+      etc.
