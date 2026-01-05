@@ -125,7 +125,7 @@ Except for books, the listed items are open access.
 * [Dancing With Professors: The Trouble With Academic Prose](https://web.archive.org/web/20250103165735/https://www.nytimes.com/1993/10/31/books/dancing-with-professors-the-trouble-with-academic-prose.html) - A classic dissection about the challenges of academic writing, from 1993 New York Times Book Review, by Patricia Nelson Limerick.
 * [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger shares advice about how to help others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
-* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - Increasing awareness of the student-advisor relationship, by Marie desJardins.
+* [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - About optimizing the outcomes in a student-advisor relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
 
 

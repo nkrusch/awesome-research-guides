@@ -6,10 +6,9 @@ By participating in this project you agree to abide by its terms.
 List entries must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
 For enhancement ideas, have a look at repository issues, particularly the ones marked with `wanted` label.
 
-## Scientific guides scope and inclusion criteria
+## Scope and inclusion criteria
 
-Awesome Scientific Guides is a list about research skills and principles of scientific research.
-New list items must meet the following expectations.
+The list-specific requirements define the scope and inclusion criteria.
 
 * The topic must be related to **research**.
 * The goal is to **communicate guidance**. 
@@ -17,7 +16,7 @@ New list items must meet the following expectations.
 
 List items can be in various formats: writings, slides, videos, etc.
 
-The list is <u>NOT</u> a "grad school survival guide", and all contributions will be evaluated through this lens.
+The list is <u>NOT</u> a grad school survival guide.
 The list  has an academic flavor because universities are the usual setting in which research takes place.
 For example, job search and funding are the common prerequisites for entering/establishing research environments.
 However, classroom teaching is out of scope.
