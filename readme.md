@@ -32,7 +32,7 @@ Except for books, the listed items are open access.
 * [Software Artifact & Technical Guides](#software-artifact--technical-guides)
 * [Peer Review & Publishing](#peer-review--publishing)
 * [Grants & Funding](#grants--funding)
-* [Academic Job Search](#academic-job-search)
+* [Research Job Search](#research-job-search)
 * [Meta Discussions](#meta-discussions)
 * [Books about Scientific Skills](#books-about-scientific-skills)
 * [Cool Stuff 🕶️](#cool-stuff-)
@@ -110,7 +110,7 @@ Except for books, the listed items are open access.
 * [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - A comparison of academic writing and grant writing, by Mathilda Harris.
 
 
-## Academic Job Search
+## Research Job Search
 
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - Navigating computer science PhD admissions in the United States, by ThanhVu Nguyen.
 * [Faculty Job Interview Questions](https://neea.pl//guides/interview-questions.pdf) - A handout of potential interview questions, by Gursimran Walia.
