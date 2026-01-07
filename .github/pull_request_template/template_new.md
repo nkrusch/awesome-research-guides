@@ -4,7 +4,7 @@
 
 * [ ] The change introduces a new awesome list item
 * [ ] List item is about guidance in research and has expected long-term relevance.
-* [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
+* [ ] List item has a hyperlinked title and a description, and the two are separated by a dash (`-`).
 * [ ] Description is concise, informative, starts with an uppercase character, and ends with a period.
 * [ ] Placement preserves alphabetic sort (ascending by title) within the containing sublist.
 

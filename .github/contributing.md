@@ -3,7 +3,7 @@
 Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md).
 By participating in this project you agree to abide by its terms.
 
-List entries must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
+List items must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
 For enhancement ideas, have a look at repository issues, particularly the ones marked with `wanted` label.
 
 ## Scope and inclusion criteria
@@ -16,13 +16,9 @@ The list-specific requirements define the scope and inclusion criteria.
 
 List items can be in various formats: writings, slides, videos, etc.
 
-The list is <u>NOT</u> a grad school survival guide.
-The list  has an academic flavor because universities are the usual setting in which research takes place.
-For example, job search and funding are the common prerequisites for entering/establishing research environments.
-However, classroom teaching is out of scope.
-
+Although academia and research are closely related, the list is <u>NOT</u> a graduate school survival guide.
   
-## Requirements for awesome list items
+## Awesome list requirements
 
 All awesome lists must also meet certain ground rules.
 
