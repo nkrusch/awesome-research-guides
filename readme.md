@@ -142,9 +142,9 @@ Except for books, the listed items are open access.
 
 ## Cool Stuff 🕶️
 
-* [Co-authorship distance computation](https://csauthors.net/distance) - For discovering connections between two authors in computer science; the calculator is especially useful at conferences. 
-* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many graduate school experiences.
-* [The PhD Simulator](https://research.wmz.ninja/projects/phd/index.html) - A random, event driven simulation game of life as a PhD Student, by Mianzhi Wang.
+* [Co-authorship distance computation](https://csauthors.net/distance) - For discovering connections between two authors in computer science (especially entertaining at conferences). 
+* [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many research related experiences in graduate school.
+* [The PhD Simulator](https://research.wmz.ninja/projects/phd/index.html) - A simulation game of the life of an aspiring researcher, by Mianzhi Wang.
 * [xkcd](https://xkcd.com) - A web comic, with many thoughtful insights, often about science.
 
 ---
