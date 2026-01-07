@@ -2,18 +2,18 @@
 
 <!-- Check that the addition meets the following criteria. -->
 
-* [ ] The suggested change is a new list item
-* [ ] List item is about guidance in research with expected long-term relevance.
-* [ ] List item jas a (hyperlinked) title and description, separated by a dash (`-`).
+* [ ] The change introduces a new awesome list item
+* [ ] List item is about guidance in research and has expected long-term relevance.
+* [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
 * [ ] Description is concise, informative, starts with an uppercase character, and ends with a period.
 * [ ] Placement preserves alphabetic sort (ascending by title) within the containing sublist.
 
 #### Mini Review
 
-<!-- Complete this mini review to justify the inclusion. -->
+<!-- Needed to justify the inclusion -->
 
-*Summary.*  <!--  Description/what is the item about? (one sentence, may come from the code change) -->
+*Summary.*  <!--  1 sentence; can be a copy from the code change. -->
 
 *Assessment.*  <!-- For example: a short list of pros and cons. -->
 
-*Other comments.*  <!-- Anything else that should be mentioned (optional). -->
+

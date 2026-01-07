@@ -2,7 +2,7 @@
 <br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
-  <img alt="awesome scientific guides" src="media/logo.svg" width="600">
+  <img alt="awesome research guides" src="media/logo.svg" width="600">
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome" width="130"></a>
 <h2>Guidance about conducting scientific research.</h2>

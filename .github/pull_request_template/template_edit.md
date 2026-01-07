@@ -2,11 +2,10 @@
 
 <!-- Check that the edit meets the following criteria. -->
 
-* [ ] The suggested change is an edit to current list/rest of repository.
-* [ ] Edit maintains awesome list requirements (passes the linter).
-* [ ] Edit preserves alphabetic sort within the containing sublist.
+* [ ] The change is an edit to awesome list or rest of the repository.
+* [ ] Edit maintains the list-specific and awesome list [requirements](../contributing.md).
 
 #### Comments
 
-<!-- Justify/explain the change (examples: dead link, change in URL, fix typo.) -->
+<!-- Briefly describe the change, e.g., dead link, URL move, typo fix…) -->
 
