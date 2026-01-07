@@ -71,6 +71,7 @@ Except for books, the listed items are open access.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Advice on preparing and practicing the presentation, talk delivery, and handling the Q&A session; by Michael Ernst.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Things to consider while preparing and presenting a technical poster, including example posters; by Michael Ernst.
 * [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Validate your slide design by following the basic ground rules, by Kristen M Naegle.
+* [The Elevator Pitch: Presenting Your Research in Conversation](https://graduateschool.nd.edu/assets/76988/elevator_pitch_8_28_2012.pdf) - Tips for crafting and delivering an research elevator pitch in different situations, by Gretchen Busl and Matthew Capdevielle. 
 
 
 ## Software Artifact & Technical Guides
