@@ -52,6 +52,7 @@ Except for books, the listed items are open access.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Course lecture notes about technical writing and the effective presentation of mathematics and computer science.
 * [Semantic Line Breaks](https://sembr.org) - A writing style where each substantial unit of thought is separated by a newline. 
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts, by Anne Lamott.
+* [Small Guide to Making Nice Tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf) - A how-to to crafting more legible tables, by Markus Püschel.
 * [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group, by Norman Ramsey.
 * [The Craft of Writing Effectively 🎦](https://www.youtube.com/watch?v=vtIzMaLkCaM) - Compelling advice to improve scholarly writing, by Larry McEnerney.
 * [Three Sins of Authors in Computer Science and Math](https://www.cs.cmu.edu/~jrs/sins.html) - Advice on avoiding some common flaws in introductions and conclusions, by Jonathan Shewchuk.
@@ -59,7 +60,6 @@ Except for books, the listed items are open access.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers; by Mary Shaw.
 * [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
-
 
 ## Giving Talks & Presentations
 
