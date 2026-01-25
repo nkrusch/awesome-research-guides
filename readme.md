@@ -11,14 +11,14 @@
 </div>
 
 Scientists produce deliverables like publications and software artifacts.
-Creating the deliverables requires many assumed research skills and principles.
+Creating the deliverables requires many assumed research skills and awareness of governing principles.
 The goal of this list is to make the assumed skills and principles explicit.
 
 For example, a research paper is a specialized form of writing.
 Junior researchers, who want to write research papers, must first internalize the 'specification' of a research paper.
 Ideally, junior researchers learn these skills during doctoral studies.
-However, in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
-Therefore, this collection provides a standardizing public resource, for junior researchers and advisors, that is independent of institutional circumstances.
+However, in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22) due to, e.g., research focus, environment, and mentorship quality.
+Therefore, this collection provides a standardizing public resource, for junior researchers and advisors, that is independent of immediate circumstances.
 Most entries are drawn from computer science.
 
 This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
