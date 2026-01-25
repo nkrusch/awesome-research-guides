@@ -11,32 +11,32 @@
 </div>
 
 Scientists produce deliverables like publications and software artifacts.
-Underlying the deliverables are many assumed research skills and principles.
+Creating the deliverables requires many assumed research skills and principles.
 The goal of this list is to make the assumed skills and principles explicit.
 
-For example, a research paper is a specialized format of writing.
-Junior researchers, who want to write research papers, must first internalize the specification of a research paper.
-Ideally, junior researchers learn these skills during doctoral studies, but in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
-Therefore, this collection provides a standardizing resource, for junior researchers and advisors, that is independent of institutional circumstances.
+For example, a research paper is a specialized form of writing.
+Junior researchers, who want to write research papers, must first internalize the 'specification' of a research paper.
+Ideally, junior researchers learn these skills during doctoral studies.
+However, in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22).
+Therefore, this collection provides a standardizing public resource, for junior researchers and advisors, that is independent of institutional circumstances.
 Most entries are drawn from computer science.
 
-This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There are also various complementary web collections[^c], mostly written by a single author.
+This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis on guidance over technology.
+There are also several complementary web collections[^c], mostly written by a single author.
 In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative editing.
-Except for books, the listed items are open access.
+The listed items are mostly open access (naturally excluding books).
 
 ## Contents
 
 * [Written Communication](#written-communication)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Software Artifact & Technical Guides](#software-artifact--technical-guides)
-* [Peer Review](#peer-review)
-* [Publishing Ethics](#publishing-ethics)
+* [Peer Review & Publishing Ethics](#peer-review--publishing-ethics)
 * [Grants & Funding](#grants--funding)
 * [Research Job Search](#research-job-search)
 * [Meta Discussions](#meta-discussions)
 * [Books about Scientific Skills](#books-about-scientific-skills)
-* [Cool Stuff 🕶️](#cool-stuff-)
+* [Unwinding](#unwinding)
 
 ---
 
@@ -62,6 +62,7 @@ Except for books, the listed items are open access.
 * [Writing Good Software Engineering Research Papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers; by Mary Shaw.
 * [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
+
 
 ## Giving Talks & Presentations
 
@@ -93,23 +94,20 @@ Except for books, the listed items are open access.
 * [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - 12 rules of best practices for reporting empirical evaluation results, by Torsten Hoefler and Roberto Belli.
 
 
-## Peer Review
+## Peer Review & Publishing Ethics
 
 * [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Advice about peer reviewing research publication drafts, for students and other inexperienced referees, by Ian Parberry.
-* [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
-* [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
-* [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes, by Niklas Elmqvist.
-* [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
-* [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
-
-
-## Publishing Ethics
-
-* [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - Recount of events that exposed serious research misconduct.
+* [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - A cautionary tale and a recount of events that exposed a serious case of research fraud.
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
 * [Collusion Rings Threaten the Integrity of Computer Science Research](https://cacm.acm.org/opinion/collusion-rings-threaten-the-integrity-of-computer-science-research/) - Experiences discovering attempts to subvert the peer-review process, by Michael L. Littman.
 * [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models, by open-access.network.
+* [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
 * [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
+* [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes, by Niklas Elmqvist.
+* [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
+* [Reviewer-Author Collusion Rings and How to Fight Them](https://andreas-zeller.info/2025/12/07/Reviewer-Author-Collusion-Rings-and-How-to-Fight-Them.html) - A list of measures to prevent and mitigate potential collusion rings, by Andreas Zeller.
+* [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
+* [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
 
 
 ## Grants & Funding
@@ -149,7 +147,7 @@ Except for books, the listed items are open access.
 * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
 
 
-## Cool Stuff 🕶️
+## Unwinding
 
 * [Co-authorship distance computation](https://csauthors.net/distance) - For discovering connections between two authors in computer science (especially entertaining at conferences). 
 * [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many research related experiences in graduate school.
