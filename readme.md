@@ -6,7 +6,7 @@
 </picture>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome" width="130"></a>
 <h2>Guidance about conducting scientific research.</h2>
-<i>"Life is a game that one plays according to the rules."</i>
+<i><a href="https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye">"Life is a game that one plays according to the rules."</a></i>
 <br/><br/>
 </div>
 
