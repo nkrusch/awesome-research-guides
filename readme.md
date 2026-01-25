@@ -167,9 +167,9 @@ Most list items are open access (excluding books).
 FOOTNOTES
 
 **Is something missing?**
-Although the list is already substantial, it is limited in some topics.
+Although the list is already substantial, some topics remain limited.
 Your contributions can make the list better!
-Please read the [contribution guidelines](.github/contributing.md) before contributing.
+Start by reading the [contribution guidelines](.github/contributing.md).
 
 <!-- footnotes -->
 
