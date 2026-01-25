@@ -105,8 +105,9 @@ Except for books, the listed items are open access.
 
 ## Publishing Ethics
 
-* [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - Recount of events that exposed a collusion ring and serious misconduct.
+* [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - Recount of events that exposed serious research misconduct.
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
+* [Collusion Rings Threaten the Integrity of Computer Science Research](https://cacm.acm.org/opinion/collusion-rings-threaten-the-integrity-of-computer-science-research/) - Experiences discovering attempts to subvert the peer-review process, by Michael L. Littman.
 * [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models, by open-access.network.
 * [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
 
