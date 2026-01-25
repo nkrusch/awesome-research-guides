@@ -30,7 +30,8 @@ Except for books, the listed items are open access.
 * [Written Communication](#written-communication)
 * [Giving Talks & Presentations](#giving-talks--presentations)
 * [Software Artifact & Technical Guides](#software-artifact--technical-guides)
-* [Peer Review & Publishing](#peer-review--publishing)
+* [Peer Review](#peer-review)
+* [Publishing Ethics](#publishing-ethics)
 * [Grants & Funding](#grants--funding)
 * [Research Job Search](#research-job-search)
 * [Meta Discussions](#meta-discussions)
@@ -43,6 +44,7 @@ Except for books, the listed items are open access.
 
 * [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - What is an extended abstract and what information should it contain; advice by William Pugh[^b].
 * [Conclusions](https://writingcenter.fas.harvard.edu/conclusions) - Advice on dos and don'ts of effective conclusions, by the Harvard College Writing Center.
+* [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship, by International Committee of Medical Journal Editors.
 * [How to Read a Paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers, by S. Keshav.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - About note-taking, scheduling, and choice of reading; by Jason Eisner.
 * [How to Write Mathematics](https://www.stat.rice.edu/~riedi/Halmos.html) - A short checklist, and a longer exposition, of how to write mathematics; by P. R. Halmos.
@@ -91,18 +93,22 @@ Except for books, the listed items are open access.
 * [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - 12 rules of best practices for reporting empirical evaluation results, by Torsten Hoefler and Roberto Belli.
 
 
-## Peer Review & Publishing
+## Peer Review
 
 * [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Advice about peer reviewing research publication drafts, for students and other inexperienced referees, by Ian Parberry.
-* [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
-* [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship, by International Committee of Medical Journal Editors.
-* [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models, by open-access.network.
 * [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
-* [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
-* [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes, by Niklas Elmqvist.
 * [No free view? No review!](https://nofreeviewnoreview.org/) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
+* [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes, by Niklas Elmqvist.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
 * [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
+
+
+## Publishing Ethics
+
+* [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - Recount of events that exposed a collusion ring and serious misconduct.
+* [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
+* [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models, by open-access.network.
+* [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
 
 
 ## Grants & Funding
