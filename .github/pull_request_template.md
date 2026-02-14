@@ -1,7 +1,37 @@
-### ✴️❗Switch to the Preview-tab and select a template:
+_✳️ Choose the appropriate template from the options below.    
+Make sure to choose the appropriate option to avoid auto-closure of the PR._
 
-I want to…
-* [add new awesome list item(s)](?expand=1&template=template_new.md)
-* [suggest an edit to awesome list/repository](?expand=1&template=template_edit.md)
+<!-- ---------------------------------------------------------------------------
+  (A) I WANT TO ADD NEW AWESOME LIST ITEM(S) 
+  => Uncomment and complete the following section     
+---------------------------------------------------------------------------- -->
 
-Make sure to use the appropriate template to avoid auto-close of the PR.
+<!--
+#### Checklist
+* [ ] The change introduces a new awesome list item
+* [ ] List item is about guidance in research and has expected long-term relevance.
+* [ ] List item has a hyperlinked title and a description, and the two are separated by a dash (`-`).
+* [ ] Description is concise, informative, starts with an uppercase character, and ends with a period.
+* [ ] Placement preserves alphabetic sort (ascending by title) within the containing sublist.
+
+#### Mini Review
+
+- *Summary.*  _1 sentence; can be a copy from the code change._
+- *Assessment.*  _For example: a short list of pros and cons._
+-->
+
+
+<!-- ---------------------------------------------------------------------------
+  (B) I WANT TO SUGGEST EDITS
+  => Uncomment and complete the following section
+---------------------------------------------------------------------------- -->
+
+<!--
+#### Checklist
+* [ ] The change is an edit to awesome list or rest of the repository.
+* [ ] Edit maintains the list-specific and awesome list [requirements](../contributing.md).
+
+#### Comments
+
+_(optional)_
+-->
