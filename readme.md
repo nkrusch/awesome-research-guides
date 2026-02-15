@@ -12,7 +12,7 @@
 
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
-The goal of this list is to make the assumed skills and principles explicit.
+The goal of this list is to make these assumed skills and principles explicit.
 
 For example, a research paper is a specialized form of writing.
 Junior researchers, who want to write research papers, must first internalize the 'specification' of a research paper.
