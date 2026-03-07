@@ -102,6 +102,7 @@ Most list items are open access (excluding books).
 * [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - A cautionary tale and a recount of events that exposed a serious case of research fraud.
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
 * [Collusion Rings Threaten the Integrity of Computer Science Research](https://cacm.acm.org/opinion/collusion-rings-threaten-the-integrity-of-computer-science-research/) - Experiences discovering attempts to subvert the peer-review process, by Michael L. Littman.
+* [Cornell Food Researcher's Downfall Raises Larger Questions For Science](https://www.npr.org/sections/thesalt/2018/09/26/651849441/cornell-food-researchers-downfall-raises-larger-questions-for-science) - This should be the cautionary tale discussed in Research Methods 101 across many disciplines.
 * [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models, by open-access.network.
 * [How NOT to review a paper](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer; by Graham Cormode.
 * [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to draw emphasis to low environmental impact of research work.
@@ -110,7 +111,6 @@ Most list items are open access (excluding books).
 * [Reviewer-Author Collusion Rings and How to Fight Them](https://andreas-zeller.info/2025/12/07/Reviewer-Author-Collusion-Rings-and-How-to-Fight-Them.html) - A list of measures to prevent and mitigate potential collusion rings, by Andreas Zeller.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals, by David Stutz.
 * [The Task of the Referee](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=55470&tag=1) - A structured framework for evaluating drafts and writing referee reports (reviews), by A.J. Smith.
-
 
 ## Grants & Funding
 
