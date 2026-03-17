@@ -10,15 +10,18 @@ Checklist
 * [ ] List item is about guidance in research and has expected long-term relevance.
 * [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
 * [ ] Description is concise and informative.
-* [ ] Description starts with an uppercase character, and ends with a period.
+* [ ] Description starts with an uppercase character and ends with a period.
 * [ ] Placement preserves alphabetic sort (ascending by title).
 
-Mini Review
-- Summary.  
-  (1 sentence; can be a copy from the code change)
+#### Mini Review
 
-- Assessment.  
-  (For example: a short list of pros and cons)
+Summary.   
+
+(1 sentence, and can be copied from the code change)
+
+Assessment.  
+
+(For example: a short list of pros and cons)
 (*) -->
 
 <!------------------------------------------------------
