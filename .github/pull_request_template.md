@@ -6,7 +6,7 @@
 
 <!-- (*)
 Checklist
-* [ ] The change introduces a new awesome list item
+* [ ] The change introduces a new awesome list item.
 * [ ] List item is about guidance in research and has expected long-term relevance.
 * [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
 * [ ] Description is concise and informative.
