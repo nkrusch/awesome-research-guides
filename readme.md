@@ -98,6 +98,7 @@ Most list items are open access (excluding books).
 
 ## Peer Review & Publishing Ethics
 
+* [A Guide for New Program Committee Members at Theoretical Computer Science Conferences](https://arxiv.org/abs/2105.02773) - A guide that helps new program-committee members to understand how the system works, and provides useful tips and guidelines.
 * [A Guide for New Referees in Theoretical Computer Science](https://ianparberry.com/pubs/referee.pdf) - Advice about peer reviewing research publication drafts, for students and other inexperienced referees, by Ian Parberry.
 * [After grad student suicide, misconduct findings, university suspends professor](https://retractionwatch.com/2021/03/16/after-grad-student-suicide-misconduct-findings-university-suspends-professor/) - A cautionary tale and a recount of events that exposed a serious case of research fraud.
 * [Beall's List](https://beallslist.net) - A list of potential predatory journals and publishers to avoid.
