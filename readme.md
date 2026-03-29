@@ -21,8 +21,8 @@ However, in reality, doctoral study [experiences vary wildly](https://www.reddit
 Therefore, this collection provides a standardizing public resource, for junior researchers and advisors, that is independent of immediate circumstances.
 Most entries are drawn from computer science.
 
-This list is related to other official awesome lists ([scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
-There are also several complementary web collections[^c], mostly written by a single author.
+This list is related to other official awesome lists (like [scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
+There are also several complementary web collections[^c] mostly written by a single author.
 In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative refinement over time.
 Most list items are open access (excluding books).
 
