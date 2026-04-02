@@ -4,11 +4,9 @@
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.svg">
   <img alt="awesome research guides" src="media/logo.svg" width="50%">
 </picture>
-<br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome" width="130"></a>
-<h2>Guidance about conducting scientific research.</h2>
-<i><a href="https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye">"Life is a game that one plays according to the rules."</a></i>
-<br/><br/>
-</div>
+<br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
+<h3>Guidance about conducting scientific research.</h3>
+</div><br/>
 
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
@@ -170,7 +168,6 @@ Most list items are open access (excluding books).
 FOOTNOTES
 
 **Is something missing?**
-Although the list is already substantial, some topics remain limited.
 Your contributions can make the list better!
 Start by reading the [contribution guidelines](.github/contributing.md).
 
