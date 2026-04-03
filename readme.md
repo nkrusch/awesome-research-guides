@@ -1,9 +1,9 @@
 <div align="center">
 <br/>
-<picture>
+<a href="http://nkrusch.github.io/awesome-research-guides"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.png">
   <img alt="awesome research guides" src="media/logo.png" width="50%">
-</picture>
+</picture></a>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
 <h3>Guidance about conducting scientific research.</h3>
 </div>
