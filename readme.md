@@ -5,8 +5,8 @@
   <img alt="awesome research guides" src="media/logo.png" width="50%">
 </picture></a>
 <br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
-<h3>Guidance about conducting scientific research.</h3>
-</div>
+<br/><strong>Guidance about conducting scientific research.</strong>
+</div><br/>
 
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
@@ -23,6 +23,9 @@ This list is related to other official awesome lists (like [scientific writing](
 There are also several complementary web collections[^c] mostly written by a single author.
 In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative refinement over time.
 Most list items are open access (excluding books).
+
+[^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), etc.
+
 
 ## Contents
 
@@ -61,6 +64,8 @@ Most list items are open access (excluding books).
 * [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers by Leslie Lamport at Stanford in 1987.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
+[^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
+[^b]: Although the refereeing process has changed, the impact of refereeing remains relevant.
 
 ## Giving Talks & Presentations
 
@@ -163,22 +168,11 @@ Most list items are open access (excluding books).
 </picture>
 <br/><strong>Figure 1.</strong> <i>"Three Kinds of Research"</i> from <a href="https://xkcd.com/2977/">xkcd #2977</a>.
 </div>
-
 <br/><br/>
+
+<!-- footnotes -->
 FOOTNOTES
 
 **Is something missing?**
 Your contributions can make the list better!
 Start by reading the [contribution guidelines](.github/contributing.md).
-
-<!-- footnotes -->
-
-[^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
-
-[^b]: Although the refereeing process has changed, the impact of refereeing remains relevant.  
-
-[^c]: Advice by 
-      [Jason Eisner](https://www.cs.jhu.edu/~jason/advice), 
-      [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), 
-      [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), 
-      etc.
