@@ -7,13 +7,9 @@ Complete applicable checklists
   * [ ] Description is concise and informative.
   * [ ] Description starts with an uppercase character and ends with a period.
   * [ ] Placement preserves alphabetic sort (ascending by title).
-  * [ ] Mini review:
-
-        // For example: a short list of pros and cons
+  * [ ] Mini review, for example, a short list of pros and cons:
 
 * [ ] Suggesting an awesome list edit
-  * [ ] Edit maintains awesome list [requirements](contributing.md).
+  * [ ] Edit maintains awesome list requirements.
 
-* [ ] Other - describe: 
-
-       // motivation and impact
+* [ ] Other - describe: static site for linking
