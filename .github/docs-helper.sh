@@ -1,11 +1,13 @@
 #!/bin/sh
 
+cd "$(git rev-parse --show-toplevel)" || return
+
 SOURCE="readme.md"
-MEDIA="media"
+MEDIA="assets"
 OUT_DIR="docs"
 
-mkdir -p "$OUT_DIR" "$OUT_DIR"/media
-cp "$MEDIA"/*.png "$OUT_DIR"/media
+mkdir -p "$OUT_DIR" "$OUT_DIR"/$MEDIA
+cp "$MEDIA"/*.png "$OUT_DIR"/$MEDIA
 cp "$MEDIA"/*.css "$OUT_DIR"
 
 awk -v out_dir="$OUT_DIR" '

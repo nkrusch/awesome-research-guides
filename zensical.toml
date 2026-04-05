@@ -1,20 +1,24 @@
 [project]
 site_name = "Awesome Research Guides"
 description = "Research guides offer guidance about conducting scientific research."
+repo_url = "https://github.com/nkrusch/awesome-research-guides"
 version = "1.0.0"
 docs_dir = "docs"
-extra_css = ["style.css"]
-[project.theme]
-features = [
-  "navigation.top"
-]
-#logo = "media/icon.svg"
+extra_css = [ "style.css" ]
+
 [[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"

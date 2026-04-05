@@ -1,37 +1,19 @@
-✳️ Complete template A or B. After choosing a template, remove lines marked with (*).
+Complete applicable checklists
 
-<!------------------------------------------------------
-  (A) ADD NEW LIST ITEM
--------------------------------------------------------->
+* [ ] Adding a new awesome list item
+  * [ ] The change introduces a new awesome list item.
+  * [ ] List item is about guidance in research and has expected long-term relevance.
+  * [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
+  * [ ] Description is concise and informative.
+  * [ ] Description starts with an uppercase character and ends with a period.
+  * [ ] Placement preserves alphabetic sort (ascending by title).
+  * [ ] Mini review:
 
-<!-- (*)
-Checklist
-* [ ] The change introduces a new awesome list item.
-* [ ] List item is about guidance in research and has expected long-term relevance.
-* [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
-* [ ] Description is concise and informative.
-* [ ] Description starts with an uppercase character and ends with a period.
-* [ ] Placement preserves alphabetic sort (ascending by title).
+        // For example: a short list of pros and cons
 
-#### Mini Review
+* [ ] Suggesting an awesome list edit
+  * [ ] Edit maintains awesome list [requirements](contributing.md).
 
-Summary.   
+* [ ] Other - describe: 
 
-(1 sentence, and can be copied from the code change)
-
-Assessment.  
-
-(For example: a short list of pros and cons)
-(*) -->
-
-<!------------------------------------------------------
-  (B) SUGGEST EDIT
--------------------------------------------------------->
-
-<!-- (*)
-Checklist
-* [ ] The change is an edit to awesome list or rest of the repository.
-* [ ] Edit maintains the list-specific and awesome list [requirements](../contributing.md).
-
-Comments:
-(*) -->
+       // motivation and impact

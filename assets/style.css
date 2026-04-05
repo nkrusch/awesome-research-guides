@@ -1,12 +1,12 @@
 body[data-md-color-scheme="default"] .theme-aware-logo source {
-    srcset: url("media/logo.png");
+    srcset: url("assets/logo.png");
 }
 body[data-md-color-scheme="default"] .theme-aware-logo img {
-    content: url("media/logo.png");
+    content: url("assets/logo.png");
 }
 body[data-md-color-scheme="slate"] .theme-aware-logo source {
-    srcset: url("media/logo-dark.png");
+    srcset: url("assets/logo-dark.png");
 }
 body[data-md-color-scheme="slate"] .theme-aware-logo img {
-    content: url("media/logo-dark.png");
+    content: url("assets/logo-dark.png");
 }
