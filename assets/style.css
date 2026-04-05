@@ -1,0 +1,12 @@
+body[data-md-color-scheme="default"] .theme-aware-logo source {
+    srcset: url("assets/logo.png");
+}
+body[data-md-color-scheme="default"] .theme-aware-logo img {
+    content: url("assets/logo.png");
+}
+body[data-md-color-scheme="slate"] .theme-aware-logo source {
+    srcset: url("assets/logo-dark.png");
+}
+body[data-md-color-scheme="slate"] .theme-aware-logo img {
+    content: url("assets/logo-dark.png");
+}

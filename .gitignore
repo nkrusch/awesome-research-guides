@@ -1,4 +1,4 @@
 .idea
 .venv
-_site
 site
+docs
