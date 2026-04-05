@@ -20,8 +20,6 @@ jobs:
     steps:
       - uses: actions/configure-pages@v6
       - uses: actions/checkout@v6
-        with:
-          ref: 'site'
       - uses: actions/setup-python@v6.2.0
         with:
           python-version: 3.13
@@ -29,7 +27,5 @@ jobs:
       - run: bash .github/docs-helper.sh
       - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
       - uses: actions/deploy-pages@v5
         id: deployment
