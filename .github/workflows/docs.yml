@@ -12,28 +12,7 @@ permissions:
   id-token: write
 
 jobs:
-  git-sync:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          ref: 'site'
-      - if: github.event_name == 'push'
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions-bot@users.noreply.github.com"
-          git fetch origin main
-          git checkout site || git checkout -b site origin/site          
-          git merge origin/main --no-edit || {
-            echo "Merge conflict detected. Manual intervention required."
-            exit 1
-          }
-          git push origin site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
   deploy:
-    needs: git-sync
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -41,6 +20,8 @@ jobs:
     steps:
       - uses: actions/configure-pages@v5
       - uses: actions/checkout@v6
+        with:
+          ref: 'site'
       - uses: actions/setup-python@v5
         with:
           python-version: 3.13
