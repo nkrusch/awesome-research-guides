@@ -27,5 +27,7 @@ jobs:
       - run: bash .github/docs-helper.sh
       - run: zensical build --clean
       - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
       - uses: actions/deploy-pages@v5
         id: deployment
