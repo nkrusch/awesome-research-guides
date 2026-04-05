@@ -4,6 +4,7 @@ on:
     branches : [ main ]
     paths:
       - readme.md
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,7 +18,8 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: 'site'
-      - run: |
+      - if: github.event_name == 'push'
+        run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions-bot@users.noreply.github.com"
           git fetch origin main
