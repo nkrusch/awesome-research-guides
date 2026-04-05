@@ -1,4 +1,4 @@
-Complete applicable checklists
+<!-- Complete applicable checklists -->
 
 * [ ] Adding a new awesome list item
   * [ ] The change introduces a new awesome list item.
@@ -12,4 +12,4 @@ Complete applicable checklists
 * [ ] Suggesting an awesome list edit
   * [ ] Edit maintains awesome list requirements.
 
-* [ ] Other - describe: static site for linking
+* [ ] Other - describe: 
