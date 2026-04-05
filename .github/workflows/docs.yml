@@ -19,13 +19,14 @@ jobs:
           ref: 'site'
       - run: |
           git config --global user.name "GitHub Actions"
-          git config --global user.email "actions-bot@users.noreply.github.com""
+          git config --global user.email "actions-bot@users.noreply.github.com"
           git fetch origin main
+          git checkout site || git checkout -b site origin/site          
           git merge origin/main --no-edit || {
             echo "Merge conflict detected. Manual intervention required."
             exit 1
           }
-          git push origin HEAD
+          git push origin site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

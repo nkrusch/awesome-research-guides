@@ -172,5 +172,4 @@ Most list items are open access (excluding books).
 
 <!-- footnotes -->
 
-**Is something missing?** Your contributions can make the list better!   
-Start by reading the [contribution guidelines](.github/contributing.md).
+**Is something missing?** Your contributions can make the list better. Start by reading the [contribution guidelines](.github/contributing.md).
