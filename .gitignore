@@ -1,2 +1,4 @@
 .idea
-**/_site
+.venv
+_site
+site

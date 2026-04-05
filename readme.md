@@ -1,6 +1,6 @@
 <div align="center">
 <br/>
-<a href="http://nkrusch.github.io/awesome-research-guides"><picture>
+<a href="http://nkrusch.github.io/awesome-research-guides"><picture class="theme-aware-logo">
   <source media="(prefers-color-scheme: dark)" srcset="media/logo-dark.png">
   <img alt="awesome research guides" src="media/logo.png" width="50%">
 </picture></a>
@@ -171,8 +171,6 @@ Most list items are open access (excluding books).
 <br/><br/>
 
 <!-- footnotes -->
-FOOTNOTES
 
-**Is something missing?**
-Your contributions can make the list better!
+**Is something missing?** Your contributions can make the list better!   
 Start by reading the [contribution guidelines](.github/contributing.md).
