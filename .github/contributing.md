@@ -1,35 +1,48 @@
 # Contributing Guidelines
 
-Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md).
+Please note that this project is released with a contributor [Code of Conduct].
 By participating in this project you agree to abide by its terms.
 
-List items must meet the list-specific inclusion criteria and the general guidelines for awesome list items.
-For enhancement ideas, have a look at repository issues, particularly the ones marked with `wanted` label.
+List items must meet the list-specific inclusion criteria and the general awesome list guidelines.
+
+For enhancement ideas, have a look at repository issues and particularly issues marked with `wanted`-label.
 
 ## Scope and inclusion criteria
 
 The list-specific requirements define the scope and inclusion criteria.
 
 * The topic must be related to **research**.
-* The goal is to **communicate guidance**. 
-* The list item should have **long-term relevance** (several years).
+* The goal of the item must be to **communicate guidance** about conducting research. 
+* The list item should have **long-term relevance** measured in years.
 
-List items can be in various formats: writings, slides, videos, etc.
+List items can be in various formats: written text, slides, videos, etc.
 
-Although academia and research are closely related, the list is <u>NOT</u> a graduate school survival guide.
+> [!NOTE]
+> Although academia and research are closely intertwined, this list is NOT a graduate school survival guide.
   
 ## Awesome list requirements
 
-All awesome lists must also meet certain ground rules.
+All awesome lists must meet certain [ground rules] and formatting standards.
+Importantly, awesome lists are curations of the best resources by topic, not everything.
 
-* Only awesome items. Awesome lists are curations of the best, not everything.
-* The item uses consistent and correct naming; for example, Node.js (not NodeJS or node.js).
-* The item has a title (with a hyperlink) and a description.
-* The description is concise and informative.
-* The description is in the same language as the title.
-* The item link and description are separated by a dash.
-* The description starts with an uppercase character and ends with a period.
+The most relevant rules for suggesting new items:
 
-Run the awesome list linter to check compliance with these guidelines. 
+- The item must have a hyperlinked title and a description.
+- The item title and description must be separated by a dash.
+- The description is concise (1 sentence) and informative.
+- The description starts with an uppercase character and ends with a period.
+- The item uses proper grammar and consistent and correct naming[^1].
+
+Run a linter to check compliance with the guidelines: 
 
     npx awesome-lint
+
+> [!IMPORTANT]
+> Open a [pull request] once your contribution is ready for inclusion. 
+ 
+
+
+[Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
+[ground rules]: https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md#requirements-for-your-awesome-list
+[pull request]: https://github.com/nkrusch/awesome-research-guides/pulls
+[^1]: For example, Node.js is correct; not NodeJS or node.js.

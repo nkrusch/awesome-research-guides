@@ -6,6 +6,9 @@ version = "1.0.0"
 docs_dir = "docs"
 extra_css = [ "style.css" ]
 
+[project.theme.icon]
+logo = "lucide/waypoints"
+
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
 toggle.icon = "lucide/sun-moon"
@@ -22,3 +25,4 @@ media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
+
