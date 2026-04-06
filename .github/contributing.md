@@ -1,4 +1,4 @@
-# Contributing Guidelines
+## Contributing Guidelines
 
 Please note that this project is released with a contributor [Code of Conduct].
 By participating in this project you agree to abide by its terms.
@@ -7,7 +7,7 @@ List items must meet the list-specific inclusion criteria and the general awesom
 
 For enhancement ideas, have a look at repository issues and particularly issues marked with `wanted`-label.
 
-## Scope and inclusion criteria
+### Scope and inclusion criteria
 
 The list-specific requirements define the scope and inclusion criteria.
 
@@ -18,9 +18,10 @@ The list-specific requirements define the scope and inclusion criteria.
 List items can be in various formats: written text, slides, videos, etc.
 
 > [!NOTE]
-> Although academia and research are closely intertwined, this list is NOT a graduate school survival guide.
+> Although academia and research are intertwined, this list is not a graduate school survival guide.
+> The list items must be connected to research.
   
-## Awesome list requirements
+### Awesome list requirements
 
 All awesome lists must meet certain [ground rules] and formatting standards.
 Importantly, awesome lists are curations of the best resources by topic, not everything.
@@ -37,10 +38,10 @@ Run a linter to check compliance with the guidelines:
 
     npx awesome-lint
 
-> [!IMPORTANT]
-> Open a [pull request] once your contribution is ready for inclusion. 
- 
 
+### Propose Contributions
+
+Open a [pull request] once your suggestion or edit is ready for inclusion. 
 
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
 [ground rules]: https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md#requirements-for-your-awesome-list
