@@ -4,8 +4,11 @@ on:
     branches:
       - main
     paths:
-      - readme.md
+      - "*.md"
+      - "**/*.md"
+      - .github/docs-helper.sh
       - .github/workflows/docs.yml
+      - zensical.toml
   workflow_dispatch:
 
 jobs:
