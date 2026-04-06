@@ -3,9 +3,9 @@
 Please note that this project is released with a contributor [Code of Conduct].
 By participating in this project you agree to abide by its terms.
 
-List items must meet the list-specific inclusion criteria and the general awesome list guidelines.
+For contribution ideas, have a look at [repository issues], and particularly the ones marked with `wanted`-label.
+Contributions must meet the list-specific inclusion criteria and the general awesome list guidelines.
 
-For enhancement ideas, have a look at repository issues and particularly issues marked with `wanted`-label.
 
 ### Scope and inclusion criteria
 
@@ -19,7 +19,7 @@ List items can be in various formats: written text, slides, videos, etc.
 
 > [!NOTE]
 > Although academia and research are intertwined, this list is not a graduate school survival guide.
-> The list items must be connected to research.
+> All list items must be research-centric.
   
 ### Awesome list requirements
 
@@ -41,9 +41,12 @@ Run a linter to check compliance with the guidelines:
 
 ### Propose Contributions
 
-Open a [pull request] once your suggestion or edit is ready for inclusion. 
+Open a [pull request] once your suggestion or edit is ready for inclusion.
+Your contribution should extend the existing list sections. 
 
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
-[ground rules]: https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md#requirements-for-your-awesome-list
 [pull request]: https://github.com/nkrusch/awesome-research-guides/pulls
+[repository issues]: https://github.com/nkrusch/awesome-research-guides/issues
+[ground rules]: https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md#requirements-for-your-awesome-list
+
 [^1]: For example, Node.js is correct; not NodeJS or node.js.
