@@ -93,7 +93,7 @@ Most list items are open access (excluding books).
 * [Empirical Standards for Software Engineering research](https://www2.sigsoft.org/EmpiricalStandards/) - The official evidence standards for conducting and reporting studies in software engineering; developed by the ACM Special Interest Group on Software Engineering (SIGSOFT).
 * [Guide for Accelerating Computational Reproducibility in the Social Sciences](https://bitss.github.io/ACRE/) - A structured guidebook toward assessing and improving computational reproducibility.
 * [Guidelines for Proof Artifacts](https://proofartifacts.github.io/guidelines/) - Proof artifacts are a special category of scientific software and thus have their own presentation standards; the guidelines are maintained by Marianna Rapoport.
-* [Handbook for Reproduction and Replication Studies](https://forrt.org/replication_handbook/) - A practical how-to guide for how to carry out a reproduction or a replication study.  
+* [Handbook for Reproduction and Replication Studies](https://forrt.org/replication-handbook/) - A practical how-to guide for how to carry out a reproduction or a replication study.  
 * [Reliable benchmarking: requirements and solutions](https://doi.org/10.1007/s10009-017-0469-y) - Motivations for reliable benchmarking and presentation of BenchExec.
 * [STABILIZER: Statistically Sound Performance Evaluation](https://people.cs.umass.edu/~emery/pubs/stabilizer-asplos13.pdf) - Addressing the bias that commonly arises in measurements of effect size, i.e., the magnitude of change in performance; by Charlie Curtsinger and Emery Berger.
 * [Scientific Benchmarking of Parallel Computing Systems](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf) - 12 rules of best practices for reporting empirical evaluation results, by Torsten Hoefler and Roberto Belli.
@@ -120,7 +120,6 @@ Most list items are open access (excluding books).
 
 * [Checklist for effectively writing grants in Stat-ML](https://stat.cmu.edu/~aramdas/checklists2/aadi-grant-checklist.pdf) - A generally applicable list of suggestions for assistant professors; by Aaditya Ramdas.
 * [How to write a great research proposal](https://www.microsoft.com/en-us/research/academic-program/how-to-write-a-great-research-proposal/) - Covers e.g., proposal judging criteria and how to effectively present scientific project ideas, by Simon Peyton Jones.
-* [Want to Get a Grant? Change Your Style](https://granttrainingcenter.com/blog/want-get-grant-change-style/) - A comparison of academic writing and grant writing, by Mathilda Harris.
 
 
 ## Research Job Search
