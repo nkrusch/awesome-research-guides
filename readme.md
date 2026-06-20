@@ -10,22 +10,25 @@
 
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
-The goal of this list is to make these assumed skills and principles explicit.
+The goal of this list is to make those assumed skills and principles explicit.
 
 For example, a research paper is a specialized form of writing.
 Junior researchers, who want to write research papers, must first internalize the 'specification' of a research paper.
 Ideally, junior researchers learn these skills during doctoral studies.
-However, in reality, doctoral study [experiences vary wildly](https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22) in, e.g., environment and mentorship quality.
+However, in reality, doctoral study [experiences vary wildly] in environment, mentorship quality, etc.
 Therefore, this collection provides a standardizing public resource, for junior researchers and advisors, that is independent of immediate circumstances.
 Most entries are drawn from computer science.
 
-This list is related to other official awesome lists (like [scientific writing](https://github.com/writing-resources/awesome-scientific-writing) and [research tools](https://github.com/emptymalei/awesome-research#readme)), but is unique in its emphasis of guidance over technology.
+This list is related to other official awesome lists (like [scientific writing] and [research tools]), but is unique in its emphasis of guidance over technology.
 There are also several complementary web collections[^c] mostly written by a single author.
 In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative refinement over time.
-Most list items are open access (excluding books).
+Apart from books, the list items are open access.
 
 [^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), etc.
 
+[experiences vary wildly]: https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22
+[scientific writing]: https://github.com/writing-resources/awesome-scientific-writing
+[research tools]: https://github.com/emptymalei/awesome-research#readme
 
 ## Contents
 
@@ -65,6 +68,7 @@ Most list items are open access (excluding books).
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking, by Benjamin C. Pierce and Rajeev Alur.
 
 [^a]: The presentation is based on [earlier version](https://simon.peytonjones.org/great-research-paper/) by Simon Peyton Jones.
+
 [^b]: Although the refereeing process has changed, the impact of refereeing remains relevant.
 
 ## Giving Talks & Presentations
