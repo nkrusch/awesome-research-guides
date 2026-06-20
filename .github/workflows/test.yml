@@ -14,12 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-
+        with:
+          fetch-depth: 2
       - name: Check lint
         run: npx awesome-lint
 
       - name: Extract change
-        run: git diff --unified=0 --no-prefix --output-indicator-new=% HEAD~1 HEAD -- readme.md | sed -n 's/^%//p' > ./checkme.md
+        run: |
+          set -o pipefail
+          git diff --unified=0 --no-prefix --output-indicator-new=% HEAD~1 HEAD -- readme.md | sed -n 's/^%//p' > ./checkme.md
 
       - name: Check URL status
         uses: lycheeverse/lychee-action@v2
@@ -43,7 +46,7 @@ jobs:
 
       - name: Report in comment
         if: ${{ github.event_name == 'pull_request' }}
-        uses: actions/github-script@v6
+        uses: actions/github-script@v9
         env:
           RESULT: ${{ steps.infos.outputs.result  }}
         with:
