@@ -1,10 +1,10 @@
 <div align="center">
 <br/>
-<a href="https://nkrusch.github.io/awesome-research-guides"><picture class="theme-aware-logo">
+<a href="https://nkrusch.github.io/awesome-research-guides/"><picture class="theme-aware-logo">
   <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
   <img alt="awesome research guides" src="assets/logo.png" width="50%">
 </picture></a>
-<br/><a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
+<br/><a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
 <br/><strong>Guidance about conducting scientific research.</strong>
 </div><br/>
 
@@ -24,10 +24,10 @@ There are also several complementary web collections[^c] mostly written by a sin
 In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative refinement over time.
 Apart from books, the list items are open access.
 
-[^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), etc.
+[^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice/), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), etc.
 
 [experiences vary wildly]: https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22
-[scientific writing]: https://github.com/writing-resources/awesome-scientific-writing
+[scientific writing]: https://github.com/writing-resources/awesome-scientific-writing#readme
 [research tools]: https://github.com/emptymalei/awesome-research#readme
 
 ## Contents
@@ -80,7 +80,7 @@ Apart from books, the list items are open access.
 * [How to give a good research talk 🎦](https://simon.peytonjones.org/great-research-talk/) - Simple actionable advice for giving better talks, by Simon Peyton Jones.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Advice on preparing and practicing the presentation, talk delivery, and handling the Q&A session; by Michael Ernst.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - Things to consider while preparing and presenting a technical poster, including example posters; by Michael Ernst.
-* [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - Validate your slide design by following the basic ground rules, by Kristen M Naegle.
+* [Ten simple rules for effective presentation slides](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009554) - Validate your slide design by following the basic ground rules, by Kristen M Naegle.
 * [The Elevator Pitch: Presenting Your Research in Conversation](https://graduateschool.nd.edu/assets/76988/elevator_pitch_8_28_2012.pdf) - Tips for crafting and delivering an research elevator pitch in different situations, by Gretchen Busl and Matthew Capdevielle. 
 
 
@@ -91,7 +91,7 @@ Apart from books, the list items are open access.
 * [BenchExec](https://github.com/sosy-lab/benchexec) - A framework for reliable benchmarking of non-interactive tools, with built-in resource control and a table generator for visualizing results.
 * [Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - A synopsis of the many ways an experiment design or analysis can go wrong, by Gernot Heiser.
 * [Can you trust your experimental results?](https://evaluate.inf.usi.ch/sites/default/files/EvaluateCollaboratoryTR1.pdf) - A general framework for validating experimental designs; a technical report developed based on the Evaluate 2011 workshop.
-* [EAPLS Artifact Badges](https://eapls.org/pages/artifact_badges/) - The European scheme for software artifact evaluation.
+* [EAPLS Artifact Badges](https://eapls.org/eapls/artifact-badges/) - The European scheme for software artifact evaluation.
 * [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - A checklist to evaluate soundness of scientific experiment setup, developed by the ACM Special Interest Group on Programming Languages (SIGPLAN).
 * [Empirical Standards for Software Engineering research](https://www2.sigsoft.org/EmpiricalStandards/) - The official evidence standards for conducting and reporting studies in software engineering; developed by the ACM Special Interest Group on Software Engineering (SIGSOFT).
 * [Guide for Accelerating Computational Reproducibility in the Social Sciences](https://bitss.github.io/ACRE/) - A structured guidebook toward assessing and improving computational reproducibility.
@@ -141,7 +141,7 @@ Apart from books, the list items are open access.
 * [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Emery Berger shares advice about how to help others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - About optimizing the outcomes in a student-advisor relationship, by Marie desJardins.
-* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
+* [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
 * [The machines are fine. I'm worried about us.](https://ergosphere.blog/posts/the-machines-are-fine/) - Thoughtful reflections about how large language models are influencing science, by Minas Karamanis. 
 
 
@@ -150,7 +150,7 @@ Apart from books, the list items are open access.
 * [Houston, We Have a Narrative: Why Science Needs Story](https://press.uchicago.edu/ucp/books/book/chicago/H/bo21174162.html) - Randy Olson, a scientist-turned-filmmaker, highlights why scientific communication needs narrative structure.
 * [Style: Lessons in Clarity and Grace](https://books.google.se/books/about/Style.html?id=HSotAAAAQBAJ&redir_esc=y) - Exercises for developing writing skills, by Bizup and Williams.
 * [Stylish Academic Writing](https://www.hup.harvard.edu/books/9780674064485) - Advice on crafting clear, active sentences with concrete nouns and precise diction, by Helen Sword.
-* [The Chicago Manual of Style Online](https://doi.org/10.7208/cmos18) - An excellent guide to punctuation and many other writing issues.
+* [The Chicago Manual of Style Online](https://www.chicagomanualofstyle.org/book/ed18/frontmatter/toc.html) - An excellent guide to punctuation and many other writing issues.
 * [The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008.html) - A comprehensive classic guide, with insights about, e.g., effective problem framing and use of flow in crafting persuasive arguments, by Booth et al.
 * [The Elements of Eloquence: How to Turn the Perfect English Phrase](https://en.wikipedia.org/wiki/The_Elements_of_Eloquence) - An excellent reference for elegant phrasing, by Mark Forsyth.
 * [The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century) - A modern guide that challenges to rethink writing in many settings, including science, by Steven Pinker.
@@ -158,7 +158,7 @@ Apart from books, the list items are open access.
 
 ## Unwinding
 
-* [Co-authorship distance computation](https://csauthors.net/distance) - For discovering connections between two authors in computer science (especially entertaining at conferences). 
+* [Co-authorship distance computation](https://www.csauthors.net/distance) - For discovering connections between two authors in computer science (especially entertaining at conferences). 
 * [PhD comics](https://phdcomics.com/comics/archive_list.php) - Comics of many research related experiences in graduate school.
 * [The PhD Simulator](https://research.wmz.ninja/projects/phd/index.html) - A simulation game of the life and hurdles of an aspiring researcher, by Mianzhi Wang.
 * [xkcd](https://xkcd.com) - A web comic, with many thoughtful insights, often about science.

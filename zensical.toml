@@ -1,10 +1,18 @@
 [project]
 site_name = "Awesome Research Guides"
-description = "Research guides offer guidance about conducting scientific research."
+description = "Guidance about conducting scientific research."
+site_url = "https://nkrusch.github.io/awesome-research-guides/"
 repo_url = "https://github.com/nkrusch/awesome-research-guides"
+site_author = "Neea Rusch"
 version = "1.0.0"
 docs_dir = "docs"
 extra_css = ["style.css"]
+
+[project.theme]
+features = [
+    "navigation.instant"
+]
+favicon = "./assets/icon.png"
 
 [project.theme.icon]
 logo = "lucide/waypoints"

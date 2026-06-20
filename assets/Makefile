@@ -1,8 +1,9 @@
-WIDTH = 1440
+IMAGES := $(subst .svg,.png,$(wildcard logo*.svg))
 
-IMAGES := $(subst .svg,.png,$(wildcard *.svg))
+logo%.png: %.svg
+	magick -background none $< -resize 1440 -density 300 $@
 
-%.png: %.svg
-	magick -background none $< -resize $(WIDTH) -density 300 $@
+icon.png: icon.svg
+	inkscape -w 192 -h 192 -o $@ $<
 
-all: $(IMAGES)
+all: $(IMAGES) icon.png
