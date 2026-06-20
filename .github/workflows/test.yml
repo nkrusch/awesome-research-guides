@@ -43,23 +43,21 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
         id: infos
         run: |
-          CONTENT=""
           if [ -s "./lychee.md" ]; then
-            CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g')
-            CONTENT=$(echo "$CONTENT" | base64 -w 0)
+            CONTENT=$(sed -e 's/# Summary/### URL summary/g' -e 's/"/\\"/g' "./lychee.md")
+            CONTENT=$(printf "%s" "$CONTENT" | base64 -w 0)
+            echo "result=$CONTENT" >> $GITHUB_OUTPUT
+          else
+            echo "result=" >> $GITHUB_OUTPUT            
           fi          
-          echo "result=$CONTENT" >> $GITHUB_OUTPUT
 
       - name: Report in comment
-        if: ${{ github.event_name == 'pull_request' }}
         uses: actions/github-script@v9
-        env:
-          RESULT: ${{ steps.infos.outputs.result  }}
+        if: ${{ github.event_name == 'pull_request' }}
         with:
           script: |
-            const body = (Buffer.from('${{ steps.extract_step.outputs.result }}', 'base64').toString('utf8')
-              || "No report was generated, this is an unexpected error.")
-              .trim().replace('# Summary', '### URL summary');            
+            const res = `${{ steps.infos.outputs.result }}`;
+            const body = Buffer.from(res, 'base64').toString('utf8') || "No report was generated (decoding error).";            
             const identifier = "<!-- quality-comment -->";
             const commonPayload = {
                 owner: context.repo.owner,
@@ -74,6 +72,7 @@ jobs:
               await github.rest.issues.updateComment({ comment_id: existing.id, ...commonPayload });
             else 
               await github.rest.issues.createComment({ issue_number: context.issue.number, ...commonPayload });
+            
 
       - if: ${{ github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != '0' || steps.infos.outputs.result == '') }}
         run: echo "URL check failed" && exit 1
