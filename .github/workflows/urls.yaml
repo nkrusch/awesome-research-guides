@@ -3,20 +3,19 @@ name: URL Status
 on:
   schedule:
     - cron:  '0 6 * * 1'  # Mondays 06:00
+  pull_request:
+    paths:
+      - .github/workflows/urls.yml
   workflow_dispatch:
 
 jobs:
   check-urls:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: |
-            readme.md
-            --exclude ${{ vars.URL_EXCLUDES }}
-            --accept ${{ vars.URL_ACCEPT }}
-            --host-stats
+          args: '--timeout 60 --exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} --host-stats readme.md'
           fail: true
 
 

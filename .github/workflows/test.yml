@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-        if: ${{ github.event_name != 'pull_request' }}
+        if: github.event_name != 'pull_request'
       - uses: actions/checkout@v6
-        if: ${{ github.event_name == 'pull_request' }}
+        if: github.event_name == 'pull_request'
         with:
           fetch-depth: 0
       - name: Check lint
@@ -40,7 +40,7 @@ jobs:
           output: ./lychee.md
 
       - name: Collect report
-        if: ${{ github.event_name == 'pull_request' }}
+        if: github.event_name == 'pull_request'
         id: infos
         run: |
           if [ -s "./lychee.md" ]; then
@@ -53,7 +53,7 @@ jobs:
 
       - name: Report in comment
         uses: actions/github-script@v9
-        if: ${{ github.event_name == 'pull_request' }}
+        if: github.event_name == 'pull_request'
         with:
           script: |
             const res = `${{ steps.infos.outputs.result }}`;
@@ -74,5 +74,5 @@ jobs:
               await github.rest.issues.createComment({ issue_number: context.issue.number, ...commonPayload });
             
 
-      - if: ${{ github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != '0' || steps.infos.outputs.result == '') }}
+      - if: github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != '0' || steps.infos.outputs.result == '')
         run: echo "URL check failed" && exit 1
