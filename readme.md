@@ -142,6 +142,7 @@ Apart from books, the list items are open access.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion of the positive bias of science, in the Economist, October 2013.
 * [How to Succeed in Graduate School: A Guide for Students and Advisors](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - About optimizing the outcomes in a student-advisor relationship, by Marie desJardins.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research, by EW Dijkstra.
+* [The machines are fine. I'm worried about us.](https://ergosphere.blog/posts/the-machines-are-fine/) - Thoughtful reflections about how large language models are influencing science, by Minas Karamanis. 
 
 
 ## Books about Scientific Skills
