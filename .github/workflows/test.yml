@@ -43,11 +43,10 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
         id: infos
         run: |
+          CONTENT=""
           if [ -s "./lychee.md" ]; then
             CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g')
             CONTENT=$(echo "$CONTENT" | base64 -w 0)
-          else
-            CONTENT=$(echo "No report generated, this is an unexpected error." | base64 -w 0)
           fi          
           echo "result=$CONTENT" >> $GITHUB_OUTPUT
 
@@ -59,7 +58,7 @@ jobs:
         with:
           script: |
             const body = (Buffer.from('${{ steps.extract_step.outputs.result }}', 'base64').toString('utf8')
-              || "No report generated, this is an unexpected error.")
+              || "No report was generated, this is an unexpected error.")
               .trim().replace('# Summary', '### URL summary');            
             const identifier = "<!-- quality-comment -->";
             const commonPayload = {
