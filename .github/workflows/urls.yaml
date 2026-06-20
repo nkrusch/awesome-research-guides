@@ -14,8 +14,8 @@ jobs:
         with:
           args: |
             readme.md
-            --exclude ${{ vars.URL_EXCLUDES  }}
-            --accept ${{ vars.URL_ACCEPT  }}
+            --exclude ${{ vars.URL_EXCLUDES }}
+            --accept ${{ vars.URL_ACCEPT }}
             --host-stats
           fail: true
 
