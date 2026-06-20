@@ -1,0 +1,78 @@
+name: Test
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - readme.md
+  pull_request:
+    paths:
+      - readme.md
+      - .github/workflows/test.yml
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        if: ${{ github.event_name != 'pull_request' }}
+      - uses: actions/checkout@v6
+        if: ${{ github.event_name == 'pull_request' }}
+        with:
+          fetch-depth: 0
+      - name: Check lint
+        run: npx awesome-lint
+
+      - name: Extract change
+        run: |
+          set -o pipefail
+          git diff --unified=0 --no-prefix \
+          --output-indicator-new=% origin/main...HEAD -- \
+          readme.md | sed -n 's/^%//p' > ./checkme.md
+
+      - name: Check URL status
+        uses: lycheeverse/lychee-action@v2
+        id: lychee
+        with:
+          args: '--exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} checkme.md'
+          fail: github.event_name != 'pull_request'
+          failIfEmpty: false
+          output: ./lychee.md
+
+      - name: Collect report
+        if: ${{ github.event_name == 'pull_request' }}
+        id: infos
+        run: |
+          if [ -s "./lychee.md" ]; then
+            CONTENT=$(sed -e 's/# Summary/### URL summary/g' -e 's/"/\\"/g' "./lychee.md")
+            CONTENT=$(printf "%s" "$CONTENT" | base64 -w 0)
+            echo "result=$CONTENT" >> $GITHUB_OUTPUT
+          else
+            echo "result=" >> $GITHUB_OUTPUT            
+          fi          
+
+      - name: Report in comment
+        uses: actions/github-script@v9
+        if: ${{ github.event_name == 'pull_request' }}
+        with:
+          script: |
+            const res = `${{ steps.infos.outputs.result }}`;
+            const body = Buffer.from(res, 'base64').toString('utf8') || "No report was generated (decoding error).";            
+            const identifier = "<!-- quality-comment -->";
+            const commonPayload = {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `${identifier}\n\n${body}`,        
+            }   
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number,
+            });                 
+            const existing = comments.find(c => c.body.includes(identifier));
+            if (existing)
+              await github.rest.issues.updateComment({ comment_id: existing.id, ...commonPayload });
+            else 
+              await github.rest.issues.createComment({ issue_number: context.issue.number, ...commonPayload });
+            
+
+      - if: ${{ github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != '0' || steps.infos.outputs.result == '') }}
+        run: echo "URL check failed" && exit 1

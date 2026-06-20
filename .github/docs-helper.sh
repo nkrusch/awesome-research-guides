@@ -4,14 +4,14 @@ cd "$(git rev-parse --show-toplevel)" || return
 
 SOURCE="readme.md"
 MEDIA="assets"
-OUT_DIR="docs"
+OUT="docs"
 
-mkdir -p "$OUT_DIR" "$OUT_DIR"/$MEDIA
-cp -f "$MEDIA"/*.png "$OUT_DIR"/$MEDIA 2>/dev/null
-cp -f "$MEDIA"/*.css "$OUT_DIR" 2>/dev/null
-cp -f .github/contributing.md "$OUT_DIR"/contributing.md
+mkdir -p "$OUT" "$OUT"/$MEDIA
+cp -f "$MEDIA"/*.png "$OUT"/$MEDIA 2>/dev/null
+cp -f "$MEDIA"/*.css "$OUT" 2>/dev/null
+cp -f .github/contributing.md "$OUT"/contributing.md
 
-awk -v out_dir="$OUT_DIR" '
+awk -v out_dir="$OUT" '
   BEGIN {
     f = sprintf("%s/index.md", out_dir);
     print "---" > f;
@@ -66,4 +66,4 @@ awk '
     in_alert = 0;
   }
   { print $0; }
-' ".github/contributing.md" > "$OUT_DIR/contributing.md"
+' ".github/contributing.md" > "$OUT/contributing.md"

@@ -1,15 +1,18 @@
-<!-- Complete applicable checklists -->
+<!-- Complete the applicable checklist -->
 
-* [ ] Adding a new awesome list item
-  * [ ] The change introduces a new awesome list item.
-  * [ ] List item is about guidance in research and has expected long-term relevance.
-  * [ ] List item has a hyperlinked title and a description, separated by a dash (`-`).
-  * [ ] Description is concise and informative.
-  * [ ] Description starts with an uppercase character and ends with a period.
-  * [ ] Placement preserves alphabetic sort (ascending by title).
-  * [ ] Mini review, for example, a short list of pros and cons:
+* [ ] 🅐 **I am adding a new awesome list item**
+    * [ ] The item is about guidance in research
+    * [ ] The item has expected long-term relevance.
+    * [ ] The item has a hyperlinked title and a description.
+    * [ ] The title and description are separated by a dash (`-`).
+    * [ ] The hyperlink destination is publicly available or a book reference.
+    * [ ] The Description is concise and informative.
+    * [ ] The Description starts with an uppercase character and ends with a period.
+    * [ ] There are no grammar or spelling mistakes. 
+    * [ ] Item placement preserves alphabetic ordering (ascending by title).
 
-* [ ] Suggesting an awesome list edit
-  * [ ] Edit maintains awesome list requirements.
+* [ ] 🅑 **I am suggesting an edit to the awesome list**
+    * [ ] The edit maintains compliance with awesome list requirements. 
+    * [ ] Briefly describe the change: 
 
-* [ ] Other - describe: 
+* [ ] 🅒 **Other change** - describe: 

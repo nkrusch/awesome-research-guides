@@ -16,17 +16,14 @@ The list-specific requirements define the scope and inclusion criteria.
 * The list item should have **long-term relevance** measured in years.
 
 List items can be in various formats: written text, slides, videos, etc.
-
-> [!NOTE]
-> Although academia and research are intertwined, this list is not a graduate school survival guide.
-> All list items must be research-centric.
+ 
   
-### Awesome list requirements
+### General quality requirements
 
 All awesome lists must meet certain [ground rules] and formatting standards.
 Importantly, awesome lists are curations of the best resources by topic, not everything.
 
-The most relevant rules for suggesting new items:
+The most relevant rules for new items are:
 
 - The item must have a hyperlinked title and a description.
 - The item title and description must be separated by a dash.
@@ -34,19 +31,24 @@ The most relevant rules for suggesting new items:
 - The description starts with an uppercase character and ends with a period.
 - The item uses proper grammar and consistent and correct naming[^1].
 
-Run a linter to check compliance with the guidelines: 
+Normally, the contribution should extend the existing topic sections.
+If a new topic section must be introduced, be advised that there must be 3 items or more.
+"Thin sections" are not allowed in awesome lists.
+
+Assuming [Node.js], you can check compliance with these requirements by running: 
 
     npx awesome-lint
 
 
-### Propose Contributions
+### Submitting Contributions
 
-Open a [pull request] once your suggestion or edit is ready for inclusion.
-Your contribution should extend the existing list sections. 
+Once your suggestion or edit is ready for inclusion, open a [pull request].
+
 
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
 [pull request]: https://github.com/nkrusch/awesome-research-guides/pulls
 [repository issues]: https://github.com/nkrusch/awesome-research-guides/issues
 [ground rules]: https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md#requirements-for-your-awesome-list
+[Node.js]: https://nodejs.org/en/download/current
 
 [^1]: For example, Node.js is correct; not NodeJS or node.js.
