@@ -44,7 +44,8 @@ jobs:
         id: infos
         run: |
           if [ -s "./lychee.md" ]; then
-            CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g' | base64 -w 0)
+            CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g')
+            CONTENT=$(echo "$CONTENT" | base64 -w 0)
           else
             CONTENT=$(echo "No report generated, this is an unexpected error." | base64 -w 0)
           fi          
@@ -57,10 +58,9 @@ jobs:
           RESULT: ${{ steps.infos.outputs.result  }}
         with:
           script: |
-            const body = (
-              Buffer.from('${{ steps.extract_step.outputs.result }}', 'base64')
-              .toString('utf8') || "").trim()
-              .replace('# Summary', '### URL summary');            
+            const body = (Buffer.from('${{ steps.extract_step.outputs.result }}', 'base64').toString('utf8')
+              || "No report generated, this is an unexpected error.")
+              .trim().replace('# Summary', '### URL summary');            
             const identifier = "<!-- quality-comment -->";
             const commonPayload = {
                 owner: context.repo.owner,
