@@ -12,11 +12,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: |
-            readme.md
-            --exclude ${{ vars.URL_EXCLUDES }}
-            --accept ${{ vars.URL_ACCEPT }}
-            --host-stats
+          args: '--exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} --host-stats readme.md'
           fail: true
 
 
