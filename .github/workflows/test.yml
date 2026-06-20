@@ -45,9 +45,9 @@ jobs:
         run: |
           if [ -s "./lychee.md" ]; then
             CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g')
-            CONTENT=$(echo "$CONTENT" | tr '\n' '\r' | sed 's/\r/\\n/g')
+            CONTENT=$(echo "$CONTENT" | tr '\n' '\r' | sed 's/\r/\\n\\n/g')
           else
-            CONTENT="No report generated from URL check, this is an unexpected error"
+            CONTENT="No report generated, this is an unexpected error."
           fi          
           echo "result=$CONTENT" >> $GITHUB_OUTPUT
 
@@ -58,12 +58,13 @@ jobs:
           RESULT: ${{ steps.infos.outputs.result  }}
         with:
           script: |
-            const body = (process.env.RESULT || "").trim();            
+            const body = (process.env.RESULT || "").trim()
+              .replace('# Summary', '### URL summary');            
             const identifier = "<!-- quality-comment -->";
             const commonPayload = {
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: `${identifier}\n${body}`,        
+                body: `${identifier}\n\n${body}`,        
             }   
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner, repo: context.repo.repo, issue_number: context.issue.number,
@@ -74,5 +75,5 @@ jobs:
             else 
               await github.rest.issues.createComment({ issue_number: context.issue.number, ...commonPayload });
 
-      - if: ${{ github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != '0' }}
+      - if: ${{ github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != '0' || steps.infos.outputs.result == '') }}
         run: echo "URL check failed" && exit 1
