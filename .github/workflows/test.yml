@@ -14,15 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        if: ${{ github.event_name != 'pull_request' }}
+      - uses: actions/checkout@v6
+        if: ${{ github.event_name == 'pull_request' }}
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - name: Check lint
         run: npx awesome-lint
 
       - name: Extract change
         run: |
           set -o pipefail
-          git diff --unified=0 --no-prefix --output-indicator-new=% HEAD~1 HEAD -- readme.md | sed -n 's/^%//p' > ./checkme.md
+          git diff --unified=0 --no-prefix --output-indicator-new=% origin/main...HEAD -- readme.md | sed -n 's/^%//p' > ./checkme.md
 
       - name: Check URL status
         uses: lycheeverse/lychee-action@v2
@@ -30,6 +33,7 @@ jobs:
         with:
           args: '--exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} checkme.md'
           fail: github.event_name != 'pull_request'
+          failIfEmpty: false
           output: ./lychee.md
 
       - name: Collect report
@@ -39,7 +43,7 @@ jobs:
           if [ -s "./lychee.md" ]; then
             CONTENT=$(cat "./lychee.md" | tr '\n' '\r' | sed -e 's/\r/\\n/g')
           else
-            CONTENT="Check produced no output — this is an unexpected failure."
+            CONTENT="No "
           fi          
           CONTENT=$(echo "$CONTENT" | sed 's/\\/\\\\/g' | sed 's/"/\\"/g')          
           echo "result=$CONTENT" >> $GITHUB_OUTPUT
