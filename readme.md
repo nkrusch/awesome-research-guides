@@ -73,7 +73,6 @@ Apart from books, the list items are open access.
 
 ## Giving Talks & Presentations
 
-* [Giving Technical Talks](https://www.cs.dartmouth.edu/~scot/givingTalks/sld001.htm) - Basics of how to structure a scientific talk and customize it by audience; by Scot Drysdale.
 * [How (not) to give a great research talk 🎦](https://youtu.be/27vMdYA6RcA) - Tips for crafting lively and engaging presentations, by Leonidas Lampropoulos.
 * [How I Give a Talk 🎦](https://www.youtube.com/watch?v=WVnmgUakDzs) - Using storytelling techniques to create engaging oral presentations, by Javier Esparza.
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Thematically organized advice on designing and delivering presentations, by Ian Parberry.

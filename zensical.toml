@@ -4,7 +4,7 @@ description = "Research guides offer guidance about conducting scientific resear
 repo_url = "https://github.com/nkrusch/awesome-research-guides"
 version = "1.0.0"
 docs_dir = "docs"
-extra_css = [ "style.css" ]
+extra_css = ["style.css"]
 
 [project.theme.icon]
 logo = "lucide/waypoints"
