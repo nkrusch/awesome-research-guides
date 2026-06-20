@@ -28,9 +28,9 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
-          args: checkme.md --exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }}
-          output: ./lychee.md
+          args: '--exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} checkme.md'
           fail: github.event_name != 'pull_request'
+          output: ./lychee.md
 
       - name: Collect report
         if: ${{ github.event_name == 'pull_request' }}
