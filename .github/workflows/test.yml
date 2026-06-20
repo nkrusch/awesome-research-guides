@@ -44,10 +44,9 @@ jobs:
         id: infos
         run: |
           if [ -s "./lychee.md" ]; then
-            CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g')
-            CONTENT=$(echo "$CONTENT" | tr '\n' '\r' | sed 's/\r/\\n\\n/g')
+            CONTENT=$(cat "./lychee.md" | sed 's/"/\\"/g' | base64 -w 0)
           else
-            CONTENT="No report generated, this is an unexpected error."
+            CONTENT=$(echo "No report generated, this is an unexpected error." | base64 -w 0)
           fi          
           echo "result=$CONTENT" >> $GITHUB_OUTPUT
 
@@ -58,7 +57,9 @@ jobs:
           RESULT: ${{ steps.infos.outputs.result  }}
         with:
           script: |
-            const body = (process.env.RESULT || "").trim()
+            const body = (
+              Buffer.from('${{ steps.extract_step.outputs.result }}', 'base64')
+              .toString('utf8') || "").trim()
               .replace('# Summary', '### URL summary');            
             const identifier = "<!-- quality-comment -->";
             const commonPayload = {
