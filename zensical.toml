@@ -1,7 +1,7 @@
 [project]
 site_name = "Awesome Research Guides"
 description = "Guidance about conducting scientific research."
-site_url = "https://nkrusch.github.io/awesome-research-guides/"
+site_url = "https://guides.neea.pl"
 repo_url = "https://github.com/nkrusch/awesome-research-guides"
 site_author = "Neea Rusch"
 version = "1.0.0"
