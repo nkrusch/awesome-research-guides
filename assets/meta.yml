@@ -1,0 +1,26 @@
+---
+title: "Awesome Research Guides"
+subtitle: "https://guides.neea.pl"
+author: "curated by Neea Rusch"
+date: \toda
+biblatex: true
+nocite: "[@*]"
+fontsize: 11pt
+papersize: letter
+mainfont: Open Sans
+documentclass: scrartcl
+geometry: margin=1truein, truedimen, twoside=false, ignoreall
+header-includes:
+  - \usepackage[defaultsans,default]{opensans}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{graphicx}
+  - \usepackage{microtype}
+  - \usepackage{hyperref}
+  - \usepackage{etoolbox}
+  - \setkomafont{title}{\Large\bfseries}
+  - \setkomafont{author}{\small\itshape}
+  - \setkomafont{date}{\small}
+  - \hypersetup{colorlinks=true,breaklinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,pdfborderstyle={/S/U/W 1}}
+  - \RedeclareSectionCommands[beforeskip=0.4\baselineskip, afterskip=.2\baselineskip]{subsubsection}
+  - \renewcommand{\arraystretch}{1.1}
+---

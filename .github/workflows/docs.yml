@@ -7,7 +7,6 @@ on:
     paths:
       - "references/*"
       - zensical.toml
-      - .github/workflows/docs.yml
 
 jobs:
   deploy:

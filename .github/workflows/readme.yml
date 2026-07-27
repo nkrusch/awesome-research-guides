@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - "references/*"
-      - .github/workflows/readme.yml
 
 jobs:
   deploy:
@@ -31,4 +30,4 @@ jobs:
           commit-message: "update readme"
           body: ""
       - if: ${{ steps.pr.outputs.pull-request-number }}
-        run: gh pr merge --squash --auto ${{ teps.pr.outputs.pull-request-number }}
+        run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}

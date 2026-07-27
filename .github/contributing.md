@@ -25,18 +25,11 @@ All updates should be made to the BibTeX files.
 _Important: do not edit the readme.md directly._
 
 1. Fork and clone [this repository].
-
 2. Go to `references/`
-
-3. Each bib-file represents one awesome list section;
-   Choose the appropriate bibliography you wish to edit.
-   
-4. Edit or update the bibliography. 
-
-5. Commit changes to your fork. 
-
-6. Once ready for inclusion, open a [pull request] against the upstream.
-
+3. Each bib-file is a list section: choose a bibliography to edit. 
+4. Apply edits to the bibliography: include a one-sentence description in `abstract`.
+5. Commit changes to the forked repository.
+6. Open a [pull request] against the upstream repository.
 
 [this repository]: https://github.com/nkrusch/awesome-research-guides/fork
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md

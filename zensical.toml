@@ -15,6 +15,10 @@ favicon = "./assets/icon.png"
 [project.theme.icon]
 logo = "lucide/waypoints"
 
+[[project.extra.social]]
+icon = "lucide/file-down"
+link = "/index.pdf"
+
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
 toggle.icon = "lucide/sun-moon"
