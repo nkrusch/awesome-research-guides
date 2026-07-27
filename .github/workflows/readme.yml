@@ -13,7 +13,8 @@ on:
       - "references/*"
 
 jobs:
-  deploy:
+  readme:
+    if: "!startsWith(github.head_ref, 'readme')"
     runs-on: ubuntu-latest
     permissions:
       contents: write
