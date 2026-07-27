@@ -5,6 +5,7 @@ import re
 from bibtexparser.customization import convert_to_unicode
 from pathlib import Path
 from sys import argv
+import argparse
 
 
 def render_entry(entry):
@@ -36,23 +37,32 @@ def md_name(idx, title):
     return f'{n}-{f}.md'
 
 
-def main(in_, out):
+def main(in_, out, level, gen_toc):
     out.mkdir(parents=True, exist_ok=True)
     with open(in_ / Path("_toc.txt"), 'r') as f:
         sections = [tuple(line.strip().split(','))
                     for line in f if line.strip()]
-    toc = "# Contents\n\n"
+    h = '#' * level
+    toc = f"{h} Contents\n\n"
     for i, (ttl, src) in enumerate(sections):
         href = toc_link(ttl)
         raw_bib = load_bib(in_ / Path(src.strip()))
         entries = [render_entry(entry) for entry in raw_bib]
-        content = f"# {ttl}\n\n" + ("\n".join(sorted(entries)))
+        content = f"{h} {ttl}\n\n" + ("\n".join(sorted(entries)))
         with open(out / Path(md_name(i, ttl)), 'w') as f:
-            f.write(content)
+            f.write(content + "\n\n")
         toc += f'* [{ttl}](#{href})\n'
-    with open(out / Path('00_toc.md'), 'w') as f:
-        f.write(toc + '\n---\n')
+    if gen_toc:
+        with open(out / Path('toc.md'), 'w') as f:
+            f.write(toc + '\n---\n\n')
 
 
 if __name__ == "__main__":
-    main(Path("references"), Path(argv[1]))
+    parser = argparse.ArgumentParser()
+    ag = parser.add_argument
+    ag("out", help="output directory")
+    ag('--refs', help="bibs path", default="references")
+    ag('--level', type=int, help="header level", default=1)
+    ag('--toc', action='store_true', help="output toc")
+    args = parser.parse_args()
+    main(Path(args.refs), Path(args.out), args.level, args.toc)

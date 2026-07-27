@@ -9,10 +9,8 @@ docs_dir = "docs"
 extra_css = ["style.css"]
 
 [project.theme]
-features = [
-    "navigation.instant"
-]
-favicon = "./icon.png"
+features = ["navigation.instant"]
+favicon = "./assets/icon.png"
 
 [project.theme.icon]
 logo = "lucide/waypoints"

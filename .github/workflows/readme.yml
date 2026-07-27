@@ -1,0 +1,34 @@
+name: Website
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "references/*"
+      - .github/workflows/readme.yml
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/pandoc
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.13
+      - run: pip install bibtexparser
+      - run: make readme.md
+      - run: npx awesome-lint
+      - uses: peter-evans/create-pull-request@v8
+        id: pr
+        with:
+          branch: readme
+          title: "Update readme"
+          commit-message: "update readme"
+          body: ""
+      - if: ${{ steps.pr.outputs.pull-request-number }}
+        run: gh pr merge --squash --auto ${{ teps.pr.outputs.pull-request-number }}

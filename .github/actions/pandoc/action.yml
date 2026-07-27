@@ -1,0 +1,13 @@
+name: setup pandoc
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache@v6
+      with:
+        path: ${{ vars.PANDOC_V }}
+        key: ${{ runner.os }}-pandoc
+        restore-keys: ${{ runner.os }}-pandoc
+    - shell: bash
+      run: |
+        test -f ${{ vars.PANDOC_V }} || wget ${{ vars.PANDOC }}
+        sudo apt-get update && sudo dpkg -i ${{ vars.PANDOC_V }}

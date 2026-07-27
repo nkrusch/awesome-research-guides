@@ -15,16 +15,17 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 	inkscape -w 192 -h 192 -o $@ $<
 
 docs:
-	@$(RENDERER) $@
+	@$(RENDERER) --level 1 $@
 	@pandoc -o /dev/stdout $(BIBS) --citeproc -t html $(SRC)/sec-refs.md  > $@/references.md
 	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $(SRC)/sec-intro.md) > $@/index.md
-	@cp -f $(SRC)/*.png $(SRC)/*.css $@
+	@mkdir -p $@/$(SRC)
+	@cp -f $(SRC)/*.png $@/$(SRC)
+	@cp -f $(SRC)/*.css $@
 	@cp -f $(CONTRIB) $@
-	@rm -rf $@/00_toc.md
 
 $(SRC)/sec-combined.md:
-	@$(RENDERER) tmp
-	@pandoc tmp/*.md --shift-heading-level-by=1 --wrap=none -o $@
+	@$(RENDERER) --level 2 --toc tmp
+	@cat tmp/toc.md tmp/*-*.md > $@
 	@rm -rf tmp
 
 readme.md: $(SRC)/sec-intro.md $(SRC)/sec-combined.md $(SRC)/sec-footer.md
