@@ -1,2 +1,4 @@
 *.md linguist-detectable=true
 *.md linguist-documentation=false
+*.bib linguist-detectable=true
+*.bib linguist-documentation=false

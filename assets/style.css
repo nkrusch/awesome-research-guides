@@ -15,16 +15,16 @@ body[data-md-color-scheme="slate"] .theme-aware-logo img {
     counter-reset: bib-counter;
 }
 
-#refs > div[role=doc-biblioentry] {
+#refs > div {
     counter-increment: bib-counter;
     margin-bottom: 1em;
     padding-left: 3em;
     position: relative;
 }
 
-#refs > div[role=doc-biblioentry]::before {
+#refs > div::before {
     content: "[" counter(bib-counter) "] ";
     position: absolute;
-    left: 0; 
+    left: 0;
     color: #555;
 }
