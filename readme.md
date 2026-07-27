@@ -53,27 +53,27 @@ Apart from books, the list items are open access.
 * [How to Write Mathematics](https://entropiesschool.sciencesconf.org/data/How_to_Write_Mathematics.pdf) - An expository essay on how to write mathematics (spoiler: there is no recipe).
 * [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective writing of research papers.
 * [How to read a paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers.
-* [Imagine the Reader 🎦](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) - Insights about writing, when approaching it from the perspective of the reader.
+* [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) - Insights about writing, when approaching it from the perspective of the reader.
 * [Learn Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/learn-two.pdf) - A student guide explaining the mechanics of a technical writing group.
 * [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf) - Transcribed course lecture notes on technical writing and the effective presentation of mathematics and computer science.
 * [Semantic Line Breaks](https://sembr.org) - A writing style where each substantial unit of thought is separated.
 * [Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf) - An illuminating characterization of the process of writing drafts.
 * [Small Guide to Making Nice Tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf) - A focused how-to to crafting more legible tables in scientific writing.
 * [Teach Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/two.pdf) - A teaching guide for motivations and mechanics of running a writing group.
-* [The Craft of Writing Effectively 🎦](https://youtu.be/vtIzMaLkCaM) - Compelling advice to improve scholarly writing, independent of discipline.
+* [The Craft of Writing Effectively](https://youtu.be/vtIzMaLkCaM) - Compelling advice to improve scholarly writing, independent of discipline.
 * [Three Sins of Authors in Computer Science and Math](https://www.cs.cmu.edu/~jrs/sins.html) - Advice on avoiding some common flaws in introductions and conclusions.
 * [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](https://doi.org/10.1145/14947.14955) - Writing advice through the eyes of a referee.
-* [Writing Papers 🎦](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers.
+* [Writing Papers](https://youtu.be/ey3BEtt9QLI?t=263) - A legendary lecture about writing research papers.
 * [Writing and Speaking with Style](https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit?usp=sharing) - An immersive course in effective technical writing and speaking.
 * [Writing good software engineering research papers](https://www.cs.cmu.edu/~Compose/shaw-icse03.pdf) - A mini tutorial about writing research papers, illustrated through statistics of submitted papers.
 
 ## Giving Talks & Presentations
 
-* [How (not) to give a great research talk 🎦](https://youtu.be/27vMdYA6RcA) - Tips for crafting lively and engaging presentations.
-* [How I Give a Talk 🎦](https://youtu.be/WVnmgUakDzs) - Using storytelling techniques to create engaging oral presentations.
-* [How to Give a Great Research Talk 🎦](https://simon.peytonjones.org/great-research-talk/) - Simple actionable advice for giving better talks.
+* [How (not) to give a great research talk](https://youtu.be/27vMdYA6RcA) - Tips for crafting lively and engaging presentations.
+* [How I Give a Talk](https://youtu.be/WVnmgUakDzs) - Using storytelling techniques to create engaging oral presentations.
+* [How to Give a Great Research Talk](https://simon.peytonjones.org/great-research-talk/) - Simple actionable advice for giving better talks.
 * [How to Present a Paper in Theoretical Computer Science](https://ianparberry.com/pubs/speaker.pdf) - Thematically organized advice on designing and delivering presentations.
-* [How to Speak 🎦](https://youtu.be/Unzc731iCUY) - Ideas and techniques to incorporate into your speaking toolkit.
+* [How to Speak](https://youtu.be/Unzc731iCUY) - Ideas and techniques to incorporate into your speaking toolkit.
 * [How to give a technical presentation](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html) - Written advice about preparing and practicing for a scientific presentation, including talk-delivery and handling the Q&A session.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - A list of things to consider while preparing and presenting a technical poster, with example posters.
 * [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - A rule-based "checklist" for validating your slide design.
@@ -106,7 +106,7 @@ Apart from books, the list items are open access.
 * [Cornell Food Researcher's Downfall Raises Larger Questions For Science](https://www.npr.org/sections/thesalt/2018/09/26/651849441/cornell-food-researchers-downfall-raises-larger-questions-for-science) - This should be the cautionary tale discussed in Research Methods 101 across many disciplines.
 * [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models.
 * [How NOT to review a paper: the tools and techniques of the adversarial reviewer](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer.
-* [Low-CO₂ research paper](https://tcs4f.org/low-co2-v1) - An initiative to advertise the low environmental impact of research work.
+* [Low-CO2 research paper](https://tcs4f.org/low-co2-v1) - An initiative to advertise the low environmental impact of research work.
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes.
 * [No free view? No review!](https://nofreeviewnoreview.org) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
 * [Reviewer-Author Collusion Rings and How to Fight Them](https://andreas-zeller.info/2025/12/07/Reviewer-Author-Collusion-Rings-and-How-to-Fight-Them.html) - A list of measures to prevent and mitigate potential collusion rings.
@@ -130,7 +130,7 @@ Apart from books, the list items are open access.
 ## Meta Discussions
 
 * [Dancing With Professors: The Trouble With Academic Prose](https://web.archive.org/web/20250103165735/https://www.nytimes.com/1993/10/31/books/dancing-with-professors-the-trouble-with-academic-prose.html) - A classic dissection about the challenges of academic writing, from 1993 New York Times Book Review.
-* [Getting Your Research Adopted 🎦](https://youtu.be/59BZTVOM-dI) - Advice about how to help others discover your research.
+* [Getting Your Research Adopted](https://youtu.be/59BZTVOM-dI) - Advice about how to help others discover your research.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion structural bias of science, driven by e.g., failures to replicate studies and flawed peer review.
 * [How to succeed in graduate school: a guide for students and advisors: part I of II](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - About optimizing the outcomes in a student-advisor relationship.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research.
