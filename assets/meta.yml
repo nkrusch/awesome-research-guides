@@ -5,11 +5,10 @@ author: "curated by Neea Rusch"
 nocite: "[@*]"
 fontsize: 11pt
 papersize: letter
-mainfont: Open Sans
+mainfont: Arial
 documentclass: scrartcl
 geometry: margin=1truein, truedimen, twoside=false, ignoreall
 header-includes:
-  - \usepackage[defaultsans,default]{opensans}
   - \usepackage[utf8]{inputenc}
   - \usepackage{graphicx}
   - \usepackage{microtype}
