@@ -12,7 +12,7 @@ def render_entry(entry):
     href = entry.get('url', f"https://doi.org/{entry.get('doi')}")
     title = entry.get('title')
     desc = entry.get('abstract')
-    icon = " 🎦" if 'video' in entry.get('keywords', '') else ''
+    icon = "" if 'video' in entry.get('keywords', '') else ''
     assert desc, "missing description" + title
     desc += "" if desc.endswith('.') else "."
     return f"* [{title}{icon}]({href}) - {desc}"
