@@ -7,12 +7,6 @@ on:
     paths:
       - "references/*"
       - zensical.toml
-  pull_request:
-    types: [opened, synchronize]
-    branches: [main]
-    paths:
-      - "references/*"
-      - zensical.toml
 
 jobs:
   deploy:
@@ -34,9 +28,8 @@ jobs:
       - run: pip install zensical bibtexparser
       - run: make docs
       - run: zensical build --clean
-      - if: github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      - if: github.event_name != 'pull_request'
-        uses: actions/deploy-pages@v5
+      - uses: actions/deploy-pages@v5
+

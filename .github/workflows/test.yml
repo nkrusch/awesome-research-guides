@@ -1,0 +1,20 @@
+name: Build test
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: [main]
+    paths:
+      - "references/*"
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/pandoc
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.13
+      - run: pip install zensical bibtexparser
+      - run: make docs
+      - run: zensical build --clean
