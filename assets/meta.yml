@@ -5,7 +5,6 @@ author: "curated by Neea Rusch"
 nocite: "[@*]"
 fontsize: 11pt
 papersize: letter
-mainfont: Arial
 documentclass: scrartcl
 geometry: margin=1truein, truedimen, twoside=false, ignoreall
 header-includes:
@@ -13,7 +12,8 @@ header-includes:
   - \usepackage{graphicx}
   - \usepackage{microtype}
   - \usepackage{hyperref}
-  - \setkomafont{title}{\Large\bfseries}
+  - \usepackage{fontspec}
+  - \renewcommand{\familydefault}{\sfdefault}
   - \setkomafont{author}{\small\itshape}
   - \setkomafont{date}{\small}
   - \hypersetup{colorlinks=true,breaklinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue,pdfborderstyle={/S/U/W 1}}
