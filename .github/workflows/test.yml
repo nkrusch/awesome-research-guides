@@ -1,39 +1,20 @@
 name: Test
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize]
     branches: [main]
     paths:
-      - readme.md
-  pull_request:
-    paths:
-      - readme.md
-      - .github/workflows/test.yml
+      - "references/*"
 
 jobs:
-  test:
+  test_build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      - uses: ./.github/actions/pandoc
+      - uses: actions/setup-python@v6
         with:
-          fetch-depth: 0
-      - run: npx awesome-lint
-      - name: Extract change
-        run: |
-          set -o pipefail
-          git diff --unified=0 --no-prefix \
-          --output-indicator-new=% origin/main...HEAD -- \
-          readme.md | sed -n 's/^%//p' > ./checkme.md
-      - uses: lycheeverse/lychee-action@v2
-        id: lychee
-        with:
-          args: '--exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} checkme.md'
-          fail: github.event_name != 'pull_request'
-          failIfEmpty: false
-          output: ./lychee.md
-      - uses: mshick/add-pr-comment@v3
-        if: github.event_name == 'pull_request'
-        with:
-          message-id: quality-comment
-          message-path: lychee.md
-      - if: github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != '0'
-        run: echo "URL check failed" && exit 1
+          python-version: 3.13
+      - run: pip install zensical bibtexparser
+      - run: make docs
+      - run: zensical build --clean

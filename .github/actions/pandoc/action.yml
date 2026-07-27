@@ -1,0 +1,14 @@
+name: setup pandoc
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache@v6
+      with:
+        path: pandoc-3.10-1-amd64.deb
+        key: linux-amd64-pandoc
+        restore-keys: linux-amd64-pandoc
+    - shell: bash
+      run: |
+        test -f pandoc-3.10-1-amd64.deb || wget https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-1-amd64.deb
+        sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-fonts-recommended texlive-latex-extra
+        sudo apt-get update && sudo dpkg -i pandoc-3.10-1-amd64.deb

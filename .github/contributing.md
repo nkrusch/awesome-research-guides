@@ -4,9 +4,8 @@ Please note that this project is released with a contributor [Code of Conduct].
 By participating, you agree to abide by its terms.
 
 For contribution ideas, have a look at [repository issues].
-Importantly, awesome lists are curations of the best resources by topic, not everything.
-
-Contributions must meet inclusion criteria and the general awesome list guidelines.
+Awesome lists are curations of the best resources by topic, not everything.
+Contributions must meet the following inclusion criteria.
 
 ### Scope and inclusion criteria
 
@@ -18,31 +17,21 @@ The list-specific requirements define inclusion scope and criteria.
 
 List items can appear in many formats: text, slides, video, etc.
 
-### General quality requirements
+### How to contribute
 
-All awesome lists must meet certain [ground rules] and formatting standards.
-The most relevant rules for new items are:
+The awesome list is compiled from the references.
+All updates should be made to the BibTeX files.
 
-* The item must have a hyperlinked title and a description.
-* The item title and description must be separated by a dash.
-* The description is concise (1 sentence) and informative.
-* The description starts with an uppercase character and ends with a period.
-* The item uses proper grammar and consistent and correct naming.
+_Important: do not edit the readme.md directly._
 
-The contribution should extend an existing topic sections.
-If a new topic section must be introduced, the new section must have at least 3 entries.
+1. Fork and clone [this repository].
+2. Go to `references/`
+3. Each bib-file is a list section: choose a bibliography to edit. 
+4. Apply edits to the bibliography: include a one-sentence description in `abstract`.
+5. Commit changes to the forked repository.
+6. Open a [pull request] against the upstream repository.
 
-Assuming [Node.js] is installed, you can check compliance with the requirements by running: 
-
-    npx awesome-lint
-
-### Submitting Contributions
-
-Once ready for inclusion, open a [pull request].
-
-
+[this repository]: https://github.com/nkrusch/awesome-research-guides/fork
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
-[pull request]: https://github.com/nkrusch/awesome-research-guides/pulls
 [repository issues]: https://github.com/nkrusch/awesome-research-guides/issues
-[ground rules]: https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md#requirements-for-your-awesome-list
-[Node.js]: https://nodejs.org/en/download/current
+[pull request]: https://github.com/nkrusch/awesome-research-guides/pulls

@@ -1,0 +1,9 @@
+Written Communication, writing.bib
+Giving Talks & Presentations, talks.bib
+Software Artifact & Technical Guides, techical.bib
+Peer Review & Publishing Ethics, referee.bib
+Grants & Funding, grants.bib
+Research Job Search, jobs.bib
+Meta Discussions, meta.bib
+Books about Scientific Skills, books.bib
+Unwinding, unwinding.bib

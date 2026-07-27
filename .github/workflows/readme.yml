@@ -1,0 +1,39 @@
+name: Readme
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "references/*"
+  pull_request:
+    types: [opened, synchronize]
+    branches: [main]
+    paths:
+      - "references/*"
+
+jobs:
+  readme:
+    if: "!startsWith(github.head_ref, 'readme')"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.13
+      - run: pip install bibtexparser
+      - run: make readme.md
+      - run: npx awesome-lint
+      - uses: peter-evans/create-pull-request@v8
+        if: github.event_name != 'pull_request'
+        id: pr
+        with:
+          branch: readme
+          title: "Update readme"
+          commit-message: "update readme"
+          body: ""
+      - if: ${{ github.event_name != 'pull_request' && steps.pr.outputs.pull-request-number }}
+        run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
