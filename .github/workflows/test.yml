@@ -1,4 +1,4 @@
-name: Build test
+name: Test
 on:
   pull_request:
     types: [opened, synchronize]
@@ -7,7 +7,7 @@ on:
       - "references/*"
 
 jobs:
-  compile:
+  test_build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
