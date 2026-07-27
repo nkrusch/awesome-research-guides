@@ -37,3 +37,5 @@ jobs:
           body: ""
       - if: ${{ github.event_name != 'pull_request' && steps.pr.outputs.pull-request-number }}
         run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ github.token }}
