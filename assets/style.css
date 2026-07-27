@@ -18,14 +18,13 @@ body[data-md-color-scheme="slate"] .theme-aware-logo img {
 #refs > div[role=doc-biblioentry] {
     counter-increment: bib-counter;
     margin-bottom: 1em;
-    padding-left: 2.5em;
+    padding-left: 3em;
     position: relative;
 }
 
 #refs > div[role=doc-biblioentry]::before {
     content: "[" counter(bib-counter) "] ";
     position: absolute;
-    left: 0;
-    font-weight: bold;
+    left: 0; 
     color: #555;
 }
