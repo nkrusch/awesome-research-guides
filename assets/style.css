@@ -10,3 +10,22 @@ body[data-md-color-scheme="slate"] .theme-aware-logo source {
 body[data-md-color-scheme="slate"] .theme-aware-logo img {
     content: url("assets/logo-dark.png");
 }
+
+#refs {
+    counter-reset: bib-counter;
+}
+
+#refs > div[role=doc-biblioentry] {
+    counter-increment: bib-counter;
+    margin-bottom: 1em;
+    padding-left: 2.5em;
+    position: relative;
+}
+
+#refs > div[role=doc-biblioentry]::before {
+    content: "[" counter(bib-counter) "] ";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #555;
+}

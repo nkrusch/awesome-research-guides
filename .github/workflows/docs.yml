@@ -24,6 +24,14 @@ jobs:
     steps:
       - uses: actions/configure-pages@v6
       - uses: actions/checkout@v7
+      - uses: actions/cache@v6
+        with:
+          path: ${{ vars.PANDOC_V }}
+          key: ${{ runner.os }}-pandoc
+          restore-keys: ${{ runner.os }}-pandoc
+      - run: |
+          test -f ${{ vars.PANDOC_V }} || wget ${{ vars.PANDOC }}
+          sudo apt-get update && sudo dpkg -i ${{ vars.PANDOC_V }}
       - uses: actions/setup-python@v6
         with:
           python-version: 3.13

@@ -10,6 +10,7 @@ mkdir -p "$OUT" "$OUT"/$MEDIA
 cp -f "$MEDIA"/*.png "$OUT"/$MEDIA 2>/dev/null
 cp -f "$MEDIA"/*.css "$OUT" 2>/dev/null
 cp -f "$CONTRIB" "$OUT"/contributing.md
+make -C assets refs  > "$OUT"/references.md
 
 awk -v out_dir="$OUT" '
   BEGIN {
@@ -44,3 +45,4 @@ awk -v out_dir="$OUT" '
     }
   }
 ' "$SOURCE"
+
