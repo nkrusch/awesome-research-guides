@@ -5,7 +5,7 @@ IMAGES := $(subst .svg,.png,$(wildcard $(SRC)/logo*.svg))
 BIBS   := $(patsubst %, --bibliography=%, $(wildcard references/*.bib))
 CONTRIB := .github/contributing.md
 RENDERER := python3 .github/render.py
-REF_ARGS := --metadata-file=$(SRC)/meta.yml --pdf-engine=pdflatex $(BIBS) --citeproc
+REF_ARGS := --metadata-file=$(SRC)/meta.yml --pdf-engine=xelatex $(BIBS) --citeproc
 DOC_DATE := $(shell TZ='Europe/Helsinki' date '+%Y%m%e')
 
 all: $(IMAGES) $(SRC)/icon.png
