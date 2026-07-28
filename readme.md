@@ -46,7 +46,7 @@ Apart from books, the list items are open access.
 
 ## Written Communication
 
-* [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - What is an extended abstract and what information should it contain; advice.
+* [Advice to Authors of Extended Abstracts](https://www.sigplan.org/Resources/Advice/Pugh/) - What is an extended abstract and what information should it contain.
 * [Conclusions](https://writingcenter.fas.harvard.edu/conclusions) - Advice on writing effective conclusions.
 * [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice on selecting the reading, scheduling the reading, and taking notes.
