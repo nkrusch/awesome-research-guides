@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "references/*"
+      - ".github/contributing.md"
       - zensical.toml
 
 jobs:

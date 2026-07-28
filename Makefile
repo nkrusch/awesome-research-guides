@@ -33,3 +33,6 @@ $(SRC)/sec-combined.md:
 
 readme.md: $(SRC)/sec-intro.md $(SRC)/sec-combined.md $(SRC)/sec-footer.md
 	@cat $^ > $@
+
+clean:
+	@rm -rf docs $(SRC)/sec-combined.md
