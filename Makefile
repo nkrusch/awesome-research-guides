@@ -26,12 +26,12 @@ docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 	@cp -f $(CONTRIB) $@
 	@make docs/index.pdf
 
-docs/index.pdf:
+%/index.pdf:
 	@$(RENDERER) --level 1 --toc --cite tmp
 	@pandoc -o $@ $(REF_ARGS) --toc --csl=$(SRC)/ieee.csl -M date="v$(DOC_DATE)" $(SRC)/sec-intro.md tmp/*-*.md $(SRC)/sec-refs.md
 	@rm -rf tmp
 
-$(SRC)/sec-combined.md:
+%/sec-combined.md:
 	@$(RENDERER) --level 2 --toc tmp
 	@cat tmp/toc.md tmp/*-*.md > $@
 	@rm -rf tmp

@@ -1,3 +1,4 @@
+import argparse
 import bibtexparser
 import json
 import os
@@ -5,18 +6,15 @@ import re
 from bibtexparser.customization import convert_to_unicode
 from pathlib import Path
 from sys import argv
-import argparse
 
 
 def render_entry(entry, cite=False):
     href = entry.get('url', f"https://doi.org/{entry.get('doi')}")
-    id = entry.get('ID')
-    title = entry.get('title')
-    desc = entry.get('abstract')
-    icon = "" if 'video' in entry.get('keywords', '') else ''
-    ref = f' [@{id}]' if cite else ''
+    id, title, desc = map(entry.get, ('ID', 'title', 'abstract'))
     assert desc, "missing description" + title
     desc += "" if desc.endswith('.') else "."
+    ref = f' [@{id}]' if cite else ''
+    icon = "" if 'video' in entry.get('keywords', '') else ''
     return f"* [{title}{icon}]({href}){ref} - {desc}"
 
 
@@ -39,9 +37,7 @@ def md_name(idx, title):
     return f'{n}-{f}.md'
 
 
-def main(
-        in_, out,
-        level, gen_toc, cite):
+def main(in_, out, level, gen_toc, cite):
     out.mkdir(parents=True, exist_ok=True)
     with open(in_ / Path("_toc.txt"), 'r') as f:
         sections = [tuple(line.strip().split(','))
