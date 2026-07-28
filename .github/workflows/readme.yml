@@ -31,6 +31,7 @@ jobs:
         if: github.event_name != 'pull_request'
         id: pr
         with:
+          labels: "render"
           branch: readme
           title: "Update readme"
           commit-message: "update readme"

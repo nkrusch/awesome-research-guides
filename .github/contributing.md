@@ -1,15 +1,14 @@
 ## Contributing Guidelines
 
-Please note that this project is released with a contributor [Code of Conduct].
+This project is released with a contributor [Code of Conduct].
 By participating, you agree to abide by its terms.
 
 For contribution ideas, have a look at [repository issues].
 Awesome lists are curations of the best resources by topic, not everything.
-Contributions must meet the following inclusion criteria.
 
 ### Scope and inclusion criteria
 
-The list-specific requirements define inclusion scope and criteria.
+Contributions must meet the following inclusion criteria.
 
 * The item topic must be related to **research**.
 * The item content must aim to **communicate guidance** about conducting research. 
@@ -22,7 +21,7 @@ List items can appear in many formats: text, slides, video, etc.
 The awesome list is compiled from the references.
 All updates should be made to the BibTeX files.
 
-_Important: do not edit the readme.md directly._
+Important: do not edit the readme directly.
 
 1. Fork and clone [this repository].
 2. Go to `references/`
