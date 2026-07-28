@@ -8,14 +8,16 @@ from sys import argv
 import argparse
 
 
-def render_entry(entry):
+def render_entry(entry, cite=False):
     href = entry.get('url', f"https://doi.org/{entry.get('doi')}")
+    id = entry.get('ID')
     title = entry.get('title')
     desc = entry.get('abstract')
     icon = "" if 'video' in entry.get('keywords', '') else ''
+    ref = f' [@{id}]' if cite else ''
     assert desc, "missing description" + title
     desc += "" if desc.endswith('.') else "."
-    return f"* [{title}{icon}]({href}) - {desc}"
+    return f"* [{title}{icon}]({href}){ref} - {desc}"
 
 
 def load_bib(bib_path):
@@ -37,7 +39,9 @@ def md_name(idx, title):
     return f'{n}-{f}.md'
 
 
-def main(in_, out, level, gen_toc):
+def main(
+        in_, out,
+        level, gen_toc, cite):
     out.mkdir(parents=True, exist_ok=True)
     with open(in_ / Path("_toc.txt"), 'r') as f:
         sections = [tuple(line.strip().split(','))
@@ -47,7 +51,7 @@ def main(in_, out, level, gen_toc):
     for i, (ttl, src) in enumerate(sections):
         href = toc_link(ttl)
         raw_bib = load_bib(in_ / Path(src.strip()))
-        entries = [render_entry(entry) for entry in raw_bib]
+        entries = [render_entry(entry, cite) for entry in raw_bib]
         content = f"{h} {ttl}\n\n" + ("\n".join(sorted(entries)))
         with open(out / Path(md_name(i, ttl)), 'w') as f:
             f.write(content + "\n\n")
@@ -64,5 +68,7 @@ if __name__ == "__main__":
     ag('--refs', help="bibs path", default="references")
     ag('--level', type=int, help="header level", default=1)
     ag('--toc', action='store_true', help="output toc")
+    ag('--cite', action='store_true', help="apply citations")
     args = parser.parse_args()
-    main(Path(args.refs), Path(args.out), args.level, args.toc)
+    main(Path(args.refs), Path(args.out),
+         args.level, args.toc, args.cite)

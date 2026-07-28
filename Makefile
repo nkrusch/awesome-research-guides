@@ -16,15 +16,20 @@ $(SRC)/%.png: $(SRC)/%.svg
 $(SRC)/icon.png: $(SRC)/icon.svg
 	inkscape -w 192 -h 192 -o $@ $<
 
-docs: $(SRC)/sec-intro.md $(SRC)/sec-combined.md
+docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 	@$(RENDERER) --level 1 $@
 	@pandoc -o /dev/stdout $(REF_ARGS) -t html --wrap=none $(SRC)/sec-refs.md > $@/references.md
-	@pandoc -o $@/index.pdf $(REF_ARGS) --shift-heading-level-by=1 --toc --csl=$(SRC)/ieee.csl -M date="v$(DOC_DATE)" $(SRC)/sec-intro.md $@/*-*.md $(SRC)/sec-refs.md
 	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $(SRC)/sec-intro.md) > $@/index.md
 	@mkdir -p $@/$(SRC)
 	@cp -f $(SRC)/*.png $@/$(SRC)
 	@cp -f $(SRC)/*.css $@
 	@cp -f $(CONTRIB) $@
+	@make docs/index.pdf
+
+docs/index.pdf:
+	@$(RENDERER) --level 1 --toc --cite tmp
+	@pandoc -o $@ $(REF_ARGS) --toc --csl=$(SRC)/ieee.csl -M date="v$(DOC_DATE)" $(SRC)/sec-intro.md tmp/*-*.md $(SRC)/sec-refs.md
+	@rm -rf tmp
 
 $(SRC)/sec-combined.md:
 	@$(RENDERER) --level 2 --toc tmp
