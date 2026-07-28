@@ -120,8 +120,12 @@ Apart from books, the list items are open access.
 
 ## Research Job Search
 
+* [Academic Interviews (Faculty Positions)](https://capd.mit.edu/resources/academic-interviews-faculty-positions/) - Outline of expectations for faculty interviews and campus visits.
+* [Academic Interviews and Offers Panel Discussion](https://youtu.be/gHVGvtTTV94) - MIT professors speak about academic job search process and effective interview strategies.
+* [Application Materials for a Faculty Job Search](https://capd.mit.edu/resources/application-materials-for-a-faculty-job-search/) - Descriptions of commonly requested statements when you applying for faculty jobs in any department and/or discipline in the United States.
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - A comprehensive manual for navigating computer science PhD admissions in the United States.
 * [Faculty Job Interview Questions](https://neea.pl/guides/interview-questions.pdf) - A concise handout of potential job interview questions for a faculty position.
+* [Faculty Job Search Guide](https://capd.mit.edu/faculty-job-search-guide/) - A structured mini-course on early faculty job search in the United States, with timelines and advice on preparing application documents.
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Information about university faculty job application and interview process in the United States.
 * [Guide for the Tenure-Track Job Market in Computer/Information Sciences](https://shomir.net/tt_job_guide.html) - About seeking a faculty position for research-oriented tenure track positions in the United States.
 * [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Includes a list of various aspects that can be negotiated during a job offer.
