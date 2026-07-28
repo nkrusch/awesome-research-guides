@@ -90,7 +90,7 @@ Apart from books, the list items are open access.
 * [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - A checklist to evaluate soundness of scientific experiment setup, developed.
 * [Empirical Standards for Software Engineering research](https://www2.sigsoft.org/EmpiricalStandards/) - The official evidence standards for conducting and reporting studies in software engineering; developed.
 * [Guide for Accelerating Computational Reproducibility in the Social Sciences](https://bitss.github.io/ACRE/) - A structured guidebook toward assessing and improving computational reproducibility.
-* [Handbook for Reproduction and Replication Studies](https://forrt.org/replication_handbook) - A practical how-to guide for how to carry out a reproduction or a replication study.
+* [Handbook for Reproduction and Replication Studies](https://forrt.org/replication-handbook/) - A practical how-to guide for how to carry out a reproduction or a replication study.
 * [Proof Artifacts: Guidelines for Submission and Reviewing](https://proofartifacts.github.io/guidelines/) - Proof artifacts are a special category of scientific software and thus have their own presentation standards; the guidelines are maintained.
 * [Reliable benchmarking: requirements and solutions](https://doi.org/10.1007/s10009-017-0469-y) - Motivations for reliable benchmarking and presentation of BenchExec.
 * [STABILIZER: statistically sound performance evaluation](https://doi.org/10.1145/2499368.2451141) - Addressing the bias that commonly arises in measurements of effect size, i.e., the magnitude of change in performance.
