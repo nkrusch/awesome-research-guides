@@ -39,5 +39,8 @@ docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 readme.md: $(SRC)/sec-intro.md $(SRC)/sec-combined.md $(SRC)/sec-footer.md
 	@cat $^ > $@
 
+url-check:
+	lychee -vv --timeout 60 --accept 200,202,403 --host-stats readme.md
+
 clean:
 	@rm -rf docs $(SRC)/sec-combined.md
