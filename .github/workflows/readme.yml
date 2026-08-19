@@ -31,11 +31,12 @@ jobs:
         if: github.event_name != 'pull_request'
         id: pr
         with:
-          labels: "render"
           branch: readme
+          labels: "render"
           title: "Update readme"
           commit-message: "update readme"
-          body: ""
+          body: "An automatic readme update generated from references."
+          committer: ${{ github.actor }} ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
       - if: ${{ github.event_name != 'pull_request' && steps.pr.outputs.pull-request-number }}
         run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
         env:
