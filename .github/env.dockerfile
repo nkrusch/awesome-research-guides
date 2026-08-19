@@ -4,8 +4,6 @@ LABEL org.opencontainers.image.description="Pandoc runtime with bibtexparser."
 LABEL org.opencontainers.image.licenses="CC0-1.0"
 LABEL org.opencontainers.image.arch="linux/amd64"
 
-RUN pip install --no-cache-dir zensical bibtexparser
-
 RUN apk add --no-cache \
     wget \
     tar \
@@ -13,10 +11,15 @@ RUN apk add --no-cache \
     gcompat \
     texlive \
     texlive-xetex \
-    texlive-latexextra
+    texlive-latexextra \
+    nodejs \
+    npm \
+    git
 
-RUN wget https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz && \
-    tar -xzf pandoc-3.10-linux-amd64.tar.gz --strip-components=1 -C /usr/local/ && \
-    rm pandoc-3.10-linux-amd64.tar.gz
+RUN npm install -g awesome-lint
+RUN pip install --no-cache-dir zensical bibtexparser
+RUN wget https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz  \
+    && tar -xzf pandoc-3.10-linux-amd64.tar.gz --strip-components=1 -C /usr/local/  \
+    && rm pandoc-3.10-linux-amd64.tar.gz
 
 ENTRYPOINT ["/bin/ash"]
