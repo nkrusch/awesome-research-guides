@@ -8,12 +8,13 @@ from pathlib import Path
 from sys import argv
 
 
-def render_entry(entry, cite=False):
+def render_entry(entry, cite=False, style=False):
     href = entry.get('url', f"https://doi.org/{entry.get('doi')}")
     id, title, desc = map(entry.get, ('ID', 'title', 'abstract'))
     assert desc, "missing description" + title
     desc += "" if desc.endswith('.') else "."
     ref = f' [@{id}]' if cite else ''
+    title = f'**{title}**' if style else title
     icon = "" if 'video' in entry.get('keywords', '') else ''
     return f"* [{title}{icon}]({href}){ref} - {desc}"
 
@@ -37,7 +38,7 @@ def md_name(idx, title):
     return f'{n}-{f}.md'
 
 
-def main(in_, out, level, gen_toc, cite):
+def main(in_, out, level, gen_toc, cite, style):
     out.mkdir(parents=True, exist_ok=True)
     with open(in_ / Path("_toc.txt"), 'r') as f:
         sections = [tuple(line.strip().split(','))
@@ -47,7 +48,7 @@ def main(in_, out, level, gen_toc, cite):
     for i, (ttl, src) in enumerate(sections):
         href = toc_link(ttl)
         raw_bib = load_bib(in_ / Path(src.strip()))
-        entries = [render_entry(entry, cite) for entry in raw_bib]
+        entries = [render_entry(entry, cite, style) for entry in raw_bib]
         content = f"{h} {ttl}\n\n" + ("\n".join(sorted(entries)))
         with open(out / Path(md_name(i, ttl)), 'w') as f:
             f.write(content + "\n\n")
@@ -65,6 +66,7 @@ if __name__ == "__main__":
     ag('--level', type=int, help="header level", default=1)
     ag('--toc', action='store_true', help="output toc")
     ag('--cite', action='store_true', help="apply citations")
+    ag('--style-links', action='store_true', help="bolder text")
     args = parser.parse_args()
     main(Path(args.refs), Path(args.out),
-         args.level, args.toc, args.cite)
+         args.level, args.toc, args.cite, args.style_links)

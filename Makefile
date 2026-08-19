@@ -6,7 +6,6 @@ BIBS   := $(patsubst %, --bibliography=%, $(wildcard references/*.bib))
 CONTRIB := .github/contributing.md
 RENDERER := python3 .github/render.py
 REF_ARGS := --metadata-file=$(SRC)/meta.yml --pdf-engine=xelatex --citeproc $(BIBS)
-DOC_DATE := $(shell TZ='Europe/Helsinki' date '+%Y%m%e')
 
 all: readme.md docs
 images: $(IMAGES) $(SRC)/icon.png
@@ -23,13 +22,13 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 %/sec-combined.md:
 	@$(RENDERER) --level 2 --toc tmp && cat tmp/toc.md tmp/*-*.md > $@ && rm -rf tmp
 
-readme.md: $(SRC)/sec-intro.md $(SRC)/sec-combined.md $(SRC)/sec-footer.md
+readme.md: $(SRC)/sec-header.md $(SRC)/sec-intro.md $(SRC)/sec-combined.md $(SRC)/sec-footer.md
 	@cat $^ > $@
 
 docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 	@$(RENDERER) --level 1 $@
 	@pandoc -o /dev/stdout $(REF_ARGS) -t html --wrap=none $(SRC)/sec-refs.md > $@/references.md
-	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $(SRC)/sec-intro.md) > $@/index.md
+	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $(SRC)/sec-header.md $(SRC)/sec-intro.md) > $@/index.md
 	@mkdir -p $@/$(SRC)
 	@cp -f $(SRC)/*.png $@/$(SRC)
 	@cp -f $(SRC)/*.css $@
@@ -37,8 +36,12 @@ docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 	@make docs/index.pdf
 
 %/index.pdf:
-	@$(RENDERER) --level 1 --toc --cite tmp
-	@pandoc -o $@ $(REF_ARGS) --toc --csl=$(SRC)/ieee.csl -M date="v$(DOC_DATE)" $(SRC)/sec-intro.md tmp/*-*.md $(SRC)/sec-refs.md
+	@$(RENDERER) --level 1 --toc --cite --style-links tmp
+	@(printf -- "\clearpage\n# Foreword\n\n") > tmp/index.md
+	@(printf -- '\clearpage\n```{=latex}\n\\footnotesize\\setstretch{1.0}\\sloppy\n```\n\n'; cat $(SRC)/sec-refs.md) > tmp/refs.md
+	@pandoc -o $@ $(REF_ARGS) --toc --csl=$(SRC)/ieee.csl \
+        -M subtitle="https://guides.neea.pl • v$(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M')" \
+ 		tmp/index.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md
 	@rm -rf tmp
 
 clean:
