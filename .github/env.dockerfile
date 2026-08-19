@@ -14,7 +14,8 @@ RUN apk add --no-cache \
     texlive-latexextra \
     nodejs \
     npm \
-    git
+    git \
+    font-liberation
 
 RUN npm install -g awesome-lint
 RUN pip install --no-cache-dir zensical bibtexparser
