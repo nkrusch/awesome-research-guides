@@ -1,6 +1,6 @@
 FROM python:3.13-alpine
 
-LABEL org.opencontainers.image.description="Pandoc runtime with bibtexparser"
+LABEL org.opencontainers.image.description="Pandoc runtime with bibtexparser."
 LABEL org.opencontainers.image.licenses="CC0-1.0"
 LABEL org.opencontainers.image.arch="linux/amd64"
 
