@@ -25,6 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: make readme.md
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - working-directory: ${{ github.workspace }}
         run: npx awesome-lint
       - uses: peter-evans/create-pull-request@v8
