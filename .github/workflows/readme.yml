@@ -29,7 +29,7 @@ jobs:
       - working-directory: ${{ github.workspace }}
         run: npx awesome-lint
       - uses: peter-evans/create-pull-request@v8
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.event_name != 'workflow_dispatch'
         id: pr
         with:
           branch: readme
@@ -38,7 +38,12 @@ jobs:
           commit-message: "update readme"
           body: "An automatic readme update generated from references."
           committer: ${{ github.actor }} ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
-      - if: ${{ github.event_name != 'pull_request' && steps.pr.outputs.pull-request-number }}
+      - if: >-
+          ${{ 
+            github.event_name != 'pull_request' && 
+            github.event_name != 'workflow_dispatch' && 
+            steps.pr.outputs.pull-request-number 
+          }}
         run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
         env:
           GH_TOKEN: ${{ github.token }}
