@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.description="Pandoc runtime with bibtexparser."
 LABEL org.opencontainers.image.licenses="CC0-1.0"
 LABEL org.opencontainers.image.arch="linux/amd64"
 
-RUN pip install --no-cache-dir bibtexparser
+RUN pip install --no-cache-dir zensical bibtexparser
 
 RUN apk add --no-cache \
     wget \
