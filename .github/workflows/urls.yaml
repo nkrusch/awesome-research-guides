@@ -1,4 +1,4 @@
-name: URL Status
+name: URL Check
 
 on:
   schedule:

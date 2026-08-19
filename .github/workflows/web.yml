@@ -10,7 +10,7 @@ on:
       - zensical.toml
 
 jobs:
-  deploy:
+  website:
     runs-on: ubuntu-latest
     permissions:
       pages: write
