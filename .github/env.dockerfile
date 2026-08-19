@@ -21,5 +21,3 @@ RUN pip install --no-cache-dir zensical bibtexparser
 RUN wget https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz  \
     && tar -xzf pandoc-3.10-linux-amd64.tar.gz --strip-components=1 -C /usr/local/  \
     && rm pandoc-3.10-linux-amd64.tar.gz
-
-ENTRYPOINT ["/bin/ash"]
