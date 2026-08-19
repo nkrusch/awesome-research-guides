@@ -2,5 +2,6 @@
 .venv
 site
 docs
+node_modules
 **/sec-combined.md
 **/sec-refs.md

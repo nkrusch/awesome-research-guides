@@ -16,15 +16,14 @@ jobs:
   readme:
     if: "!startsWith(github.head_ref, 'readme')"
     runs-on: ubuntu-latest
+    container:
+      image: ${{ vars.CONTAINER }}
+      options: --platform linux/amd64
     permissions:
       contents: write
       pull-requests: write
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-python@v6
-        with:
-          python-version: 3.13
-      - run: pip install bibtexparser
       - run: make readme.md
       - run: npx awesome-lint
       - uses: peter-evans/create-pull-request@v8

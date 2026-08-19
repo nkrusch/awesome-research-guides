@@ -2,7 +2,7 @@ name: URL Check
 
 on:
   schedule:
-    - cron:  '0 6 * * 1'  # Mondays 06:00
+    - cron:  '0 9 * * 1' # weekly
   pull_request:
     paths:
       - .github/workflows/urls.yml
@@ -12,7 +12,7 @@ jobs:
   check-urls:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: lycheeverse/lychee-action@v2
         with:
           args: '--timeout 60 --exclude ${{ vars.URL_EXCLUDES }} --accept ${{ vars.URL_ACCEPT }} --host-stats readme.md'

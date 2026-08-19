@@ -9,12 +9,10 @@ on:
 jobs:
   test_build:
     runs-on: ubuntu-latest
+    container:
+      image: ${{ vars.CONTAINER }}
+      options: --platform linux/amd64
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/pandoc
-      - uses: actions/setup-python@v6
-        with:
-          python-version: 3.13
-      - run: pip install zensical bibtexparser
       - run: make docs
       - run: zensical build --clean
