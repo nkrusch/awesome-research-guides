@@ -19,14 +19,13 @@ List items can appear in many formats: text, slides, video, etc.
 ### How to contribute
 
 The awesome list is compiled from the references.
-All updates should be made to the BibTeX files.
-
-Important: do not edit the readme directly.
+Do not edit the readme directly; all updates must be made in bib files.
 
 1. Fork and clone [this repository].
 2. Go to `references/`
-3. Each bib-file is a list section: choose a bibliography to edit. 
-4. Apply edits to the bibliography: include a one-sentence description in `abstract`.
+3. Each bib file is a list section: choose a bibliography to edit. 
+4. Apply edits to the bibliography.
+   Make sure to include a one-sentence description in `abstract`.
 5. Commit changes to the forked repository.
 6. Open a [pull request] against the upstream repository.
 
