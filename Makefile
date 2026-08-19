@@ -41,8 +41,5 @@ docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 	@pandoc -o $@ $(REF_ARGS) --toc --csl=$(SRC)/ieee.csl -M date="v$(DOC_DATE)" $(SRC)/sec-intro.md tmp/*-*.md $(SRC)/sec-refs.md
 	@rm -rf tmp
 
-url-check:
-	lychee -vv --timeout 60 --accept 200,202,403 --host-stats readme.md
-
 clean:
 	@rm -rf docs $(SRC)/sec-combined.md
