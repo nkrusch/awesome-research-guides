@@ -25,7 +25,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: make readme.md
-      - run: npx awesome-lint
+      - working-directory: ${{ github.workspace }}
+        run: npx awesome-lint
       - uses: peter-evans/create-pull-request@v8
         if: github.event_name != 'pull_request'
         id: pr
