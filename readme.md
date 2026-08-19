@@ -106,6 +106,7 @@ Apart from books, the list items are open access.
 * [Cornell Food Researcher's Downfall Raises Larger Questions For Science](https://www.npr.org/sections/thesalt/2018/09/26/651849441/cornell-food-researchers-downfall-raises-larger-questions-for-science) - This should be the cautionary tale discussed in Research Methods 101 across many disciplines.
 * [Green, Gold, and Diamond Open Access](https://open-access.network/en/information/open-access-primers/green-and-gold) - A guide to understanding the different publication access models.
 * [How NOT to review a paper: the tools and techniques of the adversarial reviewer](https://doi.org/10.1145/1519103.1519122) - A delightful exposition about reviewing, from the perspective of the adversarial reviewer.
+* [Introduction to Research Metrics](https://libguides.urmc.rochester.edu/ResearchMetrics) - Explanation of research metrics like impact factor, h-index, g-index, and altmetrics.
 * [Low-CO2 research paper](https://tcs4f.org/low-co2-v1) - An initiative to advertise the low environmental impact of research work.
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes.
 * [No free view? No review!](https://nofreeviewnoreview.org) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
