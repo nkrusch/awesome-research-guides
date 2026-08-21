@@ -39,7 +39,7 @@ jobs:
           title: "Update readme"
           commit-message: "update readme"
           body: "An automatic readme update generated from references."
-          committer: ${{ github.actor }} ${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com
+          committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
       - if: >-
           ${{ 
             github.event_name != 'pull_request' && 
