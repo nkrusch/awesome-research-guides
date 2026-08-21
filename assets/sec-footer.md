@@ -7,7 +7,7 @@
 </div>
 <br/><br/>
 
-Alternative versions of this list: [website](https://guides.neea.pl) and [PDF](https://guides.neea.pl/index.pdf).
+A PDF version of this list if available [here](https://guides.neea.pl/index.pdf).
 
 **Is something missing?** Your contributions can make the list better.    
 Start by reading the [contribution guidelines](.github/contributing.md).
