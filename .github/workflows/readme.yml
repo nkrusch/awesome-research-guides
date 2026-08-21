@@ -6,13 +6,13 @@ on:
       - main
     paths:
       - "references/*"
-      - "asserts/sec-*.md"
+      - "assets/sec-*.md"
   pull_request:
     types: [opened, synchronize]
     branches: [main]
     paths:
       - "references/*"
-      - "asserts/sec-*.md"
+      - "assets/sec-*.md"
       
 jobs:
   readme:
