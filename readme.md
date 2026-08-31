@@ -7,7 +7,6 @@
 <br/><a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
 <br/><strong>Guidance about conducting scientific research.</strong>
 </div><br/>
-
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
 The goal of this list is to make those assumed skills and principles explicit.
@@ -139,7 +138,7 @@ Apart from books, the list items are open access.
 * [How Science Goes Wrong](https://www.chem.ucla.edu/dept/Faculty/merchant/pdf/How_Science_Goes_Wrong.pdf) - Discussion structural bias of science, driven by e.g., failures to replicate studies and flawed peer review.
 * [How to succeed in graduate school: a guide for students and advisors: part I of II](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - About optimizing the outcomes in a student-advisor relationship.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research.
-* [The machines are fine. I'm worried about us.](https://ergosphere.blog/posts/the-machines-are-fine/) - Thoughtful reflections about how large language models are influencing science.
+* [The machines are fine. I'm worried about us.](https://web.archive.org/web/20260827020720/https://ergosphere.blog/posts/the-machines-are-fine/) - Thoughtful reflections about how large language models are influencing science.
 
 ## Books about Scientific Skills
 
@@ -162,14 +161,11 @@ Apart from books, the list items are open access.
 ---
 
 <div align="center">
-<picture>
-
-  ![](assets/research.png)
-
-</picture>
+<picture><img alt="" src="assets/research.png" /></picture>
 <br/><strong>Figure 1.</strong> <i>"Three Kinds of Research"</i> from <a href="https://xkcd.com/2977/">xkcd #2977</a>.
 </div>
 <br/><br/>
 
-**Is something missing?** Your contributions can make the list better. 
-Start by reading the [contribution guidelines](.github/contributing.md).
+A PDF version of this list if available [here](https://guides.neea.pl/index.pdf).
+
+**Is something missing?** Your contributions can make the list better. Start by reading the [contribution guidelines](.github/contributing.md).
