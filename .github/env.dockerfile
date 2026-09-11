@@ -19,7 +19,7 @@ RUN apk add --no-cache \
     github-cli
 
 RUN npm install -g awesome-lint
-RUN pip install --no-cache-dir zensical bibtexparser
+RUN pip install --no-cache-dir zensical bibtexparser==1.4.4
 RUN wget https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz  \
     && tar -xzf pandoc-3.10-linux-amd64.tar.gz --strip-components=1 -C /usr/local/  \
     && rm pandoc-3.10-linux-amd64.tar.gz

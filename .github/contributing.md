@@ -29,6 +29,17 @@ Do not edit the readme directly; all updates must be made in bib files.
 5. Commit changes to the forked repository.
 6. Open a [pull request] against the upstream repository.
 
+### Previewing
+
+Using Docker, you can preview the rendered output. Run in terminal:
+```
+docker run --rm --platform linux/amd64 \
+   -v $(PWD):$(PWD) -w $(PWD) \
+    --platform linux/amd64 \
+   ghcr.io/nkrusch/guide-env:latest \
+   make readme.md
+```
+
 [this repository]: https://github.com/nkrusch/awesome-research-guides/fork
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
 [repository issues]: https://github.com/nkrusch/awesome-research-guides/issues

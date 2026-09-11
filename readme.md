@@ -23,11 +23,13 @@ There are also several complementary web collections[^c] mostly written by a sin
 In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative refinement over time.
 Apart from books, the list items are open access.
 
+
 [^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice/), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), etc.
 
 [experiences vary wildly]: https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22
 [scientific writing]: https://github.com/writing-resources/awesome-scientific-writing#readme
 [research tools]: https://github.com/emptymalei/awesome-research#readme
+
 
 ## Contents
 
