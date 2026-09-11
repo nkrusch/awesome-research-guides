@@ -7,6 +7,9 @@
 <br/><a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
 <br/><strong>Guidance about conducting scientific research.</strong>
 </div><br/>
+
+
+
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
 The goal of this list is to make those assumed skills and principles explicit.
