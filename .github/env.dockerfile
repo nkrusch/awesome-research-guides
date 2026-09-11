@@ -15,7 +15,8 @@ RUN apk add --no-cache \
     nodejs \
     npm \
     git \
-    font-liberation
+    font-liberation \
+    github-cli
 
 RUN npm install -g awesome-lint
 RUN pip install --no-cache-dir zensical bibtexparser
