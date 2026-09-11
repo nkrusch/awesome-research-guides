@@ -1,10 +1,11 @@
 ---
 title: "Awesome Research Guides"
-author: ""
+author: "Curated by Neea Rusch and open source contributors."
 nocite: "[@*]"
 fontsize: 11pt
 papersize: letter
 documentclass: scrartcl
+# macOS: brew install --cask font-liberation
 mainfont: Liberation Sans
 sansfont: Liberation Sans
 linestretch: 1.25
@@ -14,5 +15,10 @@ header-includes:
   - \usepackage{graphicx}
   - \usepackage{microtype}
   - \usepackage{etoolbox}
+  - \usepackage{scrlayer-scrpage}
+  - \pagestyle{scrheadings}
+  - \usepackage{flushend}
   - \makeatletter\patchcmd{\@maketitle}{\huge}{\LARGE}{}{}\makeatletter
+  - \setkomafont{author}{\large}
+  - \ifoot{\small\href{https://guides.neea.pl}{guides.neea.pl}}
 ---

@@ -38,11 +38,12 @@ docs: $(SRC)/sec-intro.md $(SRC)/sec-refs.md
 %/index.pdf:
 	@$(RENDERER) --level 1 --toc --cite --style-links tmp
 	@(printf -- "\clearpage\n# Foreword\n\n") > tmp/index.md
-	@(printf -- '\clearpage\n```{=latex}\n\\footnotesize\\setstretch{1.0}\\sloppy\n```\n\n'; cat $(SRC)/sec-refs.md) > tmp/refs.md
+	@(printf -- '\clearpage\n```{=latex}\n\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n'; \
+       cat $(SRC)/sec-refs.md) > tmp/refs.md
 	@pandoc -o $@ $(REF_ARGS) --toc --csl=$(SRC)/ieee.csl \
-        -M subtitle="https://guides.neea.pl • v$(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M')" \
+        -M subtitle="v$(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M') • https://guides.neea.pl" \
  		tmp/index.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md
 	@rm -rf tmp
 
 clean:
-	@rm -rf docs $(SRC)/sec-combined.md
+	@rm -rf docs $(SRC)/sec-combined.md $(SRC)/sec-refs.md
