@@ -1,3 +1,4 @@
+
 Scientists produce deliverables like publications and software artifacts.
 Creating the deliverables assumes many research skills and awareness of procedural principles.
 The goal of this list is to make those assumed skills and principles explicit.
