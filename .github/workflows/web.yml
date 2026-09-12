@@ -5,31 +5,58 @@ on:
     branches:
       - main
     paths:
-      - "references/*"
       - "assets/sec-*.md"
+      - "references/*"
+      - "zensical.toml"
       - ".github/contributing.md"
-      - "./zensical.toml"
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - main
+    paths:
+      - "assets/sec-*.md"
+      - "references/*"
+      - "zensical.toml"
+      - ".github/contributing.md"
+
 
 jobs:
-  website:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ${{ vars.CONTAINER }}
+      options: --platform linux/amd64
+    steps:
+      - uses: actions/checkout@v7
+      - run: make docs
+      - run: zensical build --clean
+      - uses: actions/upload-artifact@v7.0.1
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          name: site
+          path: site
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       pages: write
       contents: write
       id-token: write
-    container:
-      image: ${{ vars.CONTAINER }}
-      options: --platform linux/amd64
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/configure-pages@v6
-      - uses: actions/checkout@v7
-      - run: make docs
-      - run: zensical build --clean
+      - uses: actions/download-artifact@v8.0.1
+        with:
+          name: site
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
       - uses: actions/deploy-pages@v5
-
+      - uses: geekyeggo/delete-artifact@v6
+        with:
+          name: site
+          failOnError: 'true'

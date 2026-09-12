@@ -9,14 +9,29 @@ on:
       - "assets/sec-*.md"
   pull_request:
     types: [opened, synchronize]
-    branches: [main]
+    branches:
+      - main
     paths:
       - "references/*"
       - "assets/sec-*.md"
       
 jobs:
-  readme:
+  check:
     if: "!startsWith(github.head_ref, 'readme')"
+    runs-on: ubuntu-latest
+    container:
+      image: ${{ vars.CONTAINER }}
+      options: --platform linux/amd64
+    steps:
+      - uses: actions/checkout@v7
+      - run: make readme.md
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - run: npx awesome-lint
+        working-directory: ${{ github.workspace }}
+
+  apply:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     container:
       image: ${{ vars.CONTAINER }}
@@ -27,11 +42,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - run: make readme.md
-      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
-      - working-directory: ${{ github.workspace }}
-        run: npx awesome-lint
       - uses: peter-evans/create-pull-request@v8
-        if: github.event_name != 'pull_request' && github.event_name != 'workflow_dispatch'
         id: pr
         with:
           branch: readme
@@ -40,12 +51,8 @@ jobs:
           commit-message: "update readme"
           body: "An automatic readme update generated from references."
           committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
-      - if: >-
-          ${{ 
-            github.event_name != 'pull_request' && 
-            github.event_name != 'workflow_dispatch' && 
-            steps.pr.outputs.pull-request-number 
-          }}
+          token: ${{ github.token }}
+      - if: steps.pr.outputs.pull-request-number
         run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
         env:
           GH_TOKEN: ${{ github.token }}

@@ -32,15 +32,15 @@ Do not edit the readme directly; all updates must be made in bib files.
 ### Previewing
 
 Using Docker, you can preview the rendered output. Run in terminal:
-```
-docker run --rm --platform linux/amd64 \
+
+```bash
+docker run --rm --platform=linux/amd64 \
    -v $(PWD):$(PWD) -w $(PWD) \
-    --platform linux/amd64 \
    ghcr.io/nkrusch/guide-env:latest \
    make readme.md
 ```
 
-[this repository]: https://github.com/nkrusch/awesome-research-guides/fork
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
 [repository issues]: https://github.com/nkrusch/awesome-research-guides/issues
+[this repository]: https://github.com/nkrusch/awesome-research-guides/fork
 [pull request]: https://github.com/nkrusch/awesome-research-guides/pulls

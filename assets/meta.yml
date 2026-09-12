@@ -1,7 +1,6 @@
 ---
 title: "Awesome Research Guides"
-author: "Curated by Neea Rusch and open source contributors."
-nocite: "[@*]"
+author: "Neea Rusch and contributors"
 fontsize: 11pt
 papersize: letter
 documentclass: scrartcl
