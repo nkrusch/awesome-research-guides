@@ -9,6 +9,7 @@ on:
       - "references/*"
       - "zensical.toml"
       - ".github/contributing.md"
+      - ".github/workflows/web.yml"
   pull_request:
     types: [opened, synchronize]
     branches:
@@ -18,7 +19,7 @@ on:
       - "references/*"
       - "zensical.toml"
       - ".github/contributing.md"
-
+      - ".github/workflows/web.yml"
 
 jobs:
   build:
@@ -48,6 +49,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v7
       - uses: actions/configure-pages@v6
       - uses: actions/download-artifact@v8.0.1
         with:
