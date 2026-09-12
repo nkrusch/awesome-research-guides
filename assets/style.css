@@ -11,20 +11,22 @@ body[data-md-color-scheme="slate"] .theme-aware-logo img {
     content: url("assets/logo-dark.png");
 }
 
-#refs {
-    counter-reset: bib-counter;
+#refs > div a{
+    font-size: 90%;
+    display: inline;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
-#refs > div {
-    counter-increment: bib-counter;
-    margin-bottom: 1em;
+#refs .csl-left-margin {
+    display: inline-block;
+    width: 3em;
+    float: left;
+    color: #555;
+}
+
+#refs .csl-right-inline{
+    margin-bottom: 0.7em;
     padding-left: 3em;
     position: relative;
-}
-
-#refs > div::before {
-    content: "[" counter(bib-counter) "] ";
-    position: absolute;
-    left: 0;
-    color: #555;
 }
