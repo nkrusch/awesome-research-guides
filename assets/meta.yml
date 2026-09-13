@@ -1,6 +1,7 @@
 ---
 title: "Awesome Research Guides"
 author: "Neea Rusch and open source contributors"
+subject: "scientific research"
 fontsize: 11pt
 papersize: letter
 documentclass: scrartcl
@@ -9,15 +10,32 @@ mainfont: Liberation Sans
 sansfont: Liberation Sans
 linestretch: 1.25
 geometry: margin=1truein, truedimen, twoside=false, ignoreall
+cover-image: tmp/cover.jpg
 header-includes:
   - \usepackage[utf8]{inputenc}
+  - \usepackage{geometry}
   - \usepackage{graphicx}
   - \usepackage{microtype}
   - \usepackage{etoolbox}
+  - \usepackage{bookmark}
   - \usepackage{scrlayer-scrpage}
   - \pagestyle{scrheadings}
   - \usepackage{flushend}
   - \makeatletter\patchcmd{\@maketitle}{\huge}{\LARGE}{}{}\makeatletter
   - \setkomafont{author}{\large}
   - \ohead{\scriptsize\@title{ }• \href{https://guides.neea.pl}{guides.neea.pl}}
+  - |
+        ```{=latex}
+        \pretocmd{\tableofcontents}{\hypertarget{tableofcontents}{}\bookmark[level=section,dest=tableofcontents]{Contents}}{}{}
+        \usepackage{geometry,bookmark,etoolbox}
+        \let\oldmaketitle\maketitle
+        \renewcommand{\maketitle}{
+          \begin{titlepage}
+          \newgeometry{margin=0pt}
+          \noindent\includegraphics[width=\paperwidth,height=\paperheight]{tmp/cover.jpg}
+          \restoregeometry
+          \end{titlepage}
+          \clearpage
+          \oldmaketitle}
+        ```
 ---
