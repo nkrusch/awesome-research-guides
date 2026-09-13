@@ -17,7 +17,8 @@ RUN apk add --no-cache \
     git \
     font-liberation \
     github-cli \
-    qpdf
+    qpdf \
+    imagemagick
 
 RUN npm install -g awesome-lint
 RUN pip install --no-cache-dir zensical bibtexparser==1.4.4
