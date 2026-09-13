@@ -135,8 +135,12 @@ Apart from books, the list items are open access.
 * [Finding a Good Postdoc: Tips & Resources](https://capd.mit.edu/resources/finding-a-good-postdoc-tips-resources/) - Resources and advice to determine postdoc path fit and search for positions (USA).
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Information about university faculty job application and interview process in the United States.
 * [Guide for the Tenure-Track Job Market in Computer/Information Sciences](https://shomir.net/tt_job_guide.html) - About seeking a faculty position for research-oriented tenure track positions in the United States.
+* [Master Government List of Federally Funded R&D Centers](https://ncses.nsf.gov/resource/master-gov-lists-ffrdc) - A master list of all federally funded R&D centers in the United States; for locating research opportunities at national labs.
 * [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Includes a list of various aspects that can be negotiated during a job offer.
+* [Strategies for Your Career at a National Laboratory](https://www.osti.gov/servlets/purl/1829249) - Career paths and strategies for working at national laboratories, by Carmen Pancerella.
+* [Strategies for seeking a job at a national lab](https://doi.org/10.2172/1659149) - Information and advice about working at national labs, from a 32-year career researcher at Los Alamos.
 * [Tips for Computer Science Faculty Applications](https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc) - A guide with examples about how to prepare a faculty application package for computer science positions.
+* [Tips on the Interview Process](https://www.cs.cmu.edu/~emigration/interview.pdf) - Tips on the     academic faculty interview process and how to prepare.
 
 ## Meta Discussions
 
