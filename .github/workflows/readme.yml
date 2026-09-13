@@ -7,6 +7,7 @@ on:
     paths:
       - "references/*"
       - "assets/sec-*.md"
+      - ".github/workflows/readme.yml"
   pull_request:
     types: [opened, synchronize]
     branches:
@@ -14,7 +15,8 @@ on:
     paths:
       - "references/*"
       - "assets/sec-*.md"
-      
+      - ".github/workflows/readme.yml"
+
 jobs:
   check:
     if: "!startsWith(github.head_ref, 'readme')"
@@ -53,6 +55,8 @@ jobs:
           committer: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
           token: ${{ github.token }}
       - if: steps.pr.outputs.pull-request-number
-        run: gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
+        run: |
+          git config --global --add safe.directory /__w/awesome-research-guides/awesome-research-guides
+          gh pr merge --squash --auto ${{ steps.pr.outputs.pull-request-number }}
         env:
           GH_TOKEN: ${{ github.token }}
