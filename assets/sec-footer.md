@@ -7,6 +7,10 @@
 </div>
 <br/><br/>
 
-A PDF version of this list if available [here](https://guides.neea.pl/index.pdf).
+Thanks to [Pandoc](https://pandoc.org), 
+this resource is available in the following formats:
+[web](https://guides.neea.pl),
+[pdf](https://guides.neea.pl/index.pdf), 
+[epub](https://guides.neea.pl/index.epub).
 
 **Is something missing?** Your contributions can make the list better. Start by reading the [contribution guidelines](.github/contributing.md).

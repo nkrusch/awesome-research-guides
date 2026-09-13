@@ -19,5 +19,5 @@ header-includes:
   - \usepackage{flushend}
   - \makeatletter\patchcmd{\@maketitle}{\huge}{\LARGE}{}{}\makeatletter
   - \setkomafont{author}{\large}
-  - \ifoot{\small\href{https://guides.neea.pl}{guides.neea.pl}}
+  - \ohead{\scriptsize\@title{ }• \href{https://guides.neea.pl}{guides.neea.pl}}
 ---

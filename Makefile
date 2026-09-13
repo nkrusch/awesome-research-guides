@@ -23,7 +23,7 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 	@printf -- "---\nnocite: \"[@*]\"\n---\n\n# References\n\n" | pandoc $(REFS) -t html --wrap=none -o $@
 
 %/refs.md:
-	@(printf -- '\clearpage\n```{=latex}\n\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n# References\n\n') > $@
+	@(printf -- '\clearpage\\pagestyle{empty}\n```{=latex}\n\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n# References\n\n') > $@
 
 %/index.md: $(SRC)/sec-header.md $(SRC)/sec-intro.md
 	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $^) > $@
@@ -35,7 +35,9 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 	@$(RENDERER) --level 1 --toc --cite --style-links tmp
 	@make tmp/foreword.md tmp/refs.md
 	@xelatex -output-directory=tmp "\def\version{v$(PDF_DATE)}\input{$(SRC)/cover.tex}"
+	magick -density 300 tmp/cover.pdf[0] -quality 95 tmp/cover.jpg
 	@pandoc $(PDF_ARGS) tmp/foreword.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md -o tmp/content.pdf
+	@pandoc $(PDF_ARGS) tmp/foreword.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md --epub-cover-image=tmp/cover.jpg -o $(subst .pdf,.epub, $@)
 	qpdf --empty --pages tmp/cover.pdf tmp/content.pdf -- $@
 	@rm -rf tmp
 
