@@ -5,7 +5,8 @@ CONTRIB  := .github/contributing.md
 IMAGES   := $(subst .svg,.png, $(wildcard $(SRC)/logo*.svg))
 BIBS     := $(patsubst %, --bibliography=%, $(wildcard references/*.bib))
 REFS     := --metadata-file=$(SRC)/meta.yml --pdf-engine=xelatex --citeproc --csl=$(SRC)/ieee.csl $(BIBS)
-PDF_SUB  := v$(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M') • https://guides.neea.pl
+PDF_DATE := $(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M')
+PDF_SUB  := v$(PDF_DATE) • https://guides.neea.pl
 PDF_ARGS := $(REFS) --toc -M subtitle="$(PDF_SUB)"
 RENDERER := python3 .github/render.py
 
@@ -33,7 +34,9 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 %/index.pdf:
 	@$(RENDERER) --level 1 --toc --cite --style-links tmp
 	@make tmp/foreword.md tmp/refs.md
-	@pandoc $(PDF_ARGS) tmp/foreword.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md -o $@
+	@xelatex -output-directory=tmp "\def\version{v$(PDF_DATE)}\input{$(SRC)/cover.tex}"
+	@pandoc $(PDF_ARGS) tmp/foreword.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md -o tmp/content.pdf
+	qpdf --empty --pages tmp/cover.pdf tmp/content.pdf -- $@
 	@rm -rf tmp
 
 %/sec-combined.md:
