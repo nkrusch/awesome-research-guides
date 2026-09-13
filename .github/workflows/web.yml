@@ -5,10 +5,9 @@ on:
     branches:
       - main
     paths:
+      - "assets/*"
       - "references/*"
       - "zensical.toml"
-      - "assets/cover-*"
-      - "assets/sec-*.md"
       - ".github/contributing.md"
       - ".github/workflows/web.yml"
   pull_request:
@@ -16,10 +15,9 @@ on:
     branches:
       - main
     paths:
+      - "assets/*"
       - "references/*"
       - "zensical.toml"
-      - "assets/cover-*"
-      - "assets/sec-*.md"
       - ".github/contributing.md"
       - ".github/workflows/web.yml"
 
