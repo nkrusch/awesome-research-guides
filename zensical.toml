@@ -16,7 +16,7 @@ favicon = "./assets/icon.png"
 logo = "lucide/waypoints"
 
 [[project.extra.social]]
-icon = "lucide/file-down"
+icon = "lucide/book-down"
 link = "/index.pdf"
 
 [[project.theme.palette]]
