@@ -4,10 +4,10 @@ SRC      := assets
 CONTRIB  := .github/contributing.md
 IMAGES   := $(subst .svg,.png, $(wildcard $(SRC)/logo*.svg))
 BIBS     := $(patsubst %, --bibliography=%, $(wildcard references/*.bib))
-REFS     := --metadata-file=$(SRC)/meta.yml --pdf-engine=xelatex --citeproc --csl=$(SRC)/ieee.csl $(BIBS)
+REFS     := --metadata-file=$(SRC)/meta.yml --citeproc --csl=$(SRC)/ieee.csl $(BIBS)
 PDF_DATE := $(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M')
 PDF_SUB  := v$(PDF_DATE) • https://guides.neea.pl
-PDF_ARGS := $(REFS) --toc -M subtitle="$(PDF_SUB)"
+PDF_ARGS := $(REFS) --toc -M subtitle="$(PDF_SUB)" --pdf-engine=xelatex
 RENDERER := python3 .github/render.py
 
 all: readme.md docs

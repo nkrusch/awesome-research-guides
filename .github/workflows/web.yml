@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - "Makefile"
       - "assets/*"
       - "references/*"
       - "zensical.toml"
@@ -15,6 +16,7 @@ on:
     branches:
       - main
     paths:
+      - "Makefile"
       - "assets/*"
       - "references/*"
       - "zensical.toml"
