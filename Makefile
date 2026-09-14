@@ -23,7 +23,7 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 	@printf -- "---\nnocite: \"[@*]\"\n---\n\n# References\n\n" | pandoc $(REFS) -t html --wrap=none -o $@
 
 %/refs.md:
-	@(printf -- '\clearpage\n```{=latex}\n\\pagestyle{empty}\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n# References\n\n') > $@
+	@(printf -- '\clearpage\n```{=latex}\n\\pagestyle{plain}\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n# References\n\n') > $@
 
 %/index.md: $(SRC)/sec-header.md $(SRC)/sec-intro.md
 	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $^) > $@
