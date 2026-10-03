@@ -1,10 +1,11 @@
 ## Contributing Guidelines
 
-This project is released with a contributor [Code of Conduct].
-By participating, you agree to abide by its terms.
+Awesome Research Guides is an open-source project hosted at
 
-For contribution ideas, have a look at [repository issues].
-Awesome lists are curations of the best resources by topic, not everything.
+     https://github.com/nkrusch/awesome-research-guides
+
+The project is released with a contributor [Code of Conduct].
+By participating, you agree to abide by its terms.
 
 ### Scope and inclusion criteria
 
@@ -15,6 +16,9 @@ Contributions must meet the following inclusion criteria.
 * The item content should have **long-term relevance** (in years).
 
 List items can appear in many formats: text, slides, video, etc.
+
+For contribution ideas, have a look at [repository issues].
+Awesome lists are curations of the best resources by topic, not everything.
 
 ### How to contribute
 
