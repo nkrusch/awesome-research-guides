@@ -1,6 +1,6 @@
 ---
 title: "Awesome Research Guides"
-author: "Neea Rusch and open source contributors"
+author: "Neea Rusch"
 subject: "scientific research"
 fontsize: 11pt
 papersize: letter
@@ -22,7 +22,8 @@ header-includes:
   - \pagestyle{scrheadings}
   - \usepackage{flushend}
   - \makeatletter\patchcmd{\@maketitle}{\huge}{\LARGE}{}{}\makeatletter
-  - \setkomafont{author}{\large}
+  - \setkomafont{subtitle}{\small}
+  - \setkomafont{author}{\small}
   - \ohead{\scriptsize\@title{ }• \href{https://guides.neea.pl}{guides.neea.pl}}
   - |
         ```{=latex}

@@ -6,8 +6,8 @@ IMAGES   := $(subst .svg,.png, $(wildcard $(SRC)/logo*.svg))
 BIBS     := $(patsubst %, --bibliography=%, $(wildcard references/*.bib))
 REFS     := --metadata-file=$(SRC)/meta.yml --citeproc --csl=$(SRC)/ieee.csl $(BIBS)
 PDF_DATE := $(shell TZ='Europe/Helsinki' date '+%y%m%d.%H%M')
-PDF_SUB  := v$(PDF_DATE) • https://guides.neea.pl
-PDF_ARGS := $(REFS) --toc -M subtitle="$(PDF_SUB)" --pdf-engine=xelatex
+PDF_SUB  := https://guides.neea.pl • v$(PDF_DATE)
+PDF_ARGS := $(REFS) --toc --toc-depth=2 -M subtitle="$(PDF_SUB)" --pdf-engine=xelatex
 RENDERER := python3 .github/render.py
 
 all: readme.md docs
@@ -25,11 +25,17 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 %/refs.md:
 	@(printf -- '\clearpage\n```{=latex}\n\\pagestyle{plain}\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n# References\n\n') > $@
 
+%/contrib.md:
+	@git log --format="%an" | grep -vF "github-actions[bot]" | sort | uniq -c | sort -nr | while read -r count name; do printf -- "* %s (%s)\n" "$$name" "$$count"; done > $@
+
 %/index.md: $(SRC)/sec-header.md $(SRC)/sec-intro.md
 	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $^) > $@
 
-%/foreword.md:
-	@printf -- "\clearpage\n# Foreword\n\n" > $@
+%/foreword.md: %/contrib.md $(SRC)/sec-intro.md assets/cover.txt
+	@(printf -- "\clearpage\n# Foreword\n\n" && cat $(SRC)/sec-intro.md) > $@
+	@(printf -- "\n\n**Cover** " && cat $(SRC)/cover.txt) >> $@
+	#@(printf -- "\n\n**Contributors**\n\n" && cat $<) >> $@
+	@(printf -- "\n\clearpage\n") >> $@
 
 %/cover.jpg:
 	@xelatex -output-directory=$(dir $@) "\def\version{v$(PDF_DATE)}\input{$(SRC)/cover.tex}"
@@ -38,8 +44,8 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 %/index.pdf:
 	@$(RENDERER) --level 1 --toc --cite --style-links tmp
 	@make tmp/foreword.md tmp/refs.md tmp/cover.jpg
-	@pandoc $(PDF_ARGS) tmp/foreword.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md -o $@
-	@pandoc $(PDF_ARGS) tmp/foreword.md $(SRC)/sec-intro.md tmp/*-*.md tmp/refs.md -o $(subst .pdf,.epub, $@)
+	@pandoc $(PDF_ARGS) tmp/foreword.md tmp/*-*.md tmp/refs.md -o $@
+	@pandoc $(PDF_ARGS) tmp/foreword.md tmp/*-*.md tmp/refs.md -o $(subst .pdf,.epub, $@)
 	@rm -rf tmp
 
 %/sec-combined.md:
