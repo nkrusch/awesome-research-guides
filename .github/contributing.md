@@ -40,7 +40,7 @@ Using Docker, you can preview the rendered output. Run in terminal:
 ```bash
 docker run --rm --platform=linux/amd64 \
    -v $(PWD):$(PWD) -w $(PWD) \
-   ghcr.io/nkrusch/guide-env:latest \
+   ghcr.io/nkrusch/guides:latest \
    make readme.md
 ```
 
