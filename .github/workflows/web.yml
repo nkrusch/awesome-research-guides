@@ -47,8 +47,8 @@ jobs:
       contents: write
       id-token: write
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: website
+      url: https://guides.neea.pl
     steps:
       - uses: actions/configure-pages@v6
       - uses: actions/download-artifact@v8.0.1
