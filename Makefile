@@ -26,7 +26,7 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 	@(printf -- '\clearpage\n```{=latex}\n\\pagestyle{plain}\\setlength{\\columnsep}{.75cm}\\raggedbottom\\twocolumn\\scriptsize\\setstretch{0.9}\\sloppy\n```\n\n# References\n\n') > $@
 
 %/contrib.md:
-	@git log --format="%an" | grep -vF "github-actions[bot]" | sort | uniq -c | sort -nr | while read -r count name; do printf -- "* %s (%s)\n" "$$name" "$$count"; done > $@
+	@(printf -- "\n\n**Contributors**\n\n" && git log --format="%an" | grep -vF "github-actions[bot]" | sort | uniq -c | sort -nr | { list=""; while read -r count name; do item="$$name ($$count)"; if [ -z "$$list" ]; then list="$$item"; else list="$$list, $$item"; fi; done; echo "$$list"; } && printf -- "\n\n") > $@
 
 %/index.md: $(SRC)/sec-header.md $(SRC)/sec-intro.md
 	@(printf -- "---\ntitle: Introduction\n---\n\n"; cat $^) > $@
@@ -36,7 +36,6 @@ $(SRC)/icon.png: $(SRC)/icon.svg
 
 %/foreword.md: %/contrib.md $(SRC)/sec-intro.md $(SRC)/sec-copy.md
 	@(printf -- "\clearpage\n# Foreword\n\n" && cat $(SRC)/sec-intro.md) > $@
-    #@(printf -- "\n\n**Contributors**\n\n" && cat $<) >> $@
 	@(printf -- "\n\n" && cat $(SRC)/sec-copy.md) >> $@
 	@(printf -- "\n\clearpage\n") >> $@
 
