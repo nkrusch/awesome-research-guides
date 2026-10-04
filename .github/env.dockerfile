@@ -5,20 +5,22 @@ LABEL org.opencontainers.image.licenses="CC0-1.0"
 LABEL org.opencontainers.image.arch="linux/amd64"
 
 RUN apk add --no-cache \
-    wget \
-    tar \
-    make \
+    font-liberation \
     gcompat \
-    texlive \
-    texlive-xetex \
-    texlive-latexextra \
+    git \
+    github-cli \
+    imagemagick \
+    inkscape \
+    make \
     nodejs \
     npm \
-    git \
-    font-liberation \
-    github-cli \
     qpdf \
-    imagemagick
+    rsvg-convert \
+    tar \
+    texlive \
+    texlive-latexextra \
+    texlive-xetex \
+    wget
 
 RUN npm install -g awesome-lint
 RUN pip install --no-cache-dir zensical bibtexparser==1.4.4
