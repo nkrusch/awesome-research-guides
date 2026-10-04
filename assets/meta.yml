@@ -10,6 +10,8 @@ sansfont: Liberation Sans
 linestretch: 1.25
 geometry: margin=1truein, truedimen, twoside=false, ignoreall
 cover-image: tmp/cover.jpg
+epub-title-page: false
+toc-title: "Contents"
 header-includes:
   - \usepackage[utf8]{inputenc}
   - \usepackage{geometry}
@@ -37,7 +39,13 @@ header-includes:
           \noindent\includegraphics[width=\paperwidth,height=\paperheight]{tmp/cover.jpg}
           \restoregeometry
           \end{titlepage}
-          \clearpage
-          \oldmaketitle}
+          \clearpage\thispagestyle{plain}
+          \vspace{4em}
+          \makeatletter
+          {\@title\par}\vspace{1em}{\scriptsize\@subtitle\par}
+          \makeatother
+          {\scriptsize\input{tmp/credits.txt}}  
+        \clearpage          
+        }
         ```
 ---

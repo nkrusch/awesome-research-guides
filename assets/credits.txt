@@ -1,0 +1,10 @@
+Cover. Photo by Heather Wilde on Unsplash.
+
+Online version. <https://guides.neea.pl>
+
+Source code. <https://github.com/nkrusch/awesome-research-guides>
+
+Contributors. <https://github.com/nkrusch/awesome-research-guides/graphs/contributors>
+
+License. Creative Commons Zero v1.0 Universal (CC0-1.0)
+

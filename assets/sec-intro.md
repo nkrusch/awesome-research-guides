@@ -16,7 +16,6 @@ In contrast, this list is collaborative by design.
 It presents advice from multiple experts, in rich formats, and enables community-based refinement over time.
 Apart from books, the listed items are openly accessible.
 
-
 [^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice/), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), [Shomir Wilson](https://shomir.net/advice.html), etc.
 
 [experiences vary wildly]: https://www.reddit.com/r/PhD/?f=flair_name%3A%22Seeking%20advice-academic%22
