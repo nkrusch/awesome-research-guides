@@ -5,7 +5,7 @@ site_url = "https://guides.neea.pl"
 repo_url = "https://github.com/nkrusch/awesome-research-guides"
 site_author = "Neea Rusch"
 version = "1.0.0"
-docs_dir = "docs"
+docs_dir = "web"
 extra_css = ["style.css"]
 
 [project.theme]

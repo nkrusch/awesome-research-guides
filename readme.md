@@ -23,9 +23,9 @@ Most entries are drawn from computer science.
 
 This list is related to other official awesome lists (like [scientific writing] and [research tools]), but is unique in its emphasis of guidance over technology.
 There are also several complementary web collections[^c] mostly written by a single author.
-In contrast, this list presents advice from multiple experts, in rich formats, and enables collaborative refinement over time.
-Apart from books, the list items are open access.
-
+In contrast, this list is collaborative by design.
+It presents advice from multiple experts, in rich formats, and enables community-based refinement over time.
+Apart from books, the listed items are openly accessible.
 
 [^c]: Advice by [Jason Eisner](https://www.cs.jhu.edu/~jason/advice/), [Jason I. Hong](https://www.cs.cmu.edu/~jasonh/advice.html), [Michael Ernst](https://homes.cs.washington.edu/~mernst/advice/), [Shomir Wilson](https://shomir.net/advice.html), etc.
 
@@ -171,10 +171,4 @@ Apart from books, the list items are open access.
 
 ---
 
-<div align="center">
-<picture><img alt="" src="assets/research.png" /></picture>
-<br/><strong>Figure 1.</strong> <i>"Three Kinds of Research"</i> from <a href="https://xkcd.com/2977/">xkcd #2977</a>.
-</div>
-<br/><br/>
-
-**Is something missing?** Your contributions can make the list better. Start by reading the [contribution guidelines](.github/contributing.md).
+**Is something missing?** Your contributions can make this list better. Start by reading the [contribution guidelines](.github/contributing.md).

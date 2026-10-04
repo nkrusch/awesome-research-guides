@@ -1,7 +1,7 @@
 .idea
 .venv
 site
-docs
+web
 node_modules
 **/sec-combined.md
 **/sec-refs.md
