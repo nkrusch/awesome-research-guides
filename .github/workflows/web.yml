@@ -30,7 +30,7 @@ jobs:
       options: --platform linux/amd64
     steps:
       - uses: actions/checkout@v7
-      - run: make docs
+      - run: make web
       - run: zensical build --clean
       - uses: actions/upload-artifact@v7.0.1
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
