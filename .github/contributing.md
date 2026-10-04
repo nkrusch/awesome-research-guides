@@ -11,9 +11,9 @@ By participating, you agree to abide by its terms.
 
 Contributions must meet the following inclusion criteria.
 
-* The item topic must be related to **research**.
-* The item content must aim to **communicate guidance** about conducting research. 
-* The item content should have **long-term relevance** (in years).
+* The topic is related to **research**.
+* The content aims to **communicate guidance** about conducting research. 
+* The content has expected **long-term relevance** (measured in years).
 
 List items can appear in many formats: text, slides, video, etc.
 
@@ -23,7 +23,7 @@ Awesome lists are curations of the best resources by topic, not everything.
 ### How to contribute
 
 The awesome list is compiled from the references.
-Do not edit the readme directly; all updates must be made in bib files.
+Do not edit the readme directly -- all updates must be made in bib files.
 
 1. Fork and clone [this repository].
 2. Go to `references/`
@@ -35,14 +35,15 @@ Do not edit the readme directly; all updates must be made in bib files.
 
 ### Previewing
 
-Using Docker, you can preview the rendered output. Run in terminal:
+Using Docker, you can preview the rendered output. Run in a terminal:
 
 ```bash
-docker run --rm --platform=linux/amd64 \
-   -v $(PWD):$(PWD) -w $(PWD) \
+docker run --rm --platform=linux/amd64 -v $(PWD):$(PWD) -w $(PWD) \
    ghcr.io/nkrusch/guides:latest \
-   make readme.md
+   make
 ```
+
+The command will produce an updated `readme.md` and website sources.
 
 [Code of Conduct]: https://github.com/nkrusch/awesome-research-guides/blob/main/.github/code-of-conduct.md
 [repository issues]: https://github.com/nkrusch/awesome-research-guides/issues

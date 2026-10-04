@@ -5,7 +5,6 @@ subject: "scientific research"
 fontsize: 11pt
 papersize: letter
 documentclass: scrartcl
-# macOS: brew install --cask font-liberation
 mainfont: Liberation Sans
 sansfont: Liberation Sans
 linestretch: 1.25
@@ -19,13 +18,15 @@ header-includes:
   - \usepackage{etoolbox}
   - \usepackage{bookmark}
   - \usepackage{scrlayer-scrpage}
-  - \pagestyle{scrheadings}
   - \usepackage{flushend}
-  - \makeatletter\patchcmd{\@maketitle}{\huge}{\LARGE}{}{}\makeatletter
+  - \usepackage{letltxmacro}
+  - \pagestyle{scrheadings}
   - \setkomafont{subtitle}{\small}
   - \setkomafont{author}{\small}
-  - \ohead{\scriptsize\@title{ }• \href{https://guides.neea.pl}{guides.neea.pl}}
-  - |
+  - \makeatletter\patchcmd{\@maketitle}{\huge}{\LARGE}{}{}\makeatletter
+  - \ohead{\scriptsize\@title{ }• \@subtitle}
+  - '\newcommand{\credit}[1]{{\par\scriptsize #1\par}}'
+  - | # title page layout
         ```{=latex}
         \pretocmd{\tableofcontents}{\hypertarget{tableofcontents}{}\bookmark[level=section,dest=tableofcontents]{Contents}}{}{}
         \usepackage{geometry,bookmark,etoolbox}
