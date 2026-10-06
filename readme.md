@@ -55,7 +55,7 @@ Apart from books, the listed items are openly accessible.
 * [Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) - General recommendations for resolving uncertainties about authorship.
 * [How to Read a Technical Paper](https://www.cs.jhu.edu/~jason/advice/how-to-read-a-paper.html) - Advice on selecting the reading, scheduling the reading, and taking notes.
 * [How to Write Mathematics](https://entropiesschool.sciencesconf.org/data/How_to_Write_Mathematics.pdf) - An expository essay on how to write mathematics (spoiler: there is no recipe).
-* [How to Write a Technical Paper](https://neea.pl/guides/how-to-write-a-technical-paper.pdf) - Strategies for effective writing of research papers.
+* [How to Write a Technical Paper](https://raw.githubusercontent.com/nkrusch/awesome-research-guides/refs/heads/files/how-to-write-a-technical-paper.pdf) - Strategies for effective writing of research papers.
 * [How to read a paper](https://doi.org/10.1145/1273445.1273458) - The "three-pass method" for reading research papers.
 * [Imagine the Reader](https://popl23.sigplan.org/details/PLMW-POPL-2023-papers/1/-Imagining-the-Reader) - Insights about writing, when approaching it from the perspective of the reader.
 * [Learn Technical Writing in Two Hours per Week](https://www.cs.tufts.edu/~nr/pubs/learn-two.pdf) - A student guide explaining the mechanics of a technical writing group.
@@ -130,13 +130,13 @@ Apart from books, the listed items are openly accessible.
 * [Application Materials for a Faculty Job Search](https://capd.mit.edu/resources/application-materials-for-a-faculty-job-search/) - Descriptions of commonly requested statements when you applying for faculty jobs in any department and/or discipline in the United States.
 * [Applying for a PostDoc](https://www.findapostdoc.com/advice/postdoc-applications.aspx) - An overview of postdoc application process and expected documents (UK-based).
 * [Demystifying PhD Admissions in Computer Science](https://roars.dev/phd-cs-us/demystify.pdf) - A comprehensive manual for navigating computer science PhD admissions in the United States.
-* [Faculty Job Interview Questions](https://neea.pl/guides/interview-questions.pdf) - A concise handout of potential job interview questions for a faculty position.
+* [Faculty Job Interview Questions](https://raw.githubusercontent.com/nkrusch/awesome-research-guides/refs/heads/files/interview-questions.pdf) - A concise handout of potential job interview questions for a faculty position.
 * [Faculty Job Search Guide](https://capd.mit.edu/faculty-job-search-guide/) - A structured mini-course on early faculty job search in the United States, with timelines and advice on preparing application documents.
 * [Finding a Good Postdoc: Tips & Resources](https://capd.mit.edu/resources/finding-a-good-postdoc-tips-resources/) - Resources and advice to determine postdoc path fit and search for positions (US-based).
 * [Getting an academic job](https://homes.cs.washington.edu/~mernst/advice/academic-job.html) - Information about university faculty job application and interview process in the United States.
 * [Guide for the Tenure-Track Job Market in Computer/Information Sciences](https://shomir.net/tt_job_guide.html) - About seeking a faculty position for research-oriented tenure track positions in the United States.
 * [Master Government List of Federally Funded R&D Centers](https://ncses.nsf.gov/resource/master-gov-lists-ffrdc) - A list of all federally funded research & development centers in the United States, for locating research opportunities at national labs.
-* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://neea.pl/guides/negotiating-your-job-offers.pdf) - Includes a list of various aspects that can be negotiated during a job offer.
+* [Negotiating Your Job Offer(s) Inside & Outside Academia](https://raw.githubusercontent.com/nkrusch/awesome-research-guides/refs/heads/files/negotiating-your-job-offers.pdf) - Includes a list of various aspects that can be negotiated during a job offer.
 * [Strategies for Your Career at a National Laboratory](https://www.osti.gov/servlets/purl/1829249) - Career paths and strategies for working at national laboratories, advice by Carmen Pancerella.
 * [Strategies for seeking a job at a national lab](https://doi.org/10.2172/1659149) - Information and advice about working at national labs, from a 32-year career researcher at Los Alamos.
 * [Tips for Computer Science Faculty Applications](https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc) - A guide with examples about how to prepare a faculty application package for computer science positions.
