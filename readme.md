@@ -116,6 +116,7 @@ Apart from books, the listed items are openly accessible.
 * [No free view? No review!](https://nofreeviewnoreview.org) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
 * [Reviewer-Author Collusion Rings and How to Fight Them](https://andreas-zeller.info/2025/12/07/Reviewer-Author-Collusion-Rings-and-How-to-Fight-Them.html) - A list of measures to prevent and mitigate potential collusion rings.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals.
+* [The Diamond Reviewer Pledge](http://forrt.org/diamond-reviewer) - Make a pledge to review for diamond open access journal, an academic journals led by scholars (as opposed to pay-to-publish or pay-to-read journals).
 * [The task of the referee](https://doi.org/10.1109/2.55470) - A structured framework for evaluating drafts and writing referee reports (reviews).
 
 ## Grants & Funding
