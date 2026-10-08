@@ -89,6 +89,7 @@ Apart from books, the listed items are openly accessible.
 * [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/) - Ten experience-based tips, with justification and examples, for creating software artifacts.
 * [BenchExec](https://github.com/sosy-lab/benchexec) - A framework for reliable benchmarking of non-interactive tools, with built-in resource control and a table generator for visualizing results.
 * [Benchmarking Crimes](https://gernot-heiser.org/benchmarking-crimes.html) - A synopsis of the many ways an experiment design or analysis can go wrong.
+* [Best practices in software citation](https://doi.org/10.48550/arXiv.2610.00528) - A discussion and a guide about recommended best practices for software citation from the perspective of both researchers using software and software developers.
 * [Can you trust your experimental results?](https://evaluate.inf.usi.ch/sites/default/files/EvaluateCollaboratoryTR1.pdf) - A general framework for validating experimental designs; a technical report developed based on the Evaluate 2011 workshop.
 * [EAPLS Artifact Badges](https://eapls.org/eapls/artifact-badges/) - The European badging scheme for software artifact evaluation.
 * [Empirical Evaluation Guidelines](https://www.sigplan.org/Resources/EmpiricalEvaluation/) - A checklist to evaluate soundness of scientific experiment setup, developed.
