@@ -143,6 +143,8 @@ Apart from books, the listed items are openly accessible.
 * [Strategies for seeking a job at a national lab](https://doi.org/10.2172/1659149) - Information and advice about working at national labs, from a 32-year career researcher at Los Alamos.
 * [Tips for Computer Science Faculty Applications](https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc) - A guide with examples about how to prepare a faculty application package for computer science positions.
 * [Tips on the Interview Process](https://www.cs.cmu.edu/~emigration/interview.pdf) - Tips about academic faculty interview process and how to prepare for interviews.
+* [Transcription of Hamming's "You and Your Research"](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) - Research career insights from Richard Hamming in written form.
+* [You and Your Research](https://youtu.be/a1zDuOPkMSw) - The source of legendary phrases like "What are the most important problems in your field and why aren't you working on them".
 
 ## Meta Discussions
 
