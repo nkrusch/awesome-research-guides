@@ -1,9 +1,8 @@
 <div align="center">
 <br/>
-<a href="https://guides.neea.pl"><picture class="theme-aware-logo">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+<a href="https://guides.neea.pl">
   <img alt="awesome research guides" src="assets/logo.png" width="50%">
-</picture></a>
+</a>
 <br/><a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge-flat.svg" alt="awesome"></a>
 <br/><strong>Guidance about conducting scientific research.</strong>
 </div><br/>
@@ -176,4 +175,6 @@ Apart from books, the listed items are openly accessible.
 
 <br/>
 
-**Is something missing?** Your contributions can make this list better. Start by reading the [contribution guidelines](.github/contributing.md).
+**Is something missing?**
+Your contributions can make this list better.
+Start by reading the [contribution guidelines](.github/contributing.md).
