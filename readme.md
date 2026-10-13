@@ -1,6 +1,6 @@
 <div align="center">
 <br/>
-<a href="https://nkrusch.github.io/awesome-research-guides/"><picture class="theme-aware-logo">
+<a href="https://guides.neea.pl"><picture class="theme-aware-logo">
   <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
   <img alt="awesome research guides" src="assets/logo.png" width="50%">
 </picture></a>
@@ -171,6 +171,6 @@ Apart from books, the listed items are openly accessible.
 * [xkcd](https://xkcd.com) - A web comic, with many thoughtful insights, often about science.
 
 
----
+<br/>
 
 **Is something missing?** Your contributions can make this list better. Start by reading the [contribution guidelines](.github/contributing.md).
