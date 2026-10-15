@@ -115,6 +115,7 @@ Apart from books, the listed items are openly accessible.
 * [Low-CO2 research paper](https://tcs4f.org/low-co2-v1) - An initiative to advertise the low environmental impact of research work.
 * [Mistakes Reviewers Make](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) - Reducing the learning curve for new reviewers, and helping them improve their reviewing, through exposing some common mistakes.
 * [No free view? No review!](https://nofreeviewnoreview.org) - A public pledge to abstain from peer reviewing for editors who hide publications behind paywalls.
+* [Retraction Watch](https://retractionwatch.com) - Online blog that reports on retractions, and other related topics, as a window into the scientific process.
 * [Reviewer-Author Collusion Rings and How to Fight Them](https://andreas-zeller.info/2025/12/07/Reviewer-Author-Collusion-Rings-and-How-to-Fight-Them.html) - A list of measures to prevent and mitigate potential collusion rings.
 * [Some Lessons on Reviews and Rebuttals](https://davidstutz.de/some-lessons-on-reviews-and-rebuttals/) - Advice about writing reviews and review rebuttals.
 * [The Diamond Reviewer Pledge](http://forrt.org/diamond-reviewer) - Make a pledge to review for diamond open access journal, an academic journals led by scholars (as opposed to pay-to-publish or pay-to-read journals).
@@ -143,8 +144,6 @@ Apart from books, the listed items are openly accessible.
 * [Strategies for seeking a job at a national lab](https://doi.org/10.2172/1659149) - Information and advice about working at national labs, from a 32-year career researcher at Los Alamos.
 * [Tips for Computer Science Faculty Applications](https://yisongyue.medium.com/checklist-of-tips-for-computer-science-faculty-applications-9fd2480649cc) - A guide with examples about how to prepare a faculty application package for computer science positions.
 * [Tips on the Interview Process](https://www.cs.cmu.edu/~emigration/interview.pdf) - Tips about academic faculty interview process and how to prepare for interviews.
-* [Transcription of Hamming's "You and Your Research"](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) - Research career insights from Richard Hamming in written form.
-* [You and Your Research](https://youtu.be/a1zDuOPkMSw) - The source of legendary phrases like "What are the most important problems in your field and why aren't you working on them".
 
 ## Meta Discussions
 
@@ -154,6 +153,8 @@ Apart from books, the listed items are openly accessible.
 * [How to succeed in graduate school: a guide for students and advisors: part I of II](https://www.eng.auburn.edu/~troppel/Advice_for_Grad_Students.pdf) - About optimizing the outcomes in a student-advisor relationship.
 * [The Three Golden Rules for Successful Scientific Research](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD637.html) - Timeless grounding advice for those seeking respectable success in scientific research.
 * [The machines are fine. I'm worried about us.](https://web.archive.org/web/20260827020720/https://ergosphere.blog/posts/the-machines-are-fine/) - Thoughtful reflections about how large language models are influencing science.
+* [Transcription of Hamming's "You and Your Research"](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) - Research career insights from Richard Hamming in written form.
+* [You and Your Research](https://youtu.be/a1zDuOPkMSw) - The source of legendary phrases like "What are the most important problems in your field and why aren't you working on them".
 
 ## Books about Scientific Skills
 
