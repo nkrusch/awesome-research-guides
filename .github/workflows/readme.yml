@@ -21,7 +21,7 @@ jobs:
     if: "!startsWith(github.head_ref, 'readme')"
     runs-on: ubuntu-latest
     container:
-      image: ${{ vars.CONTAINER }}
+      image: ghcr.io/nkrusch/guides:latest
       options: --platform linux/amd64
     steps:
       - uses: actions/checkout@v7
@@ -35,7 +35,7 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     container:
-      image: ${{ vars.CONTAINER }}
+      image: ghcr.io/nkrusch/guides:latest
       options: --platform linux/amd64
     permissions:
       contents: write
