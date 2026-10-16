@@ -81,6 +81,7 @@ Apart from books, the listed items are openly accessible.
 * [Making a technical poster](https://homes.cs.washington.edu/~mernst/advice/poster.html) - A list of things to consider while preparing and presenting a technical poster, with example posters.
 * [Ten simple rules for effective presentation slides](https://doi.org/10.1371/journal.pcbi.1009554) - A rule-based "checklist" for validating your slide design.
 * [The Elevator Pitch: Presenting Your Research in Conversation](https://graduateschool.nd.edu/assets/76988/elevator_pitch_8_28_2012.pdf) - Tips for crafting and delivering an elevator pitch in different situations.
+* [Will a Laser Pointer Show Up in a Screen Share?](https://light-tracer.com/laser-pointer-screen-share-zoom-teams/) - A retailer-published checklist for rehearsing remote audience pointer visibility, transitions between shared content, and recording playback before an online or hybrid talk.
 
 ## Software Artifact & Technical Guides
 
